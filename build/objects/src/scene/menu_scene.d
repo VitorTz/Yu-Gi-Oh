@@ -9,6 +9,7 @@ build/objects/./src/scene/menu_scene.o: src/scene/menu_scene.cpp \
  src/scene/../../include/scene/../component/../util/../constants.hpp \
  src/scene/../../include/scene/../component/../util/../colors.hpp \
  src/scene/../../include/scene/../component/../util/../util/box.hpp \
+ src/scene/../../include/scene/../component/../util/timer.hpp \
  src/scene/../../include/scene/../component/../util/style.hpp \
  src/scene/../../include/scene/../component/../util/font.hpp \
  src/scene/../../include/scene/../component/../util/../colors.hpp \
@@ -22,4 +23,5 @@ build/objects/./src/scene/menu_scene.o: src/scene/menu_scene.cpp \
  src/scene/../../include/scene/../component/image_button.hpp \
  src/scene/../../include/scene/../component/button.hpp \
  src/scene/../../include/scene/../component/text.hpp \
- src/scene/../../include/scene/../component/../util/font.hpp
+ src/scene/../../include/scene/../component/../util/font.hpp \
+ src/scene/../../include/scene/../component/menu.hpp

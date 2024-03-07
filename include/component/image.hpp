@@ -28,13 +28,15 @@ namespace yu {
                 const sf::Vector2f pos,
                 int zIndex
             );
-            virtual ~Image() override;
+            virtual ~Image() override = default;            
             const sf::Vector2f& getScale() const;
             void setScale(const sf::Vector2f scale);
             void resize(sf::Vector2f size);
             void resize(float x, float y);
             void draw(sf::RenderWindow& window) override;            
             void change_image(const std::filesystem::path& path);            
+            const std::filesystem::path& imagePath() const;
+
     };
 
 }

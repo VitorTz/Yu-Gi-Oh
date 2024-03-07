@@ -7,6 +7,7 @@
 #include <string>
 #include "../util/box.hpp"
 #include "../util/util.hpp"
+#include "../util/timer.hpp"
 #include "../util/style.hpp"
 #include "../constants.hpp"
 #include "../globals.hpp"

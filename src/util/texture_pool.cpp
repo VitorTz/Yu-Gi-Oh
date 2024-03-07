@@ -31,3 +31,11 @@ void yu::TexturePool::erase(const std::filesystem::path &path) {
         std::cout << "[TEXTURE UNLOAD] [" << path << "]\n";
     }
 }
+
+
+void yu::TexturePool::clear() {
+    for (const auto& [name, texture] : texture_map) {
+        std::cout << "[TEXTURE UNLOAD] [" << name << "]\n";
+    }
+    texture_map.clear();
+}

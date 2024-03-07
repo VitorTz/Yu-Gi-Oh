@@ -1,4 +1,5 @@
 #include "../../include/scene/menu_scene.hpp"
+#include <memory>
 
 
 yu::MenuScene::MenuScene(
@@ -50,13 +51,11 @@ yu::MenuScene::MenuScene(
         )
     ); 
     addComponent(
-        std::make_unique<yu::ImageButton>(
-            "CampaignBtn",
-            sf::Vector2f(300.f, 200.f),
-            []() { std::cout << "Hello!\n"; },
-            "CAMPAIGN",
-            yu::style::MENU_SCENE_CAMPAIGN_BTN,
-            4
+        std::make_unique<yu::Menu>(
+            "Menu",
+            sf::Vector2f(60.f, 200.f),
+            10,
+            4            
         )
     );
 
@@ -67,13 +66,57 @@ yu::MenuScene::MenuScene(
             sf::Vector2f(360.f, 0.f),
             sf::Vector2f(yu::constants::SCREEN_WIDTH - 360.f, yu::constants::SCREEN_HEIGHT)
         )
-    );    
+    );   
+
+    yu::Menu* menu = (yu::Menu*) getComponent("Menu"); 
+    menu->addBtn(
+        std::make_unique<yu::ImageButton>(
+            "Campaign",
+            sf::Vector2f(0.f, 0.f),
+            [this]() { this->change_scene(yu::SceneId::CampaignSceneId); },
+            "CAMPAIGN",
+            yu::style::MENU_SCENE_CAMPAIGN_BTN,
+            4
+        )
+    );
+    menu->addBtn(
+        std::make_unique<yu::ImageButton>(
+            "FreeDuel",
+            sf::Vector2f(0.f, 0.f),
+            []() { std::cout << "Free Duel\n"; },
+            "FREE DUEL",
+            yu::style::MENU_SCENE_CAMPAIGN_BTN,
+            4
+        )
+    );
+    menu->addBtn(
+        std::make_unique<yu::ImageButton>(
+            "DeckEditor",
+            sf::Vector2f(0.f, 0.f),
+            []() { std::cout << "Deck Editor\n"; },
+            "DECK EDITOR",
+            yu::style::MENU_SCENE_CAMPAIGN_BTN,
+            4
+        )
+    );
+    menu->addBtn(
+        std::make_unique<yu::ImageButton>(
+            "Settings",
+            sf::Vector2f(0.f, 0.f),
+            []() { std::cout << "Settings\n"; },
+            "Settings",
+            yu::style::MENU_SCENE_CAMPAIGN_BTN,
+            4
+        )
+    );
     
 }
 
 
 void yu::MenuScene::update(const double dt) {
     yu::Scene::update(dt);
+    yu::Menu* menu = (yu::Menu*) getComponent("Menu"); 
+    menu->handleBtnClick();    
 }
 
 

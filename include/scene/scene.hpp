@@ -12,10 +12,14 @@
 namespace yu {
 
     enum SceneId {
-        MainSceneId
+        MenuSceneId,
+        CampaignSceneId,
+        FreeDuelSceneId,
+        DeckEditorSceneId,
+        SettingsSceneId
     };
 
-    const yu::SceneId main_scene = yu::SceneId::MainSceneId;
+    const yu::SceneId main_scene = yu::SceneId::MenuSceneId;
 
     typedef std::function<void(yu::SceneId)> ChangeScene;
 

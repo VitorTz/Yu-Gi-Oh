@@ -1,4 +1,5 @@
-build/objects/./src/scene/scene.o: src/scene/scene.cpp \
+build/objects/./src/scene/campaign_scene.o: src/scene/campaign_scene.cpp \
+ src/scene/../../include/scene/campaign_scene.hpp \
  src/scene/../../include/scene/scene.hpp \
  src/scene/../../include/scene/../util/texture_pool.hpp \
  src/scene/../../include/scene/../component/components.hpp \

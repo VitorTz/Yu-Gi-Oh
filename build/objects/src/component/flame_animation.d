@@ -7,6 +7,7 @@ build/objects/./src/component/flame_animation.o: \
  src/component/../../include/component/../util/../constants.hpp \
  src/component/../../include/component/../util/../colors.hpp \
  src/component/../../include/component/../util/../util/box.hpp \
+ src/component/../../include/component/../util/timer.hpp \
  src/component/../../include/component/../util/style.hpp \
  src/component/../../include/component/../util/font.hpp \
  src/component/../../include/component/../util/../colors.hpp \

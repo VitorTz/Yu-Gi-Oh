@@ -3,6 +3,7 @@
 
 #include "scene.hpp"
 #include "menu_scene.hpp"
+#include "campaign_scene.hpp"
 
 
 #endif

@@ -9,6 +9,7 @@ build/objects/./src/main.o: src/main.cpp src/../include/window/window.hpp \
  src/../include/window/../scene/../component/../util/../constants.hpp \
  src/../include/window/../scene/../component/../util/../colors.hpp \
  src/../include/window/../scene/../component/../util/../util/box.hpp \
+ src/../include/window/../scene/../component/../util/timer.hpp \
  src/../include/window/../scene/../component/../util/style.hpp \
  src/../include/window/../scene/../component/../util/font.hpp \
  src/../include/window/../scene/../component/../util/../colors.hpp \
@@ -23,5 +24,7 @@ build/objects/./src/main.o: src/main.cpp src/../include/window/window.hpp \
  src/../include/window/../scene/../component/button.hpp \
  src/../include/window/../scene/../component/text.hpp \
  src/../include/window/../scene/../component/../util/font.hpp \
+ src/../include/window/../scene/../component/menu.hpp \
  src/../include/window/../scene/menu_scene.hpp \
+ src/../include/window/../scene/campaign_scene.hpp \
  src/../include/window/../constants.hpp

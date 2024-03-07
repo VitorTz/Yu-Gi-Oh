@@ -7,5 +7,6 @@
 #include "flame_animation.hpp"
 #include "image_button.hpp"
 #include "text.hpp"
+#include "menu.hpp"
 
 #endif

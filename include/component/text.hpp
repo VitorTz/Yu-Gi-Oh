@@ -1,5 +1,6 @@
 #ifndef YUGIOH_TEXT_HPP
 #define YUGIOH_TEXT_HPP
+#include <cmath>
 #include "component.hpp"
 #include "../util/font.hpp"
 

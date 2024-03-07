@@ -9,12 +9,6 @@ int yu::randint(const int start, const int end) {
 }
 
 
-std::filesystem::path yu::make_path(const std::string &path) {
-    std::filesystem::path p(yu::constants::ASSETS_PATH.string() + '/' + path);
-    return p;
-}
-
-
 std::vector<std::filesystem::path> yu::get_files_from_dir(const std::filesystem::path &dir) {
     std::vector<std::filesystem::path> files;
     for (const auto& p : std::filesystem::directory_iterator(dir)) {

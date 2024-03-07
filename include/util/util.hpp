@@ -12,8 +12,7 @@
 
 namespace yu {
 
-    int randint(int start, int end);
-    std::filesystem::path make_path(const std::string& path);
+    int randint(int start, int end);    
     std::filesystem::path get_random_file_from_dir(const std::filesystem::path& dir);
     std::vector<std::filesystem::path> get_files_from_dir(const std::filesystem::path& dir);
 

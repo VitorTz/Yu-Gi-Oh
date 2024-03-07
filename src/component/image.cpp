@@ -29,11 +29,6 @@ yu::Image::Image(
 }
 
 
-yu::Image::~Image() {    
-    yu::TexturePool::erase(path);
-}
-
-
 void yu::Image::draw(sf::RenderWindow& window) {
     sprite.setPosition(pos);
     sprite.setScale(scale);
@@ -41,8 +36,7 @@ void yu::Image::draw(sf::RenderWindow& window) {
 }
 
 
-void yu::Image::change_image(const std::filesystem::path& image_file) {
-    yu::TexturePool::erase(this->path);
+void yu::Image::change_image(const std::filesystem::path& image_file) {    
     yu::TexturePool::load(&sprite, image_file);
     size = (sf::Vector2f) sprite.getTexture()->getSize();
     this->path = image_file;
@@ -70,4 +64,9 @@ void yu::Image::resize(const float x, const float y) {
 
 void yu::Image::resize(const sf::Vector2f s) {
     resize(s.x, s.y);
+}
+
+
+const std::filesystem::path& yu::Image::imagePath() const {
+    return path;
 }

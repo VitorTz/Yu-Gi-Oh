@@ -26,9 +26,7 @@ namespace yu {
                 const yu::style::button_style_t& style
             ) : yu::Component(name, zIndex, pos), func(func), style(style) { }
             virtual ~Button() override = default;
-            void update([[maybe_unused]] double dt) override {
-                if (clicked()) { func(); }
-            }
+            void runFunc() { func(); };
 
     };
 

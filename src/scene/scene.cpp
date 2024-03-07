@@ -9,7 +9,7 @@ yu::Scene::Scene(
 
 
 yu::Scene::~Scene() {
-    
+    yu::TexturePool::clear();    
 }
 
 

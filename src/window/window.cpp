@@ -20,8 +20,11 @@ yu::Window::Window(
 
     this->change_scene = [this](const yu::SceneId id) {
         switch (id) {
-            case yu::SceneId::MainSceneId:
+            case yu::SceneId::MenuSceneId:
                 this->scene = std::make_unique<yu::MenuScene>(this->change_scene);
+                break;
+            case yu::SceneId::CampaignSceneId:
+                this->scene = std::make_unique<yu::CampaignScene>(this->change_scene);
                 break;
             default:
                 break;
@@ -34,7 +37,7 @@ yu::Window::Window(
 
 
 yu::Window::~Window() {
-
+    
 }
 
 
@@ -49,12 +52,15 @@ void yu::Window::handle_input() {
                 break;
         }
     }
+
+    mouseTimer.update();
+    yu::globals::mouseIsClicked = sf::Mouse::isButtonPressed(sf::Mouse::Left) && mouseTimer.check();
+    yu::globals::mousePos = (sf::Vector2f) sf::Mouse::getPosition(window);
+
 }
 
 
 void yu::Window::update() {
-    yu::globals::mousePos = (sf::Vector2f) sf::Mouse::getPosition(window);
-    yu::globals::mouseIsClicked = sf::Mouse::isButtonPressed(sf::Mouse::Left);
     const double dt = clock.restart().asSeconds();
     scene->update(dt);
 }

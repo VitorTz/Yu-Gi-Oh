@@ -1,7 +1,5 @@
-build/objects/./src/component/image_button.o: \
- src/component/image_button.cpp \
- src/component/../../include/component/image_button.hpp \
- src/component/../../include/component/button.hpp \
+build/objects/./src/component/menu.o: src/component/menu.cpp \
+ src/component/../../include/component/menu.hpp \
  src/component/../../include/component/component.hpp \
  src/component/../../include/component/../util/box.hpp \
  src/component/../../include/component/../util/util.hpp \
@@ -15,7 +13,4 @@ build/objects/./src/component/image_button.o: \
  src/component/../../include/component/../constants.hpp \
  src/component/../../include/component/../globals.hpp \
  src/component/../../include/component/../colors.hpp \
- src/component/../../include/component/image.hpp \
- src/component/../../include/component/../util/texture_pool.hpp \
- src/component/../../include/component/text.hpp \
- src/component/../../include/component/../util/font.hpp
+ src/component/../../include/component/button.hpp

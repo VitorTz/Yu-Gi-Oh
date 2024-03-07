@@ -1,4 +1,5 @@
 #include "../../include/component/text.hpp"
+#include <SFML/System/Vector2.hpp>
 
 
 yu::Text::Text(
@@ -24,6 +25,7 @@ void yu::Text::setCenter(const sf::Vector2f center) {
 
 
 void yu::Text::draw(sf::RenderWindow& window) {
-    text.setPosition(pos);
+    sf::Vector2f p = {std::roundf(pos.x), std::roundf(pos.y)};
+    text.setPosition(p);
     window.draw(text);
 }

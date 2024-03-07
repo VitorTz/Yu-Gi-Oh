@@ -16,6 +16,7 @@ namespace yu {
             sf::Clock clock;
             std::unique_ptr<yu::Scene> scene;
             yu::ChangeScene change_scene;
+            yu::Timer mouseTimer = yu::Timer(20);
         
         private:
             void handle_input();
