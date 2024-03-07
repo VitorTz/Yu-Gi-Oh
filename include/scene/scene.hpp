@@ -19,11 +19,16 @@ namespace yu {
 
     typedef std::function<void(yu::SceneId)> ChangeScene;
 
+    typedef std::map<int, std::vector<yu::Component*>> ComponentMap;
+
     class Scene {
+        
+        private:
+            std::map<std::string, std::unique_ptr<yu::Component>> allComponents;
+            ComponentMap componentMap;
 
         protected:
             const yu::ChangeScene& change_scene;
-            std::map<std::string, std::unique_ptr<yu::Component>> componentMap;
         
         protected:
             void addComponent(std::unique_ptr<yu::Component> component);

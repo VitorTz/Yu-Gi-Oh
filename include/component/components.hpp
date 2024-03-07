@@ -3,6 +3,9 @@
 
 #include "component.hpp"
 #include "image.hpp"
-
+#include "rect.hpp"
+#include "flame_animation.hpp"
+#include "image_button.hpp"
+#include "text.hpp"
 
 #endif

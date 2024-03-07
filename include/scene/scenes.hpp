@@ -2,7 +2,7 @@
 #define SFML_TEMPLATE_SCENES_HPP
 
 #include "scene.hpp"
-#include "main_scene.hpp"
+#include "menu_scene.hpp"
 
 
 #endif

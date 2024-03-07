@@ -2,14 +2,34 @@
 
 
 yu::Image::Image(
-    const std::filesystem::path& path_
-) : yu::Component("[image]-[" + path_.string() + ']'),
+    const std::filesystem::path& path,
+    const sf::Vector2f pos = {0.f, 0.f},
+    const int zIndex = 0
+) : yu::Image("[image]-[" + path.string() + ']', path, pos, zIndex) {
+    
+}
+
+
+yu::Image::Image(
+    const std::string& name,
+    const std::filesystem::path& path_,
+    const sf::Vector2f pos = {0.f, 0.f},
+    const int zIndex = 0
+) : yu::Component(name, zIndex, pos),
     path(path_) {
     change_image(path);
 }
 
 
-yu::Image::~Image() {
+yu::Image::Image(
+    const std::string& name,
+    const int zIndex
+) : yu::Component(name, zIndex, {0.f, 0.f}) {
+    
+}
+
+
+yu::Image::~Image() {    
     yu::TexturePool::erase(path);
 }
 

@@ -1,5 +1,4 @@
 #include "../../include/window/window.hpp"
-#include <memory>
 
 
 yu::Window::Window(
@@ -22,7 +21,7 @@ yu::Window::Window(
     this->change_scene = [this](const yu::SceneId id) {
         switch (id) {
             case yu::SceneId::MainSceneId:
-                this->scene = std::make_unique<yu::MainScene>(this->change_scene);
+                this->scene = std::make_unique<yu::MenuScene>(this->change_scene);
                 break;
             default:
                 break;
@@ -54,13 +53,15 @@ void yu::Window::handle_input() {
 
 
 void yu::Window::update() {
+    yu::globals::mousePos = (sf::Vector2f) sf::Mouse::getPosition(window);
+    yu::globals::mouseIsClicked = sf::Mouse::isButtonPressed(sf::Mouse::Left);
     const double dt = clock.restart().asSeconds();
     scene->update(dt);
 }
 
 
 void yu::Window::render() {
-    window.clear();
+    window.clear(yu::constants::WINDOW_BG_COLOR);
     scene->draw(window);
     window.display();
 }
