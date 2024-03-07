@@ -1,1 +1,1 @@
-# Yu-Gi-Oh-FM
+# Yu-Gi-Oh!
