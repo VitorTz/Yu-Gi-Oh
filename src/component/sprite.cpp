@@ -22,6 +22,14 @@ yu::Sprite::Sprite(
 }
 
 
+yu::Sprite::Sprite(
+    const std::filesystem::path& path,    
+    int zIndex
+) : yu::Sprite(path.string(), path, sf::Vector2f(), zIndex) {
+
+}
+
+
 void yu::Sprite::resize(const sf::Vector2f s) {
     const float dx = s.x / size.x;
     const float dy = s.y / size.y;

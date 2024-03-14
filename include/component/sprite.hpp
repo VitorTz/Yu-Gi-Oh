@@ -23,6 +23,10 @@ namespace yu {
                 const sf::Vector2f pos,
                 int zIndex
             );
+            Sprite(
+                const std::filesystem::path& path,
+                int zIndex
+            );
             void resize(const sf::Vector2f size);
             void resize(const float w, const float h);
             void draw(sf::RenderWindow& window);
