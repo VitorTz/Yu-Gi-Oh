@@ -3,22 +3,27 @@
 
 yu::Rect::Rect(
     const std::string& name,
-    const sf::Vector2f pos, 
+    const sf::Vector2f pos,
     const sf::Vector2f size,
-    const int zIndex,
-    const sf::Color color,
-    const yu::style::border_style_t& border_style
-) : yu::Component(name, zIndex, pos, size),
+    int zIndex,
+    const yu::style::color_style_t& color,
+    const yu::style::border_t& border   
+) : yu::Component(name, pos, zIndex),
     color(color),
-    border_style(border_style) {
-    
+    border(border) {
+    this->size = size;    
 }
 
 
+void yu::Rect::update(const double dt) {
+    yu::Component::update(dt);
+    rect.setFillColor(hovered ? color.accentColor : color.normalColor);        
+}
+
 void yu::Rect::draw(sf::RenderWindow& window) {
-    rect.setPosition(pos);
     rect.setSize(size);
-    rect.setFillColor(color);
-    window.draw(rect);    
-    drawBorder(border_style, window);    
+    rect.setPosition(pos);
+    rect.setRotation(rotation);
+    rect.setScale(scale);
+    window.draw(rect);
 }

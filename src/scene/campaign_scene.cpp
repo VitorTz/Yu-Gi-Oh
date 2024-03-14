@@ -1,9 +1,10 @@
 #include "../../include/scene/campaign_scene.hpp"
 
 
+
 yu::CampaignScene::CampaignScene(
-    const yu::ChangeScene& change_scene
-) : yu::Scene(change_scene) {
+    const yu::ChangeScene& changeScene
+) : yu::Scene(changeScene) {
 
 }
 

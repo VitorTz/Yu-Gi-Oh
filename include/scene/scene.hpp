@@ -5,21 +5,24 @@
 #include <functional>
 #include <map>
 #include <memory>
+#include "../util/sound_system.hpp"
 #include "../util/texture_pool.hpp"
 #include "../component/components.hpp"
+
 
 
 namespace yu {
 
     enum SceneId {
-        MenuSceneId,
+        MainMenuSceneId,
         CampaignSceneId,
         FreeDuelSceneId,
+        ChooseDeckSceneId,
         DeckEditorSceneId,
         SettingsSceneId
     };
 
-    const yu::SceneId main_scene = yu::SceneId::MenuSceneId;
+    const yu::SceneId main_scene = yu::SceneId::MainMenuSceneId;
 
     typedef std::function<void(yu::SceneId)> ChangeScene;
 
@@ -37,6 +40,7 @@ namespace yu {
         protected:
             void addComponent(std::unique_ptr<yu::Component> component);
             yu::Component* getComponent(const std::string& componentName);
+            void destroyComponent(const std::string& name);
 
         public:
             Scene(const yu::ChangeScene& change_scene);

@@ -1,8 +1,6 @@
 #ifndef SFML_TEMPLATE_CONSTANTS_HPP
 #define SFML_TEMPLATE_CONSTANTS_HPP
 #include "colors.hpp"
-#include "util/box.hpp"
-#include <filesystem>
 
 
 namespace yu::constants {
@@ -14,10 +12,6 @@ namespace yu::constants {
     const char WINDOW_TITLE[] = "Yu-Gi-Oh!";
     const sf::Color WINDOW_BG_COLOR = yu::colors::GREY_200;
     const int FPS = 60;
-    const yu::Box WINDOW_BOX({ }, {SCREEN_WIDTH, SCREEN_HEIGHT});
-    
-    // res
-    const std::filesystem::path MENU_MONSTERS("assets/Monster");
     
 }
 

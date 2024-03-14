@@ -7,8 +7,9 @@ namespace yu::colors {
 
     const sf::Color GREY_400(41, 43, 46);
     const sf::Color GREY_200(41, 42, 43);
-    const sf::Color YELLOW_200(237, 211, 130);
-    const sf::Color YELLOW_400(252, 158, 79);
+    const sf::Color YELLOW_600(237, 238, 192);
+    const sf::Color YELLOW_400(235, 138, 116);
+    const sf::Color YELLOW_200(249, 129, 65);
 
 }
 

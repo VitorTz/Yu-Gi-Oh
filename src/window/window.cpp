@@ -20,17 +20,22 @@ yu::Window::Window(
 
     this->change_scene = [this](const yu::SceneId id) {
         switch (id) {
-            case yu::SceneId::MenuSceneId:
-                this->scene = std::make_unique<yu::MenuScene>(this->change_scene);
+            case yu::SceneId::MainMenuSceneId:
+                this->scene = std::make_unique<yu::MainMenuScene>(this->change_scene);
                 break;
             case yu::SceneId::CampaignSceneId:
                 this->scene = std::make_unique<yu::CampaignScene>(this->change_scene);
+                break;
+            case yu::SceneId::ChooseDeckSceneId:
+                this->scene = std::make_unique<yu::ChooseDeckScene>(this->change_scene);
                 break;
             default:
                 break;
         }
     };
-
+    sf::Image iconImage;
+    iconImage.loadFromFile("assets/icons/icon.png");
+    window.setIcon(iconImage.getSize().x, iconImage.getSize().y, iconImage.getPixelsPtr());
     this->change_scene(yu::main_scene);
     
 }

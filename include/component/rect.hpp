@@ -1,28 +1,30 @@
 #ifndef YUGIOH_RECT_HPP
 #define YUGIOH_RECT_HPP
 #include "component.hpp"
+#include "../util/style.hpp"
 
 
 namespace yu {
 
+
     class Rect : public yu::Component {
 
         private:
-            sf::Color color;   
-            yu::style::border_style_t border_style;
             sf::RectangleShape rect;
+            yu::style::color_style_t color;
+            yu::style::border_t border;
 
         public:
             Rect(
                 const std::string& name,
-                const sf::Vector2f pos, 
+                const sf::Vector2f pos,
                 const sf::Vector2f size,
-                const int zIndex,
-                const sf::Color color,
-                const yu::style::border_style_t& border_style
+                int zIndex,
+                const yu::style::color_style_t& color,
+                const yu::style::border_t& border
             );
-            
-            void draw(sf::RenderWindow& window);            
+            void update(double dt) override;            
+            void draw(sf::RenderWindow& window) override;
 
     };
 

@@ -21,8 +21,8 @@ namespace yu {
         
         public:
             static void load(sf::Sprite* sprite, const std::filesystem::path& path);
-            static sf::Texture* get(const std::filesystem::path& path);
-            static void erase(const std::filesystem::path& path);
+            static sf::Texture* create(const std::filesystem::path& path);
+            static void destroy(const std::filesystem::path& path);
             static void clear();
     };
 
