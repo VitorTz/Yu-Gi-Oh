@@ -13,6 +13,11 @@ namespace yu {
             sf::RectangleShape rect;
             yu::style::color_style_t color;
             yu::style::border_t border;
+        
+        private:
+            void handleMouseEntry() override;
+            void handleMouseExit() override;
+            void drawBorder(sf::RenderWindow& window);
 
         public:
             Rect(
@@ -22,8 +27,7 @@ namespace yu {
                 int zIndex,
                 const yu::style::color_style_t& color,
                 const yu::style::border_t& border
-            );
-            void update(double dt) override;            
+            );            
             void draw(sf::RenderWindow& window) override;
 
     };

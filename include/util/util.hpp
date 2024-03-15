@@ -13,6 +13,7 @@
 namespace yu {
 
     int randint(int start, int end);
+
     template<typename T>
     void normalizeVector(sf::Vector2<T>* v) {
         const float m = std::sqrt(v->x * v->x + v->y * v->y);
@@ -26,6 +27,7 @@ namespace yu {
     void printVector(const sf::Vector2<T> v) {
         std::cout << "Vector2(" << std::to_string(v.x) << ", " << std::to_string(v.y) << ")\n";
     }
+    
 }
 
 #endif

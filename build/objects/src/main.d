@@ -9,6 +9,9 @@ build/objects/./src/main.o: src/main.cpp src/../include/window/window.hpp \
  src/../include/window/../scene/../component/../util/util.hpp \
  src/../include/window/../scene/../component/../util/../constants.hpp \
  src/../include/window/../scene/../component/../util/../colors.hpp \
+ src/../include/window/../scene/../component/../util/style.hpp \
+ src/../include/window/../scene/../component/../util/../colors.hpp \
+ src/../include/window/../scene/../component/../util/../util/font.hpp \
  src/../include/window/../scene/../component/../util/timer.hpp \
  src/../include/window/../scene/../component/../util/texture_pool.hpp \
  src/../include/window/../scene/../component/../util/font.hpp \
@@ -16,9 +19,14 @@ build/objects/./src/main.o: src/main.cpp src/../include/window/window.hpp \
  src/../include/window/../scene/../component/../globals.hpp \
  src/../include/window/../scene/../component/sprite.hpp \
  src/../include/window/../scene/../component/rect.hpp \
- src/../include/window/../scene/../component/../util/style.hpp \
- src/../include/window/../scene/../component/../util/../colors.hpp \
+ src/../include/window/../scene/../component/grid.hpp \
+ src/../include/window/../scene/../component/button.hpp \
+ src/../include/window/../scene/../component/../util/sound_system.hpp \
+ src/../include/window/../scene/../component/text.hpp \
+ src/../include/window/../scene/../component/text_btn.hpp \
  src/../include/window/../scene/main_menu_scene.hpp \
  src/../include/window/../scene/campaign_scene.hpp \
  src/../include/window/../scene/choose_deck_scene.hpp \
+ src/../include/window/../scene/../util/card.hpp \
+ src/../include/window/../scene/../util/../component/sprite.hpp \
  src/../include/window/../constants.hpp

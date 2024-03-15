@@ -9,6 +9,9 @@ build/objects/./src/scene/campaign_scene.o: src/scene/campaign_scene.cpp \
  src/scene/../../include/scene/../component/../util/util.hpp \
  src/scene/../../include/scene/../component/../util/../constants.hpp \
  src/scene/../../include/scene/../component/../util/../colors.hpp \
+ src/scene/../../include/scene/../component/../util/style.hpp \
+ src/scene/../../include/scene/../component/../util/../colors.hpp \
+ src/scene/../../include/scene/../component/../util/../util/font.hpp \
  src/scene/../../include/scene/../component/../util/timer.hpp \
  src/scene/../../include/scene/../component/../util/texture_pool.hpp \
  src/scene/../../include/scene/../component/../util/font.hpp \
@@ -16,5 +19,8 @@ build/objects/./src/scene/campaign_scene.o: src/scene/campaign_scene.cpp \
  src/scene/../../include/scene/../component/../globals.hpp \
  src/scene/../../include/scene/../component/sprite.hpp \
  src/scene/../../include/scene/../component/rect.hpp \
- src/scene/../../include/scene/../component/../util/style.hpp \
- src/scene/../../include/scene/../component/../util/../colors.hpp
+ src/scene/../../include/scene/../component/grid.hpp \
+ src/scene/../../include/scene/../component/button.hpp \
+ src/scene/../../include/scene/../component/../util/sound_system.hpp \
+ src/scene/../../include/scene/../component/text.hpp \
+ src/scene/../../include/scene/../component/text_btn.hpp

@@ -36,8 +36,8 @@ void yu::card::CardSpritePool::add(const int cardId) {
 }
 
 
-yu::card::card_sprite_t* yu::card::CardSpritePool::getCardSpriteByIndex(const std::size_t index) {
-    return &sprites[index];
+yu::card::card_sprite_t* yu::card::CardSpritePool::getCardSpriteById(const std::size_t id) {
+    return &sprites[id];
 }
 
 

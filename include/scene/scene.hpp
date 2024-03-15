@@ -33,10 +33,13 @@ namespace yu {
         private:
             std::map<std::string, std::unique_ptr<yu::Component>> allComponents;
             ComponentMap componentMap;
-
-        protected:
+            bool haveToChangeScene = false;
             const yu::ChangeScene& change_scene;
+            yu::SceneId nextScene;
         
+        protected:
+            void changeScene(yu::SceneId nextScene);
+
         protected:
             void addComponent(std::unique_ptr<yu::Component> component);
             yu::Component* getComponent(const std::string& componentName);
@@ -47,6 +50,7 @@ namespace yu {
             virtual ~Scene();
             virtual void update(double dt);
             virtual void draw(sf::RenderWindow& window);
+        
 
     };
 

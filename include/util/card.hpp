@@ -29,7 +29,7 @@ namespace yu::card {
             void add(int cardId);
             std::vector<yu::card::card_sprite_t>* getCardList();
             std::size_t size() const;
-            yu::card::card_sprite_t* getCardSpriteByIndex(std::size_t index);
+            yu::card::card_sprite_t* getCardSpriteById(std::size_t id);
 
     };
 

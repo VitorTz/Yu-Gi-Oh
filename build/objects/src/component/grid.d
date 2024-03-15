@@ -1,5 +1,5 @@
-build/objects/./src/component/rect.o: src/component/rect.cpp \
- src/component/../../include/component/rect.hpp \
+build/objects/./src/component/grid.o: src/component/grid.cpp \
+ src/component/../../include/component/grid.hpp \
  src/component/../../include/component/component.hpp \
  src/component/../../include/component/../util/box.hpp \
  src/component/../../include/component/../util/util.hpp \

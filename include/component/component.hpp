@@ -2,8 +2,10 @@
 #define YUGIOH_COMPONENT_HPP
 #include <SFML/Graphics.hpp>
 #include <filesystem>
+#include <iostream>
 #include "../util/box.hpp"
 #include "../util/util.hpp"
+#include "../util/style.hpp"
 #include "../util/timer.hpp"
 #include "../util/texture_pool.hpp"
 #include "../util/font.hpp"
@@ -19,6 +21,12 @@ namespace yu {
         private:
             std::string name;
             int zIndex;
+
+        protected:
+            virtual void handleHover() { }
+            virtual void handleClick() { }
+            virtual void handleMouseEntry() { }
+            virtual void handleMouseExit() { }
         
         protected:
             sf::Vector2f pos;
@@ -49,9 +57,9 @@ namespace yu {
             const std::string& getName() const { return name; }
             int getZindex() const { return zIndex; }
 
-            void setSize(const sf::Vector2f x) { size = x; }
-            void setPos(const sf::Vector2f x) { pos = x; }
-            void setScale(const sf::Vector2f x) { scale = x; }
+            virtual void setSize(const sf::Vector2f x) { size = x; }
+            virtual void setPos(const sf::Vector2f x) { pos = x; }
+            virtual void setScale(const sf::Vector2f x) { scale = x; }
             
             const sf::Vector2f& getSize() const { return size; }
             const sf::Vector2f& getPos() const { return pos; }
@@ -60,27 +68,33 @@ namespace yu {
             float width() const { return size.x; }
             float height() const { return size.y; }
             
-            void setWidth(const float w) { size.x = w; }
-            void setHeight(const float h) { size.y = h; }
+            virtual void setWidth(const float w) { size.x = w; }
+            virtual void setHeight(const float h) { size.y = h; }
 
             float left() const { return pos.x; }
             float right() const { return pos.x + size.x; }
             float top() const { return pos.y; }
             float bottom() const { return pos.y + size.y; }
+            
+            virtual void setLeft(const float l) { pos.x = l; }
+            virtual void setRight(const float r) { pos.x = r - size.x; }
+            virtual void setTop(const float t) { pos.y = t; }
+            virtual void setBottom(const float b) { pos.y = b - size.y; }
 
             float centerX() const { return pos.x + size.x / 2; }
             float centerY() const { return pos.y + size.y / 2; }
             
-            void setCenterX(const float x) { pos.x = x - size.x / 2; }
-            void setCenterY(const float y) { pos.y = y - size.y / 2; }
+            virtual void setCenterX(const float x) { pos.x = x - size.x / 2; }
+            virtual void setCenterY(const float y) { pos.y = y - size.y / 2; }
 
             sf::Vector2f center() const { return {pos.x + size.x / 2, pos.y + size.y / 2}; }
-            void setCenter(const sf::Vector2f c) {
+            
+            virtual void setCenter(const sf::Vector2f c) {
                 pos.x = c.x - size.x / 2;
                 pos.y = c.y - size.y / 2;
             }
 
-            bool pointCollide(const sf::Vector2f p) {
+            virtual bool pointCollide(const sf::Vector2f p) {
                 return (
                     p.x >= pos.x &&
                     p.x <= pos.x + size.x &&
@@ -89,7 +103,7 @@ namespace yu {
                 );
             }
 
-            bool componentCollide(const yu::Component& c) {
+            virtual bool componentCollide(const yu::Component& c) {
                 return (
                     c.left() >= pos.x &&
                     c.right() <= pos.x + size.x &&
@@ -98,7 +112,7 @@ namespace yu {
                 );
             }
 
-            bool boxCollide(const yu::Box& b) {
+            virtual bool boxCollide(const yu::Box& b) {
                 return (
                     b.pos.x >= pos.x &&
                     b.pos.x + b.size.x <= pos.x + size.x &&
@@ -107,7 +121,7 @@ namespace yu {
                 );
             }
 
-            bool boxCollide(const sf::Vector2f p, const sf::Vector2f s) {
+            virtual bool boxCollide(const sf::Vector2f p, const sf::Vector2f s) {
                 return (
                     p.x >= pos.x &&
                     p.x + s.x <= pos.x + size.x &&
@@ -124,19 +138,15 @@ namespace yu {
 
             const sf::Vector2f& getLastMovement() const { return lastMovement; }
 
-            virtual void handleHover() { }
-            virtual void handleClick() { }
-            virtual void handleMouseEntry() { }
-            virtual void handleMouseExit() { }
-
             bool isHovered() const { return hovered; }
             bool isClicked() const { return clicked; }
             
             virtual void update([[maybe_unused]] const double dt) {
-                const bool oldHoverState = hovered;
+                const bool oldHoverState = hovered;                
                 hovered = pointCollide(yu::globals::mousePos);
                 clicked = yu::globals::mouseIsClicked && hovered;
                 if (hovered) handleHover();
+                if (clicked) handleClick(); 
                 if (!oldHoverState && hovered) handleMouseEntry();
                 if (oldHoverState && !hovered) handleMouseExit();
             }
@@ -146,10 +156,10 @@ namespace yu {
             }
 
             double getSpeed() const { return speed; }
-            void setSpeed(const double s) { speed = s; }
+            virtual void setSpeed(const double s) { speed = s; }
 
             double getRotation() const { return rotation; }
-            void setRotation(const double r) { rotation = r; }
+            virtual void setRotation(const double r) { rotation = r; }
 
     };
 

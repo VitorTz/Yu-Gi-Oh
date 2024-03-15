@@ -4,8 +4,9 @@
 
 yu::ChooseDeckScene::ChooseDeckScene(
     const yu::ChangeScene& changeScene
-) : yu::Scene(changeScene) {
-
+) : yu::Scene(changeScene),
+    cardPool(40, 3) {
+        
 }
 
 

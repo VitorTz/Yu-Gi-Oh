@@ -11,14 +11,46 @@ yu::Rect::Rect(
 ) : yu::Component(name, pos, zIndex),
     color(color),
     border(border) {
+    this->rect.setFillColor(color.normalColor);
     this->size = size;    
 }
 
 
-void yu::Rect::update(const double dt) {
-    yu::Component::update(dt);
-    rect.setFillColor(hovered ? color.accentColor : color.normalColor);        
+void yu::Rect::handleMouseEntry() { 
+    rect.setFillColor(color.accentColor);
 }
+
+void yu::Rect::handleMouseExit()  { 
+    rect.setFillColor(color.normalColor);
+}
+
+
+void yu::Rect::drawBorder(sf::RenderWindow& window) {
+    if (border.thickness == 0u) {
+        return;
+    }
+
+    const float t = border.thickness;
+    const sf::Color oldColor = rect.getFillColor();
+    
+    rect.setFillColor(border.color);
+
+    rect.setSize({size.x, t});
+    window.draw(rect);
+    
+    rect.setPosition({pos.x, pos.y + size.y - t});
+    window.draw(rect);
+
+    rect.setSize({t, size.y});
+    rect.setPosition(pos);
+    window.draw(rect);
+
+    rect.setPosition({pos.x + size.x - t, pos.y});
+    rect.setSize({t, size.y});
+    window.draw(rect);
+    
+    rect.setFillColor(oldColor);
+}   
 
 void yu::Rect::draw(sf::RenderWindow& window) {
     rect.setSize(size);
@@ -26,4 +58,5 @@ void yu::Rect::draw(sf::RenderWindow& window) {
     rect.setRotation(rotation);
     rect.setScale(scale);
     window.draw(rect);
+    drawBorder(window);
 }

@@ -51,11 +51,20 @@ void yu::Scene::destroyComponent(const std::string& name) {
 }
 
 
+void yu::Scene::changeScene(const yu::SceneId sceneId) {
+    haveToChangeScene = true;
+    nextScene = sceneId;
+}
+
+
 void yu::Scene::update(const double dt) {
     for (const auto& [index, vec] : componentMap) {
         for (yu::Component* c : vec) {  
             c->update(dt);
         }
+    }
+    if (haveToChangeScene) {
+        change_scene(nextScene);
     }
 }
 

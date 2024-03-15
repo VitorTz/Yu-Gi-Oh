@@ -1,5 +1,5 @@
-build/objects/./src/component/rect.o: src/component/rect.cpp \
- src/component/../../include/component/rect.hpp \
+build/objects/./src/component/text.o: src/component/text.cpp \
+ src/component/../../include/component/text.hpp \
  src/component/../../include/component/component.hpp \
  src/component/../../include/component/../util/box.hpp \
  src/component/../../include/component/../util/util.hpp \
