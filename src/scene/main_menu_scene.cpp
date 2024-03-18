@@ -42,20 +42,70 @@ yu::MainMenuScene::MainMenuScene(
 
     line->setRight(bg_image->left());
 
-    addComponent(
+    yu::Grid* grid = (yu::Grid*) addComponent(
+        std::make_unique<yu::Grid>(
+            "button-grid",
+            sf::Vector2f(85.f, 260.f),
+            2,
+            5.f,
+            10.f,
+            1
+        )
+    );
+
+    grid->addComponent(
         std::make_unique<yu::TextButton>(
             "campaign-btn",
             "CAMPAIGN",
             []() { std::cout << "campaign\n"; },
-            sf::Vector2f(100.f, 240.f),
-            sf::Vector2f(180.f, 40.f),
-            2,
+            sf::Vector2f(),
+            sf::Vector2f(200.f, 40.f),
+            0,
             yu::style::NORMAL_TXT_STYLE,
             yu::style::COLOR_STYLE_1
-        )  
+        )
     );
 
-    // yu::audio::music.playLoop(yu::audio::MainMenuMusic);
+    grid->addComponent(
+        std::make_unique<yu::TextButton>(
+            "free-duel-btn",
+            "FREE DUEL",
+            []() { std::cout << "free duel\n"; },
+            sf::Vector2f(),
+            sf::Vector2f(200.f, 40.f),
+            0,
+            yu::style::NORMAL_TXT_STYLE,
+            yu::style::COLOR_STYLE_1
+        )
+    );
+
+    grid->addComponent(
+        std::make_unique<yu::TextButton>(
+            "deck-editor-btn",
+            "DECK EDITOR",
+            [this]() { this->currentScene->submitSceneChangeRequest(yu::SceneId::ChooseDeckSceneId); },
+            sf::Vector2f(),
+            sf::Vector2f(200.f, 40.f),
+            0,
+            yu::style::NORMAL_TXT_STYLE,
+            yu::style::COLOR_STYLE_1
+        )
+    );
+
+    grid->addComponent(
+        std::make_unique<yu::TextButton>(
+            "settings-btn",
+            "SETTINGS",
+            []() { std::cout << "settings\n"; },
+            sf::Vector2f(),
+            sf::Vector2f(200.f, 40.f),
+            0,
+            yu::style::NORMAL_TXT_STYLE,
+            yu::style::COLOR_STYLE_1
+        )
+    );    
+
+    yu::audio::music.playLoop(yu::audio::MainMenuMusic);
 
 }
 

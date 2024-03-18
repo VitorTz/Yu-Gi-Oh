@@ -15,6 +15,10 @@ void yu::CurrentScene::changeScene() {
     switch (idNextScene) {
         case yu::SceneId::MainMenuSceneId:
             this->scene = std::make_unique<yu::MainMenuScene>(this);
+            break;
+        case yu::SceneId::ChooseDeckSceneId:
+            this->scene = std::make_unique<yu::ChooseDeckScene>(this);
+            break;
         default:
             break;
     }

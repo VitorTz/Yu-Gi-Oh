@@ -24,7 +24,7 @@ namespace yu {
             std::string name;
             int zIndex;
 
-        private:
+        protected:
             virtual void handleHover();
             virtual void handleClick();
             virtual void handleMouseEntry();

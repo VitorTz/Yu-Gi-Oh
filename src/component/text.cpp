@@ -53,6 +53,30 @@ void yu::Text::draw(sf::RenderWindow& window) {
 }
 
 
+const yu::style::text_t& yu::Text::getTextStyle() const {
+    return style;
+}
+
+
+void yu::Text::setTextStyle(const yu::style::text_t& style) {
+    this->style = style;
+    yu::Text::fontLoad(&text, style.font);
+    this->text.setCharacterSize(style.size);
+    this->text.setFillColor(style.color);
+}
+
+
+void yu::Text::setColor(const sf::Color color) {
+    style.color = color;
+    text.setFillColor(color);
+}
+
+
+std::size_t yu::Text::getStrSize() const {
+    return str.size();
+}
+
+
 const std::string& yu::Text::getStr() const {
     return str;
 }
@@ -67,14 +91,11 @@ void yu::Text::setStr(const std::string& str) {
 }
 
 
-const yu::style::text_t& yu::Text::getTextStyle() const {
-    return style;
-}
-
-
-void yu::Text::setTextStyle(const yu::style::text_t& style) {
-    this->style = style;
-    yu::Text::fontLoad(&text, style.font);
-    this->text.setCharacterSize(style.size);
-    this->text.setFillColor(style.color);
+void yu::Text::shrink(const float width) {
+    if (size.x > width) {        
+        str += "...";
+        while (size.x > width) {
+            setStr(str.substr(0, str.size() - 4) + "...");
+        }        
+    }    
 }

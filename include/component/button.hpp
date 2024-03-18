@@ -11,6 +11,10 @@ namespace yu {
 
         private:
             yu::VoidFunc func;
+        
+        protected:
+            virtual void handleMouseEntry() override;
+            virtual void handleClick() override;
 
         public:
             Button(
@@ -19,8 +23,6 @@ namespace yu {
                 const sf::Vector2f pos,
                 int zIndex
             );
-            void handleClick() override;
-            virtual void handleMouseEntry() override;            
 
     };
     

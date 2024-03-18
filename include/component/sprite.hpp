@@ -24,7 +24,8 @@ namespace yu {
             sf::Sprite sprite;
             std::filesystem::path file;
         
-        public:            
+        public:    
+            Sprite(const std::string& name, int zIndex);
             Sprite(
                 const std::string& name,
                 const std::filesystem::path& file,
@@ -36,6 +37,10 @@ namespace yu {
                 int zIndex,
                 const sf::Vector2f pos
             );
+            void resize(const sf::Vector2f pos);
+            void resize(float width, float height);
+            void changeTexture(const std::filesystem::path& file);
+            void deleteTexture();
             void draw(sf::RenderWindow& window) override;
             const std::filesystem::path& getFile() const;
 

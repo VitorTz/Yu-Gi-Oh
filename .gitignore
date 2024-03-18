@@ -2,7 +2,7 @@
 *.class
 
 .vscode/
-
+build/
 # Log file
 *.log
 

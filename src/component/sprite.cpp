@@ -62,14 +62,59 @@ yu::Sprite::Sprite(
 }
 
 
+yu::Sprite::Sprite(    
+    const std::string& name,
+    const int zIndex
+) : yu::Component(name, zIndex) {
+    
+}
+
+
 void yu::Sprite::draw(sf::RenderWindow& window) {
     sprite.setPosition(pos);
     sprite.setScale(scale);
     sprite.setRotation(rotation);
+    if (rotation != 0) {
+        sprite.setOrigin({size.x / 2, size.y / 2});        
+    }
     window.draw(sprite);
+    sprite.setOrigin({ });
 }
 
 
 const std::filesystem::path& yu::Sprite::getFile() const {
     return file;
+}
+
+
+void yu::Sprite::changeTexture(
+    const std::filesystem::path& file
+) {
+    this->file = file;
+    yu::Sprite::textureLoad(&sprite, file);
+    size = (sf::Vector2f) sprite.getTexture()->getSize();
+    setCenter(center());
+}
+
+
+void yu::Sprite::deleteTexture() {
+    yu::Sprite::textureDestroy(file);
+}
+
+
+void yu::Sprite::resize(const sf::Vector2f newSize) {
+    const float dx = newSize.x / size.x;
+    const float dy = newSize.y / size.y;
+    scale = {dx, dy};
+    size.x *= dx;
+    size.y *= dy;
+}
+
+
+void yu::Sprite::resize(const float width, const float height) {
+    const float dx = width / size.x;
+    const float dy = height / size.y;
+    scale = {dx, dy};
+    size.x *= dx;
+    size.y *= dy;
 }

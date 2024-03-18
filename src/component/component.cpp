@@ -108,6 +108,8 @@ void yu::Component::setPos(const sf::Vector2f x) {
 
 void yu::Component::setScale(const sf::Vector2f x) { 
     scale = x; 
+    size.x *= x.x;
+    size.y *= x.y;
 }
 
 const sf::Vector2f& yu::Component::getSize() const { 

@@ -9,7 +9,9 @@ namespace yu {
 
         private:
             std::vector<std::unique_ptr<yu::Component>> components;
-            int columns;
+            const int paddingX;
+            const int paddingY;
+            const int columns;
 
         public:
             Grid(
@@ -23,7 +25,8 @@ namespace yu {
             void addComponent(std::unique_ptr<yu::Component> c);
             void update(double dt) override;
             void draw(sf::RenderWindow& window);
-
+            const std::vector<std::unique_ptr<yu::Component>>& getComponents() const;
+            std::size_t size() const;
     };
     
 } // namespace yu
