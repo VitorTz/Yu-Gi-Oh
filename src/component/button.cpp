@@ -13,10 +13,11 @@ yu::Button::Button(
 
 
 void yu::Button::handleClick() {
+    yu::audio::soundEffect.playOnce(yu::audio::SoundId::ClickSoundEffect);
     func();
 }
 
 
 void yu::Button::handleMouseEntry() {
-
+    yu::audio::soundEffect.playOnce(yu::audio::SoundId::HoverSoundEffect);
 }

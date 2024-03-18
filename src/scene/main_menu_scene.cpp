@@ -4,7 +4,7 @@
 yu::MainMenuScene::MainMenuScene(
     yu::CurrentScene* currentScene
 ) : yu::Scene(yu::SceneId::MainMenuSceneId, currentScene) {
-    
+
     yu::Sprite* bg_image = (yu::Sprite*) addComponent(
         std::make_unique<yu::Sprite>(
             "assets/menu/bg.jpeg",
@@ -41,6 +41,21 @@ yu::MainMenuScene::MainMenuScene(
     );
 
     line->setRight(bg_image->left());
+
+    addComponent(
+        std::make_unique<yu::TextButton>(
+            "campaign-btn",
+            "CAMPAIGN",
+            []() { std::cout << "campaign\n"; },
+            sf::Vector2f(100.f, 240.f),
+            sf::Vector2f(180.f, 40.f),
+            2,
+            yu::style::NORMAL_TXT_STYLE,
+            yu::style::COLOR_STYLE_1
+        )  
+    );
+
+    // yu::audio::music.playLoop(yu::audio::MainMenuMusic);
 
 }
 

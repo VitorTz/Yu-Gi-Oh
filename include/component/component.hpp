@@ -4,6 +4,7 @@
 #include <filesystem>
 #include <iostream>
 #include "../util/util.hpp"
+#include "../util/sound_system.hpp"
 #include "../util/style.hpp"
 #include "../util/box.hpp"
 #include "../util/timer.hpp"

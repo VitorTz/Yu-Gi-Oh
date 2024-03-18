@@ -1,12 +1,13 @@
 #pragma once
 #include "component.hpp"
+#include <cmath>
 
 
 namespace yu {
 
     typedef std::map<yu::FontId, std::unique_ptr<sf::Font>> FontMap;
 
-    class Text : yu::Component {
+    class Text : public yu::Component {
 
         private:
             static FontMap fontMap;
