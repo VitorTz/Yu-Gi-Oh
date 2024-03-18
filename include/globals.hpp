@@ -6,6 +6,7 @@
 namespace yu::globals {
 
     inline sf::Vector2f mousePos;
+    inline bool windowHasFocus = false;
     inline bool mouseIsClicked = false;
 
 }

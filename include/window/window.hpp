@@ -1,9 +1,9 @@
 #ifndef SFML_TEMPLATE_WINDOW_HPP
 #define SFML_TEMPLATE_WINDOW_HPP
 #include <SFML/Graphics.hpp>
+#include <memory>
 #include "../scene/scenes.hpp"
 #include "../constants.hpp"
-#include <memory>
 
 
 namespace yu {
@@ -14,9 +14,8 @@ namespace yu {
         private:
             sf::RenderWindow window;
             sf::Clock clock;
-            std::unique_ptr<yu::Scene> scene;
-            yu::ChangeScene change_scene;
-            yu::Timer mouseTimer = yu::Timer(20);
+            std::shared_ptr<yu::CurrentScene> currentScene = std::make_shared<yu::CurrentScene>();
+            yu::Timer mouseTimer = { 20 };
         
         private:
             void handle_input();

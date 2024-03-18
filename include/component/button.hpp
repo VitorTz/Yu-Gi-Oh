@@ -1,39 +1,27 @@
-#ifndef YUGIOH_BUTTON_HPP
-#define YUGIOH_BUTTON_HPP
+#pragma once
 #include "component.hpp"
-#include "../util/sound_system.hpp"
 #include <functional>
 
 
 namespace yu {
 
-    typedef std::function<void()> VoidFunction;
+    typedef std::function<void()> VoidFunc;
 
     class Button : public yu::Component {
 
         private:
-            yu::VoidFunction func;
-
-        private:
-            void handleClick() override {
-                yu::SoundSystem::soundEffect.play(yu::SoundEffectId::MouseClickSoundEffect);
-                func();
-            }
-            void handleMouseEntry() override { 
-                yu::SoundSystem::soundEffect.play(yu::SoundEffectId::MouseHoverSoundEffect);
-            }            
+            yu::VoidFunc func;
 
         public:
             Button(
                 const std::string& name,
-                const yu::VoidFunction& func,
+                const yu::VoidFunc& func,
+                const sf::Vector2f pos,
                 int zIndex
-            ) : yu::Component(name, zIndex),
-                func(func) { }
-            
+            );
+            void handleClick() override;
+            virtual void handleMouseEntry() override;            
+
     };
-
-}
-
-
-#endif
+    
+} // namespace yu

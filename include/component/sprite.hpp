@@ -1,40 +1,44 @@
-#ifndef YUGIOH_SPRITE_HPP
-#define YUGIOH_SPRITE_HPP
+#pragma once
 #include "component.hpp"
+#include <map>
+#include <memory>
 
 
 namespace yu {
 
 
+    typedef std::map<std::filesystem::path, std::unique_ptr<sf::Texture>> TextureMap;
+
     class Sprite : public yu::Component {
 
         private:
-            sf::Sprite sprite;
-
+            static TextureMap textureMap;
+        
         public:
-            Sprite(
-                const std::string& name, 
-                const std::filesystem::path& path,
-                const sf::Vector2f pos,
-                int zIndex
-            );
-            Sprite(
-                const std::filesystem::path& path,
-                const sf::Vector2f pos,
-                int zIndex
-            );
-            Sprite(
-                const std::filesystem::path& path,
-                int zIndex
-            );
-            void resize(const sf::Vector2f size);
-            void resize(const float w, const float h);
-            void draw(sf::RenderWindow& window);
+            static void textureLoad(sf::Sprite* sprite, const std::filesystem::path& file);
+            static sf::Texture* textureCreate(const std::filesystem::path& file);
+            static void textureDestroy(const std::filesystem::path& file);            
+            static void textureClear();
 
+        private:
+            sf::Sprite sprite;
+            std::filesystem::path file;
+        
+        public:            
+            Sprite(
+                const std::string& name,
+                const std::filesystem::path& file,
+                int zIndex,
+                const sf::Vector2f pos
+            );
+            Sprite(
+                const std::filesystem::path& file,
+                int zIndex,
+                const sf::Vector2f pos
+            );
+            void draw(sf::RenderWindow& window) override;
+            const std::filesystem::path& getFile() const;
 
     };
-
-}
-
-
-#endif
+    
+} // namespace yu

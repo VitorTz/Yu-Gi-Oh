@@ -17,27 +17,9 @@ yu::Window::Window(
             desktop.height / 2 - yu::constants::SCREEN_HEIGHT / 2
         )
     );
-
-    this->change_scene = [this](const yu::SceneId id) {
-        switch (id) {
-            case yu::SceneId::MainMenuSceneId:
-                this->scene = std::make_unique<yu::MainMenuScene>(this->change_scene);
-                break;
-            case yu::SceneId::CampaignSceneId:
-                this->scene = std::make_unique<yu::CampaignScene>(this->change_scene);
-                break;
-            case yu::SceneId::ChooseDeckSceneId:
-                this->scene = std::make_unique<yu::ChooseDeckScene>(this->change_scene);
-                break;
-            default:
-                break;
-        }
-    };
     sf::Image iconImage;
     iconImage.loadFromFile("assets/icons/icon.png");
-    window.setIcon(iconImage.getSize().x, iconImage.getSize().y, iconImage.getPixelsPtr());
-    this->change_scene(yu::main_scene);
-    
+    window.setIcon(iconImage.getSize().x, iconImage.getSize().y, iconImage.getPixelsPtr());    
 }
 
 
@@ -61,19 +43,20 @@ void yu::Window::handle_input() {
     mouseTimer.update();
     yu::globals::mouseIsClicked = sf::Mouse::isButtonPressed(sf::Mouse::Left) && mouseTimer.check();
     yu::globals::mousePos = (sf::Vector2f) sf::Mouse::getPosition(window);
+    yu::globals::windowHasFocus = window.hasFocus();
 
 }
 
 
 void yu::Window::update() {
     const double dt = clock.restart().asSeconds();
-    scene->update(dt);
+    currentScene->update(dt);
 }
 
 
 void yu::Window::render() {
     window.clear(yu::constants::WINDOW_BG_COLOR);
-    scene->draw(window);
+    currentScene->draw(window);
     window.display();
 }
 

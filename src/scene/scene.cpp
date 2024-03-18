@@ -1,78 +1,74 @@
 #include "../../include/scene/scene.hpp"
 
 
+
 yu::Scene::Scene(
-    const yu::ChangeScene& changeScene
-) : change_scene(changeScene) {
+    const yu::SceneId id,
+    yu::CurrentScene* currentScene
+) : id(id),
+    currentScene(currentScene) {
 
-}
-
-
-yu::Scene::~Scene() {
-    allComponents.clear();
-    yu::TexturePool::clear();
-}
+    }
 
 
-void yu::Scene::addComponent(
-    std::unique_ptr<yu::Component> component
-) {    
-    const int zIndex = component->getZindex();
-    if (allComponents.find(component->getName()) == allComponents.end()) {
+yu::Scene::~Scene() = default;
+
+
+yu::Component* yu::Scene::addComponent(
+    std::unique_ptr<yu::Component> c
+) {
+    const std::string componentName = c->getName();
+    const int zIndex = c->getZindex();        
+    if (allComponents.find(componentName) == allComponents.end()) {
         if (componentMap.find(zIndex) == componentMap.end()) {
             componentMap.insert({zIndex, { }});
-        }
-        componentMap.at(zIndex).push_back(component.get());
-        allComponents.insert({component->getName(), std::move(component)});
+        } 
+        componentMap.at(zIndex).push_back(c.get());
+        allComponents.insert({componentName, std::move(c)});
     }
+    return allComponents.at(componentName).get();
 }
 
 
-yu::Component* yu::Scene::getComponent(const std::string& name) {    
-    if (allComponents.find(name) != allComponents.end()) {
-        return allComponents.at(name).get();
-    }
-    return nullptr;
+yu::Component* yu::Scene::getComponent(
+    const std::string& componentName
+) {
+    return allComponents.at(componentName).get();
 }
 
 
-void yu::Scene::destroyComponent(const std::string& name) {
-    if (allComponents.find(name) != allComponents.end()) {
-        const int zIndex = allComponents.at(name)->getZindex();
-        std::vector<yu::Component*>& v = componentMap.at(zIndex);
+void yu::Scene::rmvComponent(const std::string& componentName) {
+    if (allComponents.find(componentName) != allComponents.end()) {
+        yu::Component* c = allComponents.at(componentName).get();
+        std::vector<yu::Component*> v = componentMap.at(c->getZindex());
         for (std::size_t i = 0; i < v.size(); i++) {
-            if (v[i]->getName() == name) {
+            if (v[i] == c) {
                 v.erase(v.begin() + i);
                 break;
             }
         }
-        allComponents.erase(name);
+        allComponents.erase(componentName);
     }
-}
-
-
-void yu::Scene::changeScene(const yu::SceneId sceneId) {
-    haveToChangeScene = true;
-    nextScene = sceneId;
 }
 
 
 void yu::Scene::update(const double dt) {
-    for (const auto& [index, vec] : componentMap) {
-        for (yu::Component* c : vec) {  
+    for (auto& [index, vec] : componentMap) {
+        for (yu::Component* c : vec) {
             c->update(dt);
         }
     }
-    if (haveToChangeScene) {
-        change_scene(nextScene);
+}
+
+void yu::Scene::draw(sf::RenderWindow& window) {
+    for (auto& [index, vec] : componentMap) {
+        for (yu::Component* c : vec) {
+            c->draw(window);
+        }
     }
 }
 
 
-void yu::Scene::draw(sf::RenderWindow& window) {
-    for (const auto& [index, vec] : componentMap) {
-        for (yu::Component* c : vec) {  
-            c->draw(window);
-        }
-    }
+yu::SceneId yu::Scene::getSceneId() const {
+    return id;
 }

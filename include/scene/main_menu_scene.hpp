@@ -1,5 +1,4 @@
-#ifndef SFML_TEMPLATE_MENU_SCENE_HPP
-#define SFML_TEMPLATE_MENU_SCENE_HPP
+#pragma once
 #include "scene.hpp"
 
 
@@ -9,13 +8,12 @@ namespace yu {
     class MainMenuScene : public yu::Scene {
 
         public:
-            MainMenuScene(const yu::ChangeScene& change_scene);
+            MainMenuScene(
+                yu::CurrentScene* currentScene
+            );
             void update(double dt) override;
-            void draw(sf::RenderWindow& window) override;
+            void draw(sf::RenderWindow& window) override;    
 
     };
-
-}
-
-
-#endif
+    
+} // namespace yu

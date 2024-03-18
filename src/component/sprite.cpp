@@ -1,61 +1,75 @@
 #include "../../include/component/sprite.hpp"
 
 
+yu::TextureMap yu::Sprite::textureMap;
+
+
+sf::Texture* yu::Sprite::textureCreate(
+    const std::filesystem::path& file
+) {
+    if (textureMap.find(file) == textureMap.end()) {
+        const auto& [p, s] = textureMap.insert(
+            {
+                file,
+                std::make_unique<sf::Texture>()
+            }
+        );
+        p->second->setSmooth(true);
+        p->second->loadFromFile(file);
+    }
+    return textureMap.at(file).get();
+}
+
+
+void yu::Sprite::textureLoad(
+    sf::Sprite* sprite, 
+    const std::filesystem::path& file
+) {
+    sf::Texture* t = textureCreate(file);
+    sprite->setTexture(*t);
+}
+
+
+void yu::Sprite::textureDestroy(
+    const std::filesystem::path& file
+) {
+    textureMap.erase(file);
+}
+
+
+void yu::Sprite::textureClear() {
+    textureMap.clear();
+}
+
+
 yu::Sprite::Sprite(
-    const std::string& name, 
-    const std::filesystem::path& path,
-    const sf::Vector2f pos,
-    int zIndex
-) : yu::Component(name, pos, zIndex) {
-    yu::TexturePool::load(&sprite, path);
+    const std::string& name,
+    const std::filesystem::path& file,
+    const int zIndex,
+    const sf::Vector2f pos
+) : yu::Component(name, zIndex, pos) {
+    yu::Sprite::textureLoad(&sprite, file);
     size = (sf::Vector2f) sprite.getTexture()->getSize();
+}
+
+
+yu::Sprite::Sprite(    
+    const std::filesystem::path& file,
+    const int zIndex,
+    const sf::Vector2f pos
+) : yu::Sprite(file.string(), file, zIndex, pos) {
     
 }
 
 
-yu::Sprite::Sprite(
-    const std::filesystem::path& path,
-    const sf::Vector2f pos,
-    int zIndex
-) : yu::Sprite(path.string(), path, pos, zIndex) {
-
-}
-
-
-yu::Sprite::Sprite(
-    const std::filesystem::path& path,    
-    int zIndex
-) : yu::Sprite(path.string(), path, sf::Vector2f(), zIndex) {
-
-}
-
-
-void yu::Sprite::resize(const sf::Vector2f s) {
-    const float dx = s.x / size.x;
-    const float dy = s.y / size.y;
-    size.x *= dx;
-    size.y *= dy;
-    scale = {dx, dy};
-}
-
-
-void yu::Sprite::resize(const float w, const float h) {
-    yu::printVector(size);
-    const float dx = w / size.x;
-    const float dy = h / size.y;
-    size.x *= dx;
-    size.y *= dy;
-    yu::printVector(size);
-    scale = {dx, dy};
-}
-
-
 void yu::Sprite::draw(sf::RenderWindow& window) {
-    const sf::Vector2f origin = {size.x / 2, size.y / 2};
-    sprite.setOrigin(origin);
-    sprite.setPosition(pos + origin);
+    sprite.setPosition(pos);
     sprite.setScale(scale);
     sprite.setRotation(rotation);
     window.draw(sprite);
-    sprite.setOrigin(pos);
+}
+
+
+const std::filesystem::path& yu::Sprite::getFile() const {
+    return file;
 }
