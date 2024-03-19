@@ -20,6 +20,14 @@ yu::Window::Window(
     sf::Image iconImage;
     iconImage.loadFromFile("assets/icons/icon.png");
     window.setIcon(iconImage.getSize().x, iconImage.getSize().y, iconImage.getPixelsPtr());    
+
+    for (const auto& p : std::filesystem::directory_iterator("db/card_info")) {
+        const std::filesystem::path path = p.path();
+        yu::globals::cards.insert(
+            {path.stem(), std::make_unique<yu::Card>(path)}
+        );
+    }
+
 }
 
 

@@ -7,7 +7,7 @@ yu::MainMenuScene::MainMenuScene(
 
     yu::Sprite* bg_image = (yu::Sprite*) addComponent(
         std::make_unique<yu::Sprite>(
-            "assets/menu/bg.jpeg",
+            "assets/scenes/main-menu/bg.jpeg",
             1,
             sf::Vector2f()
         )
@@ -17,7 +17,7 @@ yu::MainMenuScene::MainMenuScene(
     
     yu::Sprite* logo = (yu::Sprite*) addComponent(
         std::make_unique<yu::Sprite>(
-            "assets/menu/logo.png",
+            "assets/scenes/main-menu/logo.png",
             1,
             sf::Vector2f()
         )

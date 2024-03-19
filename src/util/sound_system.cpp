@@ -51,10 +51,10 @@ std::filesystem::path yu::audio::getAudioPath(const yu::audio::SoundId soundId) 
     
     switch (soundId) {
         case yu::audio::SoundId::MainMenuMusic:
-            path = "assets/music/main-menu.wav";
+            path = "assets/music/music/main-menu.wav";
             break;
         case yu::audio::SoundId::DeckBuilderMusic:
-            path = "assets/music/deck-editor.wav";
+            path = "assets/music/music/deck-editor.wav";
             break;
         case yu::audio::SoundId::ClickSoundEffect:
             path = "assets/music/sound-effect/click.wav";

@@ -7,6 +7,7 @@
 #include <filesystem>
 #include <iostream>
 #include <string>
+#include <map>
 #include <cmath>
 #include <random>
 #include <vector>
@@ -41,6 +42,13 @@ namespace yu {
     
     std::filesystem::path getCardPath(const std::string& cardCode);
 
+    template<typename K, typename V>
+    V getOrDefault(const std::map<K, V>& m, const K& k, const V& default_) {
+        if (m.find(k) != m.end()) {
+            return m.at(k);
+        }
+        return default_;
+    }
 }
 
 #endif
