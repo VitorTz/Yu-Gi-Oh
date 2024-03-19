@@ -1,0 +1,11 @@
+name=Drooling Lizard
+id=16353197
+type=Normal Monster
+desc=A blood-sucking snake in human form that attacks any living being that passes nearby.
+race=Reptile
+frameType=normal
+atk=900
+def=800
+attribute=EARTH
+level=3
+image_path=db/card_image/16353197.jpg

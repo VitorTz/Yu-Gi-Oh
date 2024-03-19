@@ -1,0 +1,11 @@
+name=Lord of the Lamp
+id=99510761
+type=Normal Monster
+desc=This spirit emerges from the mystic lamp and obeys the wishes of its summoner.
+race=Fiend
+frameType=normal
+atk=1400
+def=1200
+attribute=DARK
+level=4
+image_path=db/card_image/99510761.jpg

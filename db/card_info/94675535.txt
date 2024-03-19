@@ -1,0 +1,11 @@
+name=Larvas
+id=94675535
+type=Normal Monster
+desc=A fast-moving, bird-like creature that strangles opposing monsters with its long, thin arms.
+race=Beast
+frameType=normal
+atk=800
+def=1000
+attribute=EARTH
+level=3
+image_path=db/card_image/94675535.jpg

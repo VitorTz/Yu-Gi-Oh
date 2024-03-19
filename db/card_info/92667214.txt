@@ -1,0 +1,11 @@
+name=Clown Zombie
+id=92667214
+type=Normal Monster
+desc=A clown revived by the powers of darkness. Its deadly dance has sent many monsters to their graves.
+race=Zombie
+frameType=normal
+atk=1350
+def=0
+attribute=DARK
+level=2
+image_path=db/card_image/92667214.jpg

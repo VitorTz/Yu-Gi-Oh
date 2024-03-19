@@ -1,0 +1,11 @@
+name=Pale Beast
+id=21263083
+type=Normal Monster
+desc=With skin tinged a bluish-white, this strange creature is a fearsome sight to behold.
+race=Beast
+frameType=normal
+atk=1500
+def=1200
+attribute=EARTH
+level=4
+image_path=db/card_image/21263083.jpg

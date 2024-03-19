@@ -1,0 +1,11 @@
+name=Celtic Guardian
+id=91152256
+type=Normal Monster
+desc=An elf who learned to wield a sword, he baffles enemies with lightning-swift attacks.
+race=Warrior
+frameType=normal
+atk=1400
+def=1200
+attribute=EARTH
+level=4
+image_path=db/card_image/91152256.jpg

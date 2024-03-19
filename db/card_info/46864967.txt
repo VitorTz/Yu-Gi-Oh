@@ -1,0 +1,11 @@
+name=Minomushi Warrior
+id=46864967
+type=Normal Monster
+desc=A rock warrior that wields a heavy blade carved from stone.
+race=Rock
+frameType=normal
+atk=1300
+def=1200
+attribute=EARTH
+level=4
+image_path=db/card_image/46864967.jpg

@@ -1,0 +1,11 @@
+name=Baby Dragon
+id=88819587
+type=Normal Monster
+desc=Much more than just a child, this dragon is gifted with untapped power.
+race=Dragon
+frameType=normal
+atk=1200
+def=700
+attribute=WIND
+level=3
+image_path=db/card_image/88819587.jpg

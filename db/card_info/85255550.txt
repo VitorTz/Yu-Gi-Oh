@@ -1,0 +1,11 @@
+name=Swordsman from a Distant Land
+id=85255550
+type=Effect Monster
+desc=If this card attacked an opponent's monster, after damage calculation: Destroy that monster during the 5th End Phase after the attack.
+race=Warrior
+frameType=effect
+atk=250
+def=250
+attribute=EARTH
+level=1
+image_path=db/card_image/85255550.jpg

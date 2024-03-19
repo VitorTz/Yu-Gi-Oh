@@ -1,0 +1,11 @@
+name=Fairy's Gift
+id=68401546
+type=Normal Monster
+desc=This flying monster is known for delivering happiness to all.
+race=Spellcaster
+frameType=normal
+atk=1400
+def=1000
+attribute=LIGHT
+level=4
+image_path=db/card_image/68401546.jpg

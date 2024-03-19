@@ -1,0 +1,11 @@
+name=Key Mace
+id=01929294
+type=Normal Monster
+desc=Enemies' hearts will melt at the sight of this small fairy's cuteness.
+race=Fairy
+frameType=normal
+atk=400
+def=300
+attribute=LIGHT
+level=1
+image_path=db/card_image/01929294.jpg

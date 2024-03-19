@@ -1,0 +1,11 @@
+name=Skull Knight
+id=02504891
+type=Fusion Monster
+desc="Tainted Wisdom" + "Ancient Brain"
+race=Spellcaster
+frameType=fusion
+atk=2650
+def=2250
+attribute=DARK
+level=7
+image_path=db/card_image/02504891.jpg

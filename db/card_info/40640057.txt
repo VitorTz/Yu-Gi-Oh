@@ -1,0 +1,11 @@
+name=Kuriboh
+id=40640057
+type=Effect Monster
+desc=During damage calculation, if your opponent's monster attacks (Quick Effect): You can discard this card; you take no battle damage from that battle.
+race=Fiend
+frameType=effect
+atk=300
+def=200
+attribute=DARK
+level=1
+image_path=db/card_image/40640057.jpg

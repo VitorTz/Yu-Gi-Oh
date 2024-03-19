@@ -1,0 +1,11 @@
+name=Thunder Kid
+id=15510988
+type=Normal Monster
+desc=This monster stores electricity within his body, and can unleash it with catastrophic power.
+race=Thunder
+frameType=normal
+atk=700
+def=600
+attribute=WIND
+level=2
+image_path=db/card_image/15510988.jpg

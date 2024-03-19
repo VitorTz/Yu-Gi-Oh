@@ -1,0 +1,11 @@
+name=Sword of Dark Destruction
+id=37120512
+type=Spell Card
+desc=Equip only to a DARK monster. It gains 400 ATK and loses 200 DEF.
+race=Equip
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/37120512.jpg

@@ -1,0 +1,11 @@
+name=Hinotama
+id=46130346
+type=Spell Card
+desc=Inflict 500 damage to your opponent.
+race=Normal
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/46130346.jpg

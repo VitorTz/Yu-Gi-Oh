@@ -1,0 +1,11 @@
+name=Meotoko
+id=53832650
+type=Normal Monster
+desc=Dis big ol' guy wit' a big ol' eye shoots a nasty ray beam right atcha!
+race=Beast
+frameType=normal
+atk=700
+def=600
+attribute=EARTH
+level=2
+image_path=db/card_image/53832650.jpg

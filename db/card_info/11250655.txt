@@ -1,0 +1,11 @@
+name=Emperor of the Land and Sea
+id=11250655
+type=Normal Monster
+desc=A reptilian monster that sprays fire in every direction.
+race=Reptile
+frameType=normal
+atk=1800
+def=1500
+attribute=WATER
+level=5
+image_path=db/card_image/11250655.jpg

@@ -1,0 +1,11 @@
+name=Mystical Sand
+id=32751480
+type=Fusion Monster
+desc="Giant Soldier of Stone" + "Ancient Elf"
+race=Rock
+frameType=fusion
+atk=2100
+def=1700
+attribute=EARTH
+level=6
+image_path=db/card_image/32751480.jpg

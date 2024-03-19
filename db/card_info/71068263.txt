@@ -1,0 +1,11 @@
+name=Stuffed Animal
+id=71068263
+type=Normal Monster
+desc=It may look like a harmless stuffed animal, but its zipper mouth deals a deadly bite.
+race=Warrior
+frameType=normal
+atk=1200
+def=900
+attribute=EARTH
+level=3
+image_path=db/card_image/71068263.jpg

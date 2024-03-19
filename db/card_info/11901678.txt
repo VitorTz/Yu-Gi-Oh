@@ -1,0 +1,15 @@
+name=Black Skull Dragon
+id=11901678
+type=Fusion Monster
+desc="Summoned Skull" + "Red-Eyes Black Dragon"
+
+
+
+(This card is always treated as an "Archfiend" card.)
+race=Dragon
+frameType=fusion
+atk=3200
+def=2500
+attribute=DARK
+level=9
+image_path=db/card_image/11901678.jpg

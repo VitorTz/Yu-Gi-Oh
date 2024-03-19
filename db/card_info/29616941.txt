@@ -1,0 +1,11 @@
+name=Beautiful Beast Trainer
+id=29616941
+type=Normal Monster
+desc=A rare female beast-master with a very dangerous whip.
+race=Warrior
+frameType=normal
+atk=1750
+def=1500
+attribute=EARTH
+level=5
+image_path=db/card_image/29616941.jpg

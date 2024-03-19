@@ -1,0 +1,11 @@
+name=Beaver Warrior
+id=32452818
+type=Normal Monster
+desc=What this creature lacks in size it makes up for in defense when battling in the prairie.
+race=Beast-Warrior
+frameType=normal
+atk=1200
+def=1500
+attribute=EARTH
+level=4
+image_path=db/card_image/32452818.jpg

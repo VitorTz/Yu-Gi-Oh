@@ -1,0 +1,11 @@
+name=Gaia the Dragon Champion
+id=66889139
+type=Fusion Monster
+desc="Gaia The Fierce Knight" + "Curse of Dragon"
+race=Dragon
+frameType=fusion
+atk=2600
+def=2100
+attribute=WIND
+level=7
+image_path=db/card_image/66889139.jpg

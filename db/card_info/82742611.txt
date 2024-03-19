@@ -1,0 +1,11 @@
+name=Serpent Marauder
+id=82742611
+type=Normal Monster
+desc=A snake with a single eye that blows an icy breath to freeze its opponents.
+race=Reptile
+frameType=normal
+atk=700
+def=600
+attribute=EARTH
+level=2
+image_path=db/card_image/82742611.jpg

@@ -1,0 +1,11 @@
+name=Enchanting Mermaid
+id=75376965
+type=Normal Monster
+desc=A beautiful mermaid that lures voyagers to a watery grave.
+race=Fish
+frameType=normal
+atk=1200
+def=900
+attribute=WATER
+level=3
+image_path=db/card_image/75376965.jpg

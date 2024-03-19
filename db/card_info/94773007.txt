@@ -1,0 +1,11 @@
+name=Jirai Gumo
+id=94773007
+type=Effect Monster
+desc=When this card declares an attack: Toss a coin and call it. If you call it wrong, lose half your Life Points.
+race=Insect
+frameType=effect
+atk=2200
+def=100
+attribute=EARTH
+level=4
+image_path=db/card_image/94773007.jpg

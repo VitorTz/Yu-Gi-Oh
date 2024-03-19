@@ -1,0 +1,11 @@
+name=Salamandra
+id=32268901
+type=Spell Card
+desc=Equip only to a FIRE monster. It gains 700 ATK.
+race=Equip
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/32268901.jpg

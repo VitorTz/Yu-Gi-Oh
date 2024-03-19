@@ -1,0 +1,11 @@
+name=Dark Rabbit
+id=99261403
+type=Normal Monster
+desc=He leaps up, down, and all around! Nobody can lay a hand on this funny bunny.
+race=Beast
+frameType=normal
+atk=1100
+def=1500
+attribute=DARK
+level=4
+image_path=db/card_image/99261403.jpg

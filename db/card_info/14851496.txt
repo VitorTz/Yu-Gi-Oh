@@ -1,0 +1,11 @@
+name=Jellyfish
+id=14851496
+type=Normal Monster
+desc=An almost invisible, semi-transparent jellyfish that drifts in the sea.
+race=Aqua
+frameType=normal
+atk=1200
+def=1500
+attribute=WATER
+level=4
+image_path=db/card_image/14851496.jpg

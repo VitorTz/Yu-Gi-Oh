@@ -1,0 +1,11 @@
+name=Megazowler
+id=75390004
+type=Normal Monster
+desc=Nothing stands in the way of this spike-covered dinosaur!
+race=Dinosaur
+frameType=normal
+atk=1800
+def=2000
+attribute=EARTH
+level=6
+image_path=db/card_image/75390004.jpg

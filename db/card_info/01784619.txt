@@ -1,0 +1,11 @@
+name=Uraby
+id=01784619
+type=Normal Monster
+desc=Fast on its feet, this dinosaur rips enemies to shreds with its sharp claws.
+race=Dinosaur
+frameType=normal
+atk=1500
+def=800
+attribute=EARTH
+level=4
+image_path=db/card_image/01784619.jpg

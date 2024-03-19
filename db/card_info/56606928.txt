@@ -1,0 +1,11 @@
+name=Eternal Drought
+id=56606928
+type=Spell Card
+desc=Destroy all face-up Fish-Type monsters on the field.
+race=Normal
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/56606928.jpg

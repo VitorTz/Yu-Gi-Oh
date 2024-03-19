@@ -1,0 +1,11 @@
+name=Mountain Warrior
+id=04931562
+type=Normal Monster
+desc=A tough warrior that can move smoothly on even the roughest terrain.
+race=Beast-Warrior
+frameType=normal
+atk=600
+def=1000
+attribute=EARTH
+level=3
+image_path=db/card_image/04931562.jpg

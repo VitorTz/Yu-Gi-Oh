@@ -1,0 +1,11 @@
+name=Brave Scizzar
+id=74277583
+type=Normal Monster
+desc=Armed with a mass of scissors, this monster can clip an enemy into any desired shape and size.
+race=Machine
+frameType=normal
+atk=1300
+def=1000
+attribute=DARK
+level=4
+image_path=db/card_image/74277583.jpg

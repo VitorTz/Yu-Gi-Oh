@@ -1,0 +1,11 @@
+name=Skull Red Bird
+id=10202894
+type=Normal Monster
+desc=This monster swoops down and attacks with a rain of knives stored in its wings.
+race=Winged Beast
+frameType=normal
+atk=1550
+def=1200
+attribute=WIND
+level=4
+image_path=db/card_image/10202894.jpg

@@ -1,0 +1,11 @@
+name=House of Adhesive Tape
+id=15083728
+type=Trap Card
+desc=If the DEF of a monster summoned by your opponent (excluding Special Summon) is 500 points or less, the monster is destroyed.
+race=Normal
+frameType=trap
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/15083728.jpg

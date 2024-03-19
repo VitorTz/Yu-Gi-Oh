@@ -1,0 +1,11 @@
+name=Big Eye
+id=16768387
+type=Flip Effect Monster
+desc=FLIP: Look at up to 5 cards from the top of your Deck, then place them on the top of the Deck in any order.
+race=Fiend
+frameType=effect
+atk=1200
+def=1000
+attribute=DARK
+level=4
+image_path=db/card_image/16768387.jpg

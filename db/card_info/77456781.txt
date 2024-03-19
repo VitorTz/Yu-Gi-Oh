@@ -1,0 +1,11 @@
+name=Fiend Kraken
+id=77456781
+type=Normal Monster
+desc=A giant squid that drags its enemies to a watery grave.
+race=Aqua
+frameType=normal
+atk=1200
+def=1400
+attribute=WATER
+level=4
+image_path=db/card_image/77456781.jpg

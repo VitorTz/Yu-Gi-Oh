@@ -1,0 +1,11 @@
+name=Hibikime
+id=64501875
+type=Normal Monster
+desc=Confuses enemy monsters with a noise that is harsh to the ears.
+race=Warrior
+frameType=normal
+atk=1450
+def=1000
+attribute=EARTH
+level=4
+image_path=db/card_image/64501875.jpg

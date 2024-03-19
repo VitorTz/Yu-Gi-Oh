@@ -1,0 +1,11 @@
+name=Rhaimundos of the Red Sword
+id=62403074
+type=Normal Monster
+desc=Armed with the Sword of Crimson Flames, this warrior can bind a monster with fiery restraints.
+race=Warrior
+frameType=normal
+atk=1200
+def=1300
+attribute=EARTH
+level=4
+image_path=db/card_image/62403074.jpg

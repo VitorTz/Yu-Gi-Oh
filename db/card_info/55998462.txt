@@ -1,0 +1,11 @@
+name=Metal Fish
+id=55998462
+type=Normal Monster
+desc=A metal fish with a razor-sharp caudal fin.
+race=Machine
+frameType=normal
+atk=1600
+def=1900
+attribute=WATER
+level=5
+image_path=db/card_image/55998462.jpg

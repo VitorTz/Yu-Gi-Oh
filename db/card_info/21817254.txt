@@ -1,0 +1,11 @@
+name=Mega Thunderball
+id=21817254
+type=Normal Monster
+desc=Rolls along the ground releasing bolts of electricity to attack its enemies.
+race=Thunder
+frameType=normal
+atk=750
+def=600
+attribute=WIND
+level=2
+image_path=db/card_image/21817254.jpg

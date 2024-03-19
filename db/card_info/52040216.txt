@@ -1,0 +1,11 @@
+name=Harpie's Pet Dragon
+id=52040216
+type=Effect Monster
+desc=Gains 300 ATK/DEF for each "Harpie Lady" on the field.
+race=Dragon
+frameType=effect
+atk=2000
+def=2500
+attribute=WIND
+level=7
+image_path=db/card_image/52040216.jpg

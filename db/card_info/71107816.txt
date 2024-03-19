@@ -1,0 +1,11 @@
+name=The Bistro Butcher
+id=71107816
+type=Effect Monster
+desc=When this card inflicts Battle Damage to your opponent, your opponent draws 2 cards.
+race=Fiend
+frameType=effect
+atk=1800
+def=1000
+attribute=DARK
+level=4
+image_path=db/card_image/71107816.jpg

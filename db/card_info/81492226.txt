@@ -1,0 +1,11 @@
+name=Ancient Jar
+id=81492226
+type=Normal Monster
+desc=A very fragile jar that contains something ancient and dangerous.
+race=Rock
+frameType=normal
+atk=400
+def=200
+attribute=EARTH
+level=1
+image_path=db/card_image/81492226.jpg

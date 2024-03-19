@@ -1,0 +1,11 @@
+name=Super War-Lion
+id=33951077
+type=Ritual Monster
+desc=You can Ritual Summon this card with "War-Lion Ritual".
+race=Beast
+frameType=ritual
+atk=2300
+def=2100
+attribute=EARTH
+level=7
+image_path=db/card_image/33951077.jpg

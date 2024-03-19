@@ -1,0 +1,11 @@
+name=Red Medicine
+id=38199696
+type=Spell Card
+desc=Increase your Life Points by 500 points.
+race=Normal
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/38199696.jpg

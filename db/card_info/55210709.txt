@@ -1,0 +1,11 @@
+name=Lisark
+id=55210709
+type=Normal Monster
+desc=A creature with sapphire eyes that mesmerizes and confuses enemies.
+race=Beast
+frameType=normal
+atk=1300
+def=1300
+attribute=EARTH
+level=4
+image_path=db/card_image/55210709.jpg

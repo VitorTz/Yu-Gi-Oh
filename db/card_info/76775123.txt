@@ -1,0 +1,11 @@
+name=Patrol Robo
+id=76775123
+type=Effect Monster
+desc=During your Standby Phase, you can look at 1 face-down card that's been Set by your opponent as long as this card remains face-up on the field.
+race=Machine
+frameType=effect
+atk=1100
+def=900
+attribute=EARTH
+level=3
+image_path=db/card_image/76775123.jpg

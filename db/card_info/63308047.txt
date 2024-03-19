@@ -1,0 +1,11 @@
+name=Terra the Terrible
+id=63308047
+type=Normal Monster
+desc=Known as a swamp dweller, this creature is a minion of the dark forces.
+race=Fiend
+frameType=normal
+atk=1200
+def=1300
+attribute=DARK
+level=4
+image_path=db/card_image/63308047.jpg

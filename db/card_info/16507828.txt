@@ -1,0 +1,11 @@
+name=Bracchio-raidus
+id=16507828
+type=Fusion Monster
+desc="Two-Headed King Rex" + "Crawling Dragon #2"
+race=Dinosaur
+frameType=fusion
+atk=2200
+def=2000
+attribute=WATER
+level=6
+image_path=db/card_image/16507828.jpg

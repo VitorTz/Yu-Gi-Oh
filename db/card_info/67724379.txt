@@ -1,0 +1,11 @@
+name=Koumori Dragon
+id=67724379
+type=Normal Monster
+desc=A vicious, fire-breathing dragon whose wicked flame corrupts the souls of its victims.
+race=Dragon
+frameType=normal
+atk=1500
+def=1200
+attribute=DARK
+level=4
+image_path=db/card_image/67724379.jpg

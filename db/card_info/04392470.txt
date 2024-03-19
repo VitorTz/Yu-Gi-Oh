@@ -1,0 +1,11 @@
+name=Leo Wizard
+id=04392470
+type=Normal Monster
+desc=A wizard with a black mantle who is actually a talking lion in disguise.
+race=Spellcaster
+frameType=normal
+atk=1350
+def=1200
+attribute=EARTH
+level=5
+image_path=db/card_image/04392470.jpg

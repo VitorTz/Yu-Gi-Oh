@@ -1,0 +1,11 @@
+name=Grappler
+id=02906250
+type=Normal Monster
+desc=A devious snake with a thick body that wraps around an enemy monster and squeezes the life out of it.
+race=Reptile
+frameType=normal
+atk=1300
+def=1200
+attribute=WATER
+level=4
+image_path=db/card_image/02906250.jpg

@@ -1,0 +1,11 @@
+name=Abyss Flower
+id=40387124
+type=Normal Monster
+desc=A rarely seen flower that blossoms quietly on the edge of darkness.
+race=Plant
+frameType=normal
+atk=750
+def=400
+attribute=EARTH
+level=2
+image_path=db/card_image/40387124.jpg

@@ -1,0 +1,11 @@
+name=Megirus Light
+id=23032273
+type=Normal Monster
+desc=The fatal beams from the eyes of this monster result in grim destruction.
+race=Fiend
+frameType=normal
+atk=900
+def=600
+attribute=DARK
+level=3
+image_path=db/card_image/23032273.jpg

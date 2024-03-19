@@ -1,0 +1,11 @@
+name=Stone Dragon
+id=68171737
+type=Normal Monster
+desc=A dragon formed by huge boulders that are also used to attack the enemy.
+race=Rock
+frameType=normal
+atk=2000
+def=2300
+attribute=EARTH
+level=7
+image_path=db/card_image/68171737.jpg

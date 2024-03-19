@@ -1,0 +1,11 @@
+name=Morphing Jar
+id=33508719
+type=Flip Effect Monster
+desc=FLIP: Both players discard as many cards as possible from their hands, then each player draws 5 cards.
+race=Rock
+frameType=effect
+atk=700
+def=600
+attribute=EARTH
+level=2
+image_path=db/card_image/33508719.jpg

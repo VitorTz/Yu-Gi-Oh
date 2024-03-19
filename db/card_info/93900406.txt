@@ -1,0 +1,11 @@
+name=Mushroom Man #2
+id=93900406
+type=Effect Monster
+desc=A player controlling this monster loses 300 Life Points during each of his/her Standby Phases when this card is face-up on the field. Control of this card is shifted to your opponent by paying 500 Life Points at your own End Phase.
+race=Warrior
+frameType=effect
+atk=1250
+def=800
+attribute=EARTH
+level=3
+image_path=db/card_image/93900406.jpg

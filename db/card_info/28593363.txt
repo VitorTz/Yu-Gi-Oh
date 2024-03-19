@@ -1,0 +1,11 @@
+name=Deepsea Shark
+id=28593363
+type=Fusion Monster
+desc="Bottom Dweller" + "Tongyo"
+race=Fish
+frameType=fusion
+atk=1900
+def=1600
+attribute=WATER
+level=5
+image_path=db/card_image/28593363.jpg

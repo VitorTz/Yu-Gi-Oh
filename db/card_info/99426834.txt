@@ -1,0 +1,11 @@
+name=Beastking of the Swamps
+id=99426834
+type=Effect Monster
+desc=You can substitute this card for any 1 Fusion Material Monster. When you do this, the other Fusion Material Monster(s) must be the correct one(s).
+race=Aqua
+frameType=effect
+atk=1000
+def=1100
+attribute=WATER
+level=4
+image_path=db/card_image/99426834.jpg

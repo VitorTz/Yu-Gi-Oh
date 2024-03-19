@@ -1,0 +1,11 @@
+name=Dancing Elf
+id=59983499
+type=Normal Monster
+desc=An elf that dances across the sky with wings of razor-sharp blades.
+race=Fairy
+frameType=normal
+atk=300
+def=200
+attribute=WIND
+level=1
+image_path=db/card_image/59983499.jpg

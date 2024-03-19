@@ -1,0 +1,11 @@
+name=Monstrous Bird
+id=35712107
+type=Normal Monster
+desc=Few have set eyes on this dive-bombing bird and lived to tell the tale.
+race=Winged Beast
+frameType=normal
+atk=2000
+def=1900
+attribute=WIND
+level=6
+image_path=db/card_image/35712107.jpg

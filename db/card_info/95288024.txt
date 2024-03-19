@@ -1,0 +1,11 @@
+name=Sky Dragon
+id=95288024
+type=Normal Monster
+desc=A flying dragon with four wings housing some very dangerous blades.
+race=Dragon
+frameType=normal
+atk=1900
+def=1800
+attribute=WIND
+level=6
+image_path=db/card_image/95288024.jpg

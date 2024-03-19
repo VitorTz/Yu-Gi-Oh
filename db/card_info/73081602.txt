@@ -1,0 +1,11 @@
+name=Queen Bird
+id=73081602
+type=Normal Monster
+desc=This monster attacks enemies using its huge beak.
+race=Winged Beast
+frameType=normal
+atk=1200
+def=2000
+attribute=WIND
+level=5
+image_path=db/card_image/73081602.jpg

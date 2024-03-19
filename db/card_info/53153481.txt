@@ -1,0 +1,11 @@
+name=Armaill
+id=53153481
+type=Normal Monster
+desc=A strange warrior who manipulates three deadly blades with both hands and his tail.
+race=Warrior
+frameType=normal
+atk=700
+def=1300
+attribute=EARTH
+level=3
+image_path=db/card_image/53153481.jpg

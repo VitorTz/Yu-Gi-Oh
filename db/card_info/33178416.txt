@@ -1,0 +1,11 @@
+name=Misairuzame
+id=33178416
+type=Normal Monster
+desc=A missile-launching fish protected by deadly spikes.
+race=Fish
+frameType=normal
+atk=1400
+def=1600
+attribute=WATER
+level=5
+image_path=db/card_image/33178416.jpg

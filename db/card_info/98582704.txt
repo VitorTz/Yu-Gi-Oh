@@ -1,0 +1,11 @@
+name=Wing Egg Elf
+id=98582704
+type=Normal Monster
+desc=This fairy in an eggshell uses massive wings to blow back almost any projectile attack.
+race=Fairy
+frameType=normal
+atk=500
+def=1300
+attribute=LIGHT
+level=3
+image_path=db/card_image/98582704.jpg

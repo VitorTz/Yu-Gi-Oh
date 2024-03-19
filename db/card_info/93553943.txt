@@ -1,0 +1,11 @@
+name=Man Eater
+id=93553943
+type=Normal Monster
+desc=Man-eating plant with poison feelers for attacking enemies.
+race=Plant
+frameType=normal
+atk=800
+def=600
+attribute=EARTH
+level=2
+image_path=db/card_image/93553943.jpg

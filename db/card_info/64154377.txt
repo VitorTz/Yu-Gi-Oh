@@ -1,0 +1,11 @@
+name=Embryonic Beast
+id=64154377
+type=Normal Monster
+desc=An imperfect monster with a belly vortex that sucks in opponents of any size.
+race=Fiend
+frameType=normal
+atk=500
+def=750
+attribute=DARK
+level=2
+image_path=db/card_image/64154377.jpg

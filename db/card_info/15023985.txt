@@ -1,0 +1,11 @@
+name=Stone Ogre Grotto
+id=15023985
+type=Normal Monster
+desc=A behemoth shaped by giant boulders.
+race=Rock
+frameType=normal
+atk=1600
+def=1500
+attribute=EARTH
+level=5
+image_path=db/card_image/15023985.jpg

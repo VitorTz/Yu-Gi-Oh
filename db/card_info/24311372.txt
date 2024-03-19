@@ -1,0 +1,11 @@
+name=Zoa
+id=24311372
+type=Normal Monster
+desc=A monster whose full potential can be achieved when outfitted with "Metalmorph".
+race=Fiend
+frameType=normal
+atk=2600
+def=1900
+attribute=DARK
+level=7
+image_path=db/card_image/24311372.jpg

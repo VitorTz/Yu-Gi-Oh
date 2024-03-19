@@ -1,0 +1,11 @@
+name=Queen's Double
+id=05901497
+type=Effect Monster
+desc=This monster may attack your opponent's Life Points directly.
+race=Warrior
+frameType=effect
+atk=350
+def=300
+attribute=EARTH
+level=1
+image_path=db/card_image/05901497.jpg

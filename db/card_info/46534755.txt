@@ -1,0 +1,11 @@
+name=Fire Kraken
+id=46534755
+type=Normal Monster
+desc=A squid that thrives on fire and heat.
+race=Aqua
+frameType=normal
+atk=1600
+def=1500
+attribute=FIRE
+level=4
+image_path=db/card_image/46534755.jpg

@@ -1,0 +1,11 @@
+name=Flame Swordsman
+id=45231177
+type=Fusion Monster
+desc="Flame Manipulator" + "Masaki the Legendary Swordsman"
+race=Warrior
+frameType=fusion
+atk=1800
+def=1600
+attribute=FIRE
+level=5
+image_path=db/card_image/45231177.jpg

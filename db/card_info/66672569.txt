@@ -1,0 +1,11 @@
+name=Dragon Zombie
+id=66672569
+type=Normal Monster
+desc=A dragon revived by sorcery. Its breath is highly corrosive.
+race=Zombie
+frameType=normal
+atk=1600
+def=0
+attribute=DARK
+level=3
+image_path=db/card_image/66672569.jpg

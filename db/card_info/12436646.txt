@@ -1,0 +1,11 @@
+name=Aqua Snake
+id=12436646
+type=Normal Monster
+desc=This monster hypnotizes an opponent with the ball on its tail and draws them to a watery doom.
+race=Aqua
+frameType=normal
+atk=1050
+def=900
+attribute=WATER
+level=3
+image_path=db/card_image/12436646.jpg

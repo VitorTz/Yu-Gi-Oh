@@ -1,0 +1,11 @@
+name=Dragon Seeker
+id=28563545
+type=Effect Monster
+desc=When this card is Normal Summoned or Flip Summoned, destroy 1 face-up Dragon-Type monster on the field.
+race=Fiend
+frameType=effect
+atk=2000
+def=2100
+attribute=DARK
+level=6
+image_path=db/card_image/28563545.jpg

@@ -1,0 +1,11 @@
+name=Sparks
+id=76103675
+type=Spell Card
+desc=Inflict 200 points of damage to your opponent's Life Points.
+race=Normal
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/76103675.jpg

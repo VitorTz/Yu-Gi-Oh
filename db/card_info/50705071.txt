@@ -1,0 +1,11 @@
+name=Metalzoa
+id=50705071
+type=Effect Monster
+desc=Cannot be Normal Summoned/Set. Must first be Special Summoned (from your Deck) by Tributing "Zoa" equipped with "Metalmorph".
+race=Machine
+frameType=effect
+atk=3000
+def=2300
+attribute=DARK
+level=8
+image_path=db/card_image/50705071.jpg

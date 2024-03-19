@@ -1,0 +1,11 @@
+name=Bone Mouse
+id=21239280
+type=Normal Monster
+desc=A mouse that has returned as a zombie to seek revenge on cats.
+race=Zombie
+frameType=normal
+atk=400
+def=300
+attribute=DARK
+level=1
+image_path=db/card_image/21239280.jpg

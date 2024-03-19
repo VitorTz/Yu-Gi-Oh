@@ -1,0 +1,11 @@
+name=Labyrinth Tank
+id=99551425
+type=Fusion Monster
+desc="Giga-Tech Wolf" + "Cannon Soldier"
+race=Machine
+frameType=fusion
+atk=2400
+def=2400
+attribute=DARK
+level=7
+image_path=db/card_image/99551425.jpg

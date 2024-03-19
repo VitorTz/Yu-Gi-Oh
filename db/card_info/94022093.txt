@@ -1,0 +1,11 @@
+name=Behegon
+id=94022093
+type=Normal Monster
+desc=With an enormous maw and massive teeth, this monstrosity is one dangerous and strange serpent from the deep.
+race=Aqua
+frameType=normal
+atk=1350
+def=1000
+attribute=WATER
+level=4
+image_path=db/card_image/94022093.jpg

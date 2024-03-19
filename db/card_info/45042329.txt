@@ -1,0 +1,11 @@
+name=Tripwire Beast
+id=45042329
+type=Normal Monster
+desc=This creature attacks with electromagnetic waves.
+race=Thunder
+frameType=normal
+atk=1200
+def=1300
+attribute=EARTH
+level=4
+image_path=db/card_image/45042329.jpg

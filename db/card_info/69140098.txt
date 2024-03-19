@@ -1,0 +1,11 @@
+name=Gemini Elf
+id=69140098
+type=Normal Monster
+desc=Elf twins that alternate their attacks.
+race=Spellcaster
+frameType=normal
+atk=1900
+def=900
+attribute=EARTH
+level=4
+image_path=db/card_image/69140098.jpg

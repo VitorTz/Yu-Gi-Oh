@@ -1,0 +1,11 @@
+name=Right Leg of the Forbidden One
+id=08124921
+type=Normal Monster
+desc=A forbidden right leg sealed by magic. Whosoever breaks this seal will know infinite power.
+race=Spellcaster
+frameType=normal
+atk=200
+def=300
+attribute=DARK
+level=1
+image_path=db/card_image/08124921.jpg

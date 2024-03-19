@@ -1,0 +1,11 @@
+name=Giant Flea
+id=41762634
+type=Normal Monster
+desc=A massive flea that feeds on the blood of its enemies.
+race=Insect
+frameType=normal
+atk=1500
+def=1200
+attribute=EARTH
+level=4
+image_path=db/card_image/41762634.jpg

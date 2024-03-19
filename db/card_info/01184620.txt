@@ -1,0 +1,11 @@
+name=Kojikocy
+id=01184620
+type=Normal Monster
+desc=A man-hunter with powerful arms that can crush boulders.
+race=Warrior
+frameType=normal
+atk=1500
+def=1200
+attribute=EARTH
+level=4
+image_path=db/card_image/01184620.jpg

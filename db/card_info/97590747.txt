@@ -1,0 +1,11 @@
+name=La Jinn the Mystical Genie of the Lamp
+id=97590747
+type=Normal Monster
+desc=A genie of the lamp that is at the beck and call of its master.
+race=Fiend
+frameType=normal
+atk=1800
+def=1000
+attribute=DARK
+level=4
+image_path=db/card_image/97590747.jpg

@@ -1,0 +1,11 @@
+name=Muse-A
+id=69992868
+type=Normal Monster
+desc=A fairy of the arts that is unbeatable on the harp.
+race=Fairy
+frameType=normal
+atk=850
+def=900
+attribute=LIGHT
+level=3
+image_path=db/card_image/69992868.jpg

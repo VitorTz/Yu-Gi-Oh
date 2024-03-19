@@ -1,0 +1,11 @@
+name=Saggi the Dark Clown
+id=66602787
+type=Normal Monster
+desc=This clown appears from nowhere and executes very strange moves to avoid enemy attacks.
+race=Spellcaster
+frameType=normal
+atk=600
+def=1500
+attribute=DARK
+level=3
+image_path=db/card_image/66602787.jpg

@@ -1,0 +1,11 @@
+name=Harpie Lady
+id=76812113
+type=Normal Monster
+desc=This human-shaped animal with wings is beautiful to watch but deadly in battle.
+race=Winged Beast
+frameType=normal
+atk=1300
+def=1400
+attribute=WIND
+level=4
+image_path=db/card_image/76812113.jpg

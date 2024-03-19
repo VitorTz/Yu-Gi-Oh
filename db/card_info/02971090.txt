@@ -1,0 +1,11 @@
+name=Orion the Battle King
+id=02971090
+type=Normal Monster
+desc=None have lived to tell tales of this powerful battle fairy.
+race=Fairy
+frameType=normal
+atk=1800
+def=1500
+attribute=LIGHT
+level=5
+image_path=db/card_image/02971090.jpg

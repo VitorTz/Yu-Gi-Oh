@@ -1,0 +1,11 @@
+name=Hitodenchak
+id=46718686
+type=Normal Monster
+desc=A rabid starfish that spits a lethal acid that can melt almost anything.
+race=Aqua
+frameType=normal
+atk=600
+def=700
+attribute=WATER
+level=2
+image_path=db/card_image/46718686.jpg

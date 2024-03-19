@@ -1,0 +1,11 @@
+name=Crow Goblin
+id=77998771
+type=Normal Monster
+desc=A clever long-nosed goblin, he is a force to be reckoned with.
+race=Winged Beast
+frameType=normal
+atk=1850
+def=1600
+attribute=WIND
+level=5
+image_path=db/card_image/77998771.jpg

@@ -1,0 +1,11 @@
+name=Sinister Serpent
+id=08131171
+type=Effect Monster
+desc=During your Standby Phase, if this card is in your GY: You can add it to your hand, also banish 1 "Sinister Serpent" from your GY during your opponent's next End Phase. You can only use this effect of "Sinister Serpent" once per turn.
+race=Reptile
+frameType=effect
+atk=300
+def=250
+attribute=WATER
+level=1
+image_path=db/card_image/08131171.jpg

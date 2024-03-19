@@ -1,0 +1,11 @@
+name=Candle of Fate
+id=47695416
+type=Normal Monster
+desc=Decides the fate of an opponent when the candle on its fingertip burns out.
+race=Fiend
+frameType=normal
+atk=600
+def=600
+attribute=DARK
+level=2
+image_path=db/card_image/47695416.jpg

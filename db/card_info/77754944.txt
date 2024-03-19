@@ -1,0 +1,11 @@
+name=Widespread Ruin
+id=77754944
+type=Trap Card
+desc=When an opponent's monster declares an attack: Destroy the Attack Position monster your opponent controls with the highest ATK (your choice, if tied).
+race=Normal
+frameType=trap
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/77754944.jpg

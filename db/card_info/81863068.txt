@@ -1,0 +1,11 @@
+name=Hiro's Shadow Scout
+id=81863068
+type=Flip Effect Monster
+desc=FLIP: Your opponent draws 3 cards. Both players look at the cards. If there are any Spell Cards among them, discard all those Spell Card(s) to the Graveyard.
+race=Fiend
+frameType=effect
+atk=650
+def=500
+attribute=DARK
+level=2
+image_path=db/card_image/81863068.jpg

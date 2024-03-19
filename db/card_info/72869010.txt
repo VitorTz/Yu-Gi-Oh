@@ -1,0 +1,11 @@
+name=Soul Hunter
+id=72869010
+type=Fusion Monster
+desc="Lord of the Lamp" + "Invader from Another Dimension"
+race=Fiend
+frameType=fusion
+atk=2200
+def=1800
+attribute=DARK
+level=6
+image_path=db/card_image/72869010.jpg

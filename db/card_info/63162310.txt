@@ -1,0 +1,11 @@
+name=Wall Shadow
+id=63162310
+type=Effect Monster
+desc=Cannot be Normal Summoned/Set. Must first be Special Summoned with "Magical Labyrinth".
+race=Warrior
+frameType=effect
+atk=1600
+def=3000
+attribute=DARK
+level=7
+image_path=db/card_image/63162310.jpg

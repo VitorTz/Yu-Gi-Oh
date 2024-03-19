@@ -1,0 +1,11 @@
+name=Magical Ghost
+id=46474915
+type=Normal Monster
+desc=This creature casts a spell of terror and confusion just before attacking its enemies.
+race=Zombie
+frameType=normal
+atk=1300
+def=1400
+attribute=DARK
+level=4
+image_path=db/card_image/46474915.jpg

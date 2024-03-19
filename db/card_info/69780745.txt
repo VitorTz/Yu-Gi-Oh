@@ -1,0 +1,11 @@
+name=Garvas
+id=69780745
+type=Normal Monster
+desc=A wicked beast that resembles a winged lion.
+race=Beast
+frameType=normal
+atk=2000
+def=1700
+attribute=EARTH
+level=6
+image_path=db/card_image/69780745.jpg

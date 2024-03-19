@@ -1,0 +1,11 @@
+name=Curtain of the Dark Ones
+id=22026707
+type=Normal Monster
+desc=A curtain that a spellcaster made, it is said to raise a dark power.
+race=Spellcaster
+frameType=normal
+atk=600
+def=500
+attribute=DARK
+level=2
+image_path=db/card_image/22026707.jpg

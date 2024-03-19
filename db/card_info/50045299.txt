@@ -1,0 +1,11 @@
+name=Dragon Capture Jar
+id=50045299
+type=Trap Card
+desc=Change all face-up Dragon-Type monsters on the field to Defense Position, also they cannot change their battle positions.
+race=Continuous
+frameType=trap
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/50045299.jpg

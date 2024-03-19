@@ -1,0 +1,11 @@
+name=Judge Man
+id=30113682
+type=Normal Monster
+desc=This club-wielding warrior battles to the end and will never surrender.
+race=Warrior
+frameType=normal
+atk=2200
+def=1500
+attribute=EARTH
+level=6
+image_path=db/card_image/30113682.jpg

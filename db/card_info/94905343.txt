@@ -1,0 +1,11 @@
+name=Rabid Horseman
+id=94905343
+type=Fusion Monster
+desc="Battle Ox" + "Mystic Horseman"
+race=Beast-Warrior
+frameType=fusion
+atk=2000
+def=1700
+attribute=EARTH
+level=6
+image_path=db/card_image/94905343.jpg

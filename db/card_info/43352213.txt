@@ -1,0 +1,11 @@
+name=Nekogal #2
+id=43352213
+type=Normal Monster
+desc=A fast and lethal creature with very dangerous claws.
+race=Beast-Warrior
+frameType=normal
+atk=1900
+def=2000
+attribute=EARTH
+level=6
+image_path=db/card_image/43352213.jpg

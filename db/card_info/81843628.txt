@@ -1,0 +1,11 @@
+name=Needle Worm
+id=81843628
+type=Flip Effect Monster
+desc=FLIP: Send the top 5 cards of your opponent's Deck to the Graveyard.
+race=Insect
+frameType=effect
+atk=750
+def=600
+attribute=EARTH
+level=2
+image_path=db/card_image/81843628.jpg

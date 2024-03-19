@@ -1,0 +1,11 @@
+name=Dark Titan of Terror
+id=89494469
+type=Normal Monster
+desc=A fiend said to dwell in the world of dreams, it attacks enemies in their sleep.
+race=Fiend
+frameType=normal
+atk=1300
+def=1100
+attribute=DARK
+level=4
+image_path=db/card_image/89494469.jpg

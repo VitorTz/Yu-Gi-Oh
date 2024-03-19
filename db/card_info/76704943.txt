@@ -1,0 +1,11 @@
+name=Yamatano Dragon Scroll
+id=76704943
+type=Normal Monster
+desc=A dragon conjured from the very scroll in which it was depicted.
+race=Dragon
+frameType=normal
+atk=900
+def=300
+attribute=WIND
+level=2
+image_path=db/card_image/76704943.jpg

@@ -1,0 +1,11 @@
+name=Doma The Angel of Silence
+id=16972957
+type=Normal Monster
+desc=This fairy rules over the end of existence.
+race=Fairy
+frameType=normal
+atk=1600
+def=1400
+attribute=DARK
+level=5
+image_path=db/card_image/16972957.jpg

@@ -1,0 +1,11 @@
+name=Pendulum Machine
+id=24433920
+type=Normal Monster
+desc=A horrible torture machine with a large pendulum blade.
+race=Machine
+frameType=normal
+atk=1750
+def=2000
+attribute=DARK
+level=6
+image_path=db/card_image/24433920.jpg

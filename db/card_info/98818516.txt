@@ -1,0 +1,11 @@
+name=Frenzied Panda
+id=98818516
+type=Normal Monster
+desc=A savage beast that carries a big bamboo stick for beating down its enemies.
+race=Beast
+frameType=normal
+atk=1200
+def=1000
+attribute=EARTH
+level=4
+image_path=db/card_image/98818516.jpg

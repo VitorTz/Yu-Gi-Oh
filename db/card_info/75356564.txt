@@ -1,0 +1,11 @@
+name=Petit Dragon
+id=75356564
+type=Normal Monster
+desc=A very small dragon known for its vicious attacks.
+race=Dragon
+frameType=normal
+atk=600
+def=700
+attribute=WIND
+level=2
+image_path=db/card_image/75356564.jpg

@@ -1,0 +1,11 @@
+name=Fiend Reflection #1
+id=68870276
+type=Normal Monster
+desc=This monster can draw its enemies into a mirror world that renders them helpless.
+race=Winged Beast
+frameType=normal
+atk=1300
+def=1400
+attribute=WIND
+level=4
+image_path=db/card_image/68870276.jpg

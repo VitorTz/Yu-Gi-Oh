@@ -1,0 +1,11 @@
+name=Lady of Faith
+id=17358176
+type=Normal Monster
+desc=Soothes the souls of others by chanting a mysterious spell.
+race=Spellcaster
+frameType=normal
+atk=1100
+def=800
+attribute=LIGHT
+level=3
+image_path=db/card_image/17358176.jpg

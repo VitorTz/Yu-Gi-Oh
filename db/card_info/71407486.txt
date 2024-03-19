@@ -1,0 +1,11 @@
+name=Fireyarou
+id=71407486
+type=Normal Monster
+desc=A malevolent creature wrapped in flames that attacks enemies with intense fire.
+race=Pyro
+frameType=normal
+atk=1300
+def=1000
+attribute=FIRE
+level=4
+image_path=db/card_image/71407486.jpg

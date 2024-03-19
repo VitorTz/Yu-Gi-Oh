@@ -1,0 +1,11 @@
+name=Weather Report
+id=72053645
+type=Flip Effect Monster
+desc=FLIP: Destroys all of your opponent's face-up "Swords of Revealing Light" on the field. If "Swords of Revealing Light" is destroyed, you can perform your Battle Phase twice this turn (or your next turn, if activated during your opponent's turn).
+race=Aqua
+frameType=effect
+atk=950
+def=1500
+attribute=WATER
+level=4
+image_path=db/card_image/72053645.jpg

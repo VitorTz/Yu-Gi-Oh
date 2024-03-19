@@ -1,0 +1,11 @@
+name=Barrel Lily
+id=67841515
+type=Normal Monster
+desc=This wicked flower attacks enemies with pollen projectiles.
+race=Plant
+frameType=normal
+atk=1100
+def=600
+attribute=EARTH
+level=3
+image_path=db/card_image/67841515.jpg

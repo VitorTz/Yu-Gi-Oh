@@ -1,0 +1,11 @@
+name=Bat
+id=72076281
+type=Normal Monster
+desc=A mechanical bat that drops blasts from its wings.
+race=Machine
+frameType=normal
+atk=300
+def=350
+attribute=WIND
+level=1
+image_path=db/card_image/72076281.jpg

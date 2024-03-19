@@ -1,0 +1,11 @@
+name=Kanan the Swordmistress
+id=12829151
+type=Normal Monster
+desc=A lady warrior armed with sword and shield, she floats lightly and stings sharply.
+race=Warrior
+frameType=normal
+atk=1400
+def=1400
+attribute=EARTH
+level=4
+image_path=db/card_image/12829151.jpg

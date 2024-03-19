@@ -1,0 +1,11 @@
+name=Sleeping Lion
+id=40200834
+type=Normal Monster
+desc=A ferocious animal that sleeps all day. Sometimes it's better to let Sleeping Lions lie.
+race=Beast
+frameType=normal
+atk=700
+def=1700
+attribute=EARTH
+level=4
+image_path=db/card_image/40200834.jpg

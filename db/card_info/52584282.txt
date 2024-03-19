@@ -1,0 +1,11 @@
+name=Hercules Beetle
+id=52584282
+type=Normal Monster
+desc=A massive beetle with a tough carapace and a dangerous horn.
+race=Insect
+frameType=normal
+atk=1500
+def=2000
+attribute=EARTH
+level=5
+image_path=db/card_image/52584282.jpg

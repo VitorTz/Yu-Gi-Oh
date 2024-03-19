@@ -1,0 +1,11 @@
+name=Mammoth Graveyard
+id=40374923
+type=Normal Monster
+desc=A mammoth that protects the graves of its pack and is absolutely merciless when facing grave-robbers.
+race=Dinosaur
+frameType=normal
+atk=1200
+def=800
+attribute=EARTH
+level=3
+image_path=db/card_image/40374923.jpg

@@ -1,0 +1,11 @@
+name=Gyakutenno Megami
+id=31122090
+type=Normal Monster
+desc=This fairy uses her mystical power to protect the weak and provide spiritual support.
+race=Fairy
+frameType=normal
+atk=1800
+def=2000
+attribute=LIGHT
+level=6
+image_path=db/card_image/31122090.jpg

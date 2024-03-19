@@ -1,0 +1,11 @@
+name=Fake Trap
+id=03027001
+type=Trap Card
+desc=Activate only when your opponent activates a Spell, Trap, or Effect Monster's effect that would destroy a Trap Card(s) you control. Destroy this card instead. (If the cards that would have been destroyed are face-down, you can look at them to confirm.)
+race=Normal
+frameType=trap
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/03027001.jpg

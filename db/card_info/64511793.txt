@@ -1,0 +1,11 @@
+name=Eyearmor
+id=64511793
+type=Normal Monster
+desc=This warrior transforms into various creatures to confuse enemies in battle.
+race=Warrior
+frameType=normal
+atk=600
+def=500
+attribute=EARTH
+level=2
+image_path=db/card_image/64511793.jpg

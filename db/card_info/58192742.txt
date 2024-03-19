@@ -1,0 +1,11 @@
+name=Petit Moth
+id=58192742
+type=Normal Monster
+desc=This small but deadly creature is better off avoided.
+race=Insect
+frameType=normal
+atk=300
+def=200
+attribute=EARTH
+level=1
+image_path=db/card_image/58192742.jpg

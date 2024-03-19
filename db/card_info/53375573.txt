@@ -1,0 +1,11 @@
+name=Dark King of the Abyss
+id=53375573
+type=Normal Monster
+desc=It's said that this King of the Netherworld once had the power to rule over the dark.
+race=Fiend
+frameType=normal
+atk=1200
+def=800
+attribute=DARK
+level=3
+image_path=db/card_image/53375573.jpg

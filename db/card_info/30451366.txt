@@ -1,0 +1,11 @@
+name=Mystical Sheep #1
+id=30451366
+type=Effect Monster
+desc=You can substitute this card for any 1 Fusion-Material Monster. When you do this, the other Fusion-Material Monster(s) must be the correct one(s).
+race=Beast
+frameType=effect
+atk=1150
+def=900
+attribute=EARTH
+level=3
+image_path=db/card_image/30451366.jpg

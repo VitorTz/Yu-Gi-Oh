@@ -1,0 +1,11 @@
+name=Fire Reaper
+id=53581214
+type=Normal Monster
+desc=A reaper with a flaming arrow that burns an enemy to a crisp.
+race=Zombie
+frameType=normal
+atk=700
+def=500
+attribute=DARK
+level=2
+image_path=db/card_image/53581214.jpg

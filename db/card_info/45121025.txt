@@ -1,0 +1,11 @@
+name=Ogre of the Black Shadow
+id=45121025
+type=Normal Monster
+desc=An ogre possessed by the powers of the dark. Few can withstand its rapid charge.
+race=Beast-Warrior
+frameType=normal
+atk=1200
+def=1400
+attribute=EARTH
+level=4
+image_path=db/card_image/45121025.jpg

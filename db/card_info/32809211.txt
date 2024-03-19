@@ -1,0 +1,11 @@
+name=Jinzo #7
+id=32809211
+type=Effect Monster
+desc=This monster can attack your opponent's Life Points directly.
+race=Machine
+frameType=effect
+atk=500
+def=400
+attribute=DARK
+level=2
+image_path=db/card_image/32809211.jpg

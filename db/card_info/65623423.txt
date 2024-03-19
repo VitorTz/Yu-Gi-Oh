@@ -1,0 +1,11 @@
+name=Gruesome Goo
+id=65623423
+type=Normal Monster
+desc=A slime boss that is definitely tougher than it looks.
+race=Aqua
+frameType=normal
+atk=1300
+def=700
+attribute=WATER
+level=3
+image_path=db/card_image/65623423.jpg

@@ -1,0 +1,11 @@
+name=Water Magician
+id=93343894
+type=Normal Monster
+desc=This monster swamps an opponent with an almost endless supply of water.
+race=Aqua
+frameType=normal
+atk=1400
+def=1000
+attribute=WATER
+level=4
+image_path=db/card_image/93343894.jpg

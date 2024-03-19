@@ -1,0 +1,11 @@
+name=Fortress Whale
+id=62337487
+type=Ritual Monster
+desc=You can Ritual Summon this card with "Fortress Whale's Oath".
+race=Fish
+frameType=ritual
+atk=2350
+def=2150
+attribute=WATER
+level=7
+image_path=db/card_image/62337487.jpg

@@ -1,0 +1,11 @@
+name=Ganigumo
+id=34536276
+type=Normal Monster
+desc=A crab that binds its enemies with a sticky web and attacks them with its sharp claws.
+race=Insect
+frameType=normal
+atk=600
+def=800
+attribute=EARTH
+level=2
+image_path=db/card_image/34536276.jpg

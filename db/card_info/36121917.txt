@@ -1,0 +1,11 @@
+name=Monster Egg
+id=36121917
+type=Normal Monster
+desc=A warrior hidden within an egg that attacks enemies by flinging eggshells.
+race=Warrior
+frameType=normal
+atk=600
+def=900
+attribute=EARTH
+level=3
+image_path=db/card_image/36121917.jpg

@@ -1,0 +1,11 @@
+name=Kaiser Dragon
+id=94566432
+type=Fusion Monster
+desc="Winged Dragon, Guardian of the Fortress #1" + "Fairy Dragon"
+race=Dragon
+frameType=fusion
+atk=2300
+def=2000
+attribute=LIGHT
+level=7
+image_path=db/card_image/94566432.jpg

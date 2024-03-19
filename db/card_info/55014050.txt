@@ -1,0 +1,11 @@
+name=Water Girl
+id=55014050
+type=Normal Monster
+desc=A lovely lady who can launch water projectiles that turn into lethal ice spikes before they reach an opponent.
+race=Aqua
+frameType=normal
+atk=1250
+def=1000
+attribute=WATER
+level=4
+image_path=db/card_image/55014050.jpg

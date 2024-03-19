@@ -1,0 +1,11 @@
+name=Metal Dragon
+id=09293977
+type=Fusion Monster
+desc="Steel Ogre Grotto #1" + "Lesser Dragon"
+race=Machine
+frameType=fusion
+atk=1850
+def=1700
+attribute=WIND
+level=6
+image_path=db/card_image/09293977.jpg

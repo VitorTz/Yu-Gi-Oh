@@ -1,0 +1,11 @@
+name=Hane-Hane
+id=07089711
+type=Flip Effect Monster
+desc=FLIP: Select 1 monster on the field and return it to its owner's hand.
+race=Beast
+frameType=effect
+atk=450
+def=500
+attribute=EARTH
+level=2
+image_path=db/card_image/07089711.jpg

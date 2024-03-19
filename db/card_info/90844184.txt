@@ -1,0 +1,11 @@
+name=Garma Sword
+id=90844184
+type=Ritual Monster
+desc=This card can only be Ritual Summoned with the Ritual Spell Card, "Garma Sword Oath".
+race=Warrior
+frameType=ritual
+atk=2550
+def=2150
+attribute=DARK
+level=7
+image_path=db/card_image/90844184.jpg

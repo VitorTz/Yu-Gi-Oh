@@ -1,0 +1,11 @@
+name=Red-Eyes Black Dragon
+id=74677422
+type=Normal Monster
+desc=''A ferocious dragon with a deadly attack.''
+race=Dragon
+frameType=normal
+atk=2400
+def=2000
+attribute=DARK
+level=7
+image_path=db/card_image/74677422.jpg

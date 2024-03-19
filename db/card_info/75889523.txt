@@ -1,0 +1,11 @@
+name=Archfiend Marmot of Nefariousness
+id=75889523
+type=Normal Monster
+desc=An air marmot that has a nefarious horn and wings. It attacks by throwing acorns.
+race=Beast
+frameType=normal
+atk=400
+def=600
+attribute=EARTH
+level=2
+image_path=db/card_image/75889523.jpg

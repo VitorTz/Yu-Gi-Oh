@@ -1,0 +1,11 @@
+name=One Who Hunts Souls
+id=03606209
+type=Normal Monster
+desc=This dangerous creature brandishes a soul-sucking sword.
+race=Beast-Warrior
+frameType=normal
+atk=1100
+def=1000
+attribute=EARTH
+level=4
+image_path=db/card_image/03606209.jpg

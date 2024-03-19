@@ -1,0 +1,11 @@
+name=Masked Clown
+id=77581312
+type=Normal Monster
+desc=This warrior's fatal dance is performed with a lethal sickle.
+race=Warrior
+frameType=normal
+atk=500
+def=700
+attribute=DARK
+level=2
+image_path=db/card_image/77581312.jpg

@@ -1,0 +1,11 @@
+name=Zarigun
+id=10598400
+type=Normal Monster
+desc=A lethal crawfish with extremely dangerous claws.
+race=Aqua
+frameType=normal
+atk=600
+def=700
+attribute=WATER
+level=2
+image_path=db/card_image/10598400.jpg

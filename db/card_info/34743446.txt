@@ -1,0 +1,11 @@
+name=Blocker
+id=34743446
+type=Normal Monster
+desc=Constructed from several components, this monster can launch them in a pincer attack.
+race=Machine
+frameType=normal
+atk=850
+def=1800
+attribute=DARK
+level=4
+image_path=db/card_image/34743446.jpg

@@ -1,0 +1,11 @@
+name=Ancient Sorcerer
+id=36821538
+type=Normal Monster
+desc=Armed with an array of magic wands, this creature is capable of multiple attacks.
+race=Spellcaster
+frameType=normal
+atk=1000
+def=1300
+attribute=DARK
+level=4
+image_path=db/card_image/36821538.jpg

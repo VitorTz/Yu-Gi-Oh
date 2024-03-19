@@ -1,0 +1,11 @@
+name=Kairyu-Shin
+id=76634149
+type=Normal Monster
+desc=A sea dragon known as the King of the Ocean, it attacks its enemies with huge tidal waves.
+race=Sea Serpent
+frameType=normal
+atk=1800
+def=1500
+attribute=WATER
+level=5
+image_path=db/card_image/76634149.jpg

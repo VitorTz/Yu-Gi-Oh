@@ -1,0 +1,11 @@
+name=Reaper of the Cards
+id=33066139
+type=Flip Effect Monster
+desc=FLIP: Select 1 Trap Card on the field and destroy it. If the selected card is Set, pick up and see the card. If it is a Trap Card, it is destroyed. If it is a Spell Card, return it to its original position.
+race=Fiend
+frameType=effect
+atk=1380
+def=1930
+attribute=DARK
+level=5
+image_path=db/card_image/33066139.jpg

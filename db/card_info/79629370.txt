@@ -1,0 +1,11 @@
+name=Maiden of the Moonlight
+id=79629370
+type=Normal Monster
+desc=A sorcerer blessed by lunar light with powers far beyond mortal comprehension.
+race=Spellcaster
+frameType=normal
+atk=1500
+def=1300
+attribute=LIGHT
+level=4
+image_path=db/card_image/79629370.jpg

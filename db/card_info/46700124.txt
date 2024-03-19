@@ -1,0 +1,11 @@
+name=Machine King
+id=46700124
+type=Effect Monster
+desc=This card gains 100 ATK for each Machine-Type monster on the field.
+race=Machine
+frameType=effect
+atk=2200
+def=2000
+attribute=EARTH
+level=6
+image_path=db/card_image/46700124.jpg

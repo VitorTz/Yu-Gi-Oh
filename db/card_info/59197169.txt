@@ -1,0 +1,11 @@
+name=Yami
+id=59197169
+type=Spell Card
+desc=All Fiend and Spellcaster monsters on the field gain 200 ATK/DEF, also all Fairy monsters on the field lose 200 ATK/DEF.
+race=Field
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/59197169.jpg

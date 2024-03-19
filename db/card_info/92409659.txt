@@ -1,0 +1,11 @@
+name=White Dolphin
+id=92409659
+type=Normal Monster
+desc=A white dolphin with a horn that summons huge tidal waves.
+race=Fish
+frameType=normal
+atk=500
+def=400
+attribute=WATER
+level=2
+image_path=db/card_image/92409659.jpg

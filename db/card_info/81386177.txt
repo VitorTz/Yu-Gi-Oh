@@ -1,0 +1,11 @@
+name=Bottom Dweller
+id=81386177
+type=Normal Monster
+desc=This is one sea creature whose wrath is something monsters fear to face.
+race=Fish
+frameType=normal
+atk=1650
+def=1700
+attribute=WATER
+level=5
+image_path=db/card_image/81386177.jpg

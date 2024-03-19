@@ -1,0 +1,11 @@
+name=The Drdek
+id=08944575
+type=Normal Monster
+desc=A bipedal eyeball that seldom misses an enemy with its lethal talons.
+race=Fiend
+frameType=normal
+atk=700
+def=800
+attribute=DARK
+level=3
+image_path=db/card_image/08944575.jpg

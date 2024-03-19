@@ -1,0 +1,11 @@
+name=Ookazi
+id=19523799
+type=Spell Card
+desc=Inflict 800 damage to your opponent.
+race=Normal
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/19523799.jpg

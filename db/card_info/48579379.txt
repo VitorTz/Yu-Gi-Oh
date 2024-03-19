@@ -1,0 +1,11 @@
+name=Perfectly Ultimate Great Moth
+id=48579379
+type=Effect Monster
+desc=Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by Tributing 1 "Petit Moth" on your 6th turn or later after it was equipped with "Cocoon of Evolution".
+race=Insect
+frameType=effect
+atk=3500
+def=3000
+attribute=EARTH
+level=8
+image_path=db/card_image/48579379.jpg

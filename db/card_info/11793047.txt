@@ -1,0 +1,11 @@
+name=Gorgon Egg
+id=11793047
+type=Normal Monster
+desc=The gorgon egg's massive eyes are said to reflect the fate of its enemies.
+race=Fiend
+frameType=normal
+atk=300
+def=1300
+attribute=DARK
+level=3
+image_path=db/card_image/11793047.jpg

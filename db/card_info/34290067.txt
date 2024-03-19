@@ -1,0 +1,11 @@
+name=Corroding Shark
+id=34290067
+type=Normal Monster
+desc=A zombie shark that can deliver its lethal curse with a spell.
+race=Zombie
+frameType=normal
+atk=1100
+def=700
+attribute=DARK
+level=3
+image_path=db/card_image/34290067.jpg

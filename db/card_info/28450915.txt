@@ -1,0 +1,11 @@
+name=Invader from Another Dimension
+id=28450915
+type=Normal Monster
+desc=An extraterrestrial monster that came from a distant galaxy.
+race=Fiend
+frameType=normal
+atk=950
+def=1400
+attribute=DARK
+level=4
+image_path=db/card_image/28450915.jpg

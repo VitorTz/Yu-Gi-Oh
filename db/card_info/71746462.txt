@@ -1,0 +1,11 @@
+name=Sea Kamen
+id=71746462
+type=Normal Monster
+desc=A merciless monster that tears opponents to shreds with razor-like claws.
+race=Aqua
+frameType=normal
+atk=1100
+def=1300
+attribute=WATER
+level=4
+image_path=db/card_image/71746462.jpg

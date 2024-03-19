@@ -1,0 +1,11 @@
+name=Mechanicalchaser
+id=07359741
+type=Normal Monster
+desc=A hunter that relentlessly pursues its target by order of the Machine King.
+race=Machine
+frameType=normal
+atk=1850
+def=800
+attribute=DARK
+level=4
+image_path=db/card_image/07359741.jpg

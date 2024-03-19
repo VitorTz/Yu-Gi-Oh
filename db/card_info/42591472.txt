@@ -1,0 +1,11 @@
+name=Laughing Flower
+id=42591472
+type=Normal Monster
+desc=A flower whose laugh can confuse the minds of enemies.
+race=Plant
+frameType=normal
+atk=900
+def=500
+attribute=EARTH
+level=2
+image_path=db/card_image/42591472.jpg

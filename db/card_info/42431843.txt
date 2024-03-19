@@ -1,0 +1,11 @@
+name=Ancient Brain
+id=42431843
+type=Normal Monster
+desc=A fallen fairy that is powerful in the dark.
+race=Fiend
+frameType=normal
+atk=1000
+def=700
+attribute=DARK
+level=3
+image_path=db/card_image/42431843.jpg

@@ -1,0 +1,11 @@
+name=Turtle Tiger
+id=37313348
+type=Normal Monster
+desc=A tiger encased in a protective shell that attacks with razor-sharp fangs.
+race=Aqua
+frameType=normal
+atk=1000
+def=1500
+attribute=WATER
+level=4
+image_path=db/card_image/37313348.jpg

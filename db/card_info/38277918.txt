@@ -1,0 +1,11 @@
+name=Mikazukinoyaiba
+id=38277918
+type=Normal Monster
+desc=A dragon warrior of the moon armed with a crescent sword.
+race=Dragon
+frameType=normal
+atk=2200
+def=2350
+attribute=DARK
+level=7
+image_path=db/card_image/38277918.jpg

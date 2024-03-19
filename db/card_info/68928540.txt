@@ -1,0 +1,11 @@
+name=Kamakiriman
+id=68928540
+type=Normal Monster
+desc=A man-shaped mantis with two razor-sharp scythes.
+race=Insect
+frameType=normal
+atk=1150
+def=1400
+attribute=EARTH
+level=4
+image_path=db/card_image/68928540.jpg

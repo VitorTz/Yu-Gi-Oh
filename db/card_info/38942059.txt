@@ -1,0 +1,11 @@
+name=Sonic Maid
+id=38942059
+type=Normal Monster
+desc=A maiden that uses sound to her advantage, she wields a scythe that's shaped like a musical note.
+race=Warrior
+frameType=normal
+atk=1200
+def=900
+attribute=EARTH
+level=3
+image_path=db/card_image/38942059.jpg

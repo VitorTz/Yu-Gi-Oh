@@ -1,0 +1,11 @@
+name=Spike Seadra
+id=85326399
+type=Normal Monster
+desc=Using the spikes sprouting from its body, this creature stabs its opponents and floods them with electricity.
+race=Sea Serpent
+frameType=normal
+atk=1600
+def=1300
+attribute=WATER
+level=5
+image_path=db/card_image/85326399.jpg

@@ -1,0 +1,11 @@
+name=Takuhee
+id=03170832
+type=Normal Monster
+desc=This bird is known far and wide as a harbinger of doom.
+race=Winged Beast
+frameType=normal
+atk=1450
+def=1000
+attribute=WIND
+level=4
+image_path=db/card_image/03170832.jpg

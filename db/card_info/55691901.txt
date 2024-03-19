@@ -1,0 +1,11 @@
+name=Great Bill
+id=55691901
+type=Normal Monster
+desc=Nothing escapes from this beast's massive mouth.
+race=Beast
+frameType=normal
+atk=1250
+def=1300
+attribute=EARTH
+level=4
+image_path=db/card_image/55691901.jpg

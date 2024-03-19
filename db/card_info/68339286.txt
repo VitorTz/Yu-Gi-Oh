@@ -1,0 +1,11 @@
+name=Metal Guardian
+id=68339286
+type=Normal Monster
+desc=A fiend guarding the treasures of the netherworld, it's most at home in the dark.
+race=Fiend
+frameType=normal
+atk=1150
+def=2150
+attribute=DARK
+level=5
+image_path=db/card_image/68339286.jpg

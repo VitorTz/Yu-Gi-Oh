@@ -1,0 +1,11 @@
+name=Kaminari Attack
+id=09653271
+type=Fusion Monster
+desc="Ocubeam" + "Mega Thunderball"
+race=Thunder
+frameType=fusion
+atk=1900
+def=1400
+attribute=WIND
+level=5
+image_path=db/card_image/09653271.jpg

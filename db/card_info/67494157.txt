@@ -1,0 +1,11 @@
+name=Crawling Dragon
+id=67494157
+type=Normal Monster
+desc=This weakened dragon can no longer fly, but is still a deadly force to be reckoned with.
+race=Dragon
+frameType=normal
+atk=1600
+def=1400
+attribute=EARTH
+level=5
+image_path=db/card_image/67494157.jpg

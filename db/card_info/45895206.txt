@@ -1,0 +1,11 @@
+name=Dark-Piercing Light
+id=45895206
+type=Spell Card
+desc=Flip all face-down monsters on your opponent's side of the field face-up.
+race=Normal
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/45895206.jpg

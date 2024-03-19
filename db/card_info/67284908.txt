@@ -1,0 +1,11 @@
+name=Labyrinth Wall
+id=67284908
+type=Normal Monster
+desc=These walls form a labyrinth with no exit for enemies.
+race=Rock
+frameType=normal
+atk=0
+def=3000
+attribute=EARTH
+level=5
+image_path=db/card_image/67284908.jpg

@@ -1,0 +1,11 @@
+name=Lord of Zemia
+id=81618817
+type=Normal Monster
+desc=A wicked entity that manipulates enemies towards a path of destruction.
+race=Fiend
+frameType=normal
+atk=1300
+def=1000
+attribute=DARK
+level=4
+image_path=db/card_image/81618817.jpg

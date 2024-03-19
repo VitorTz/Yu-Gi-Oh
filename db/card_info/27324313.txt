@@ -1,0 +1,11 @@
+name=Wattkid
+id=27324313
+type=Normal Monster
+desc=A creature that electrocutes opponents with bolts of lightning.
+race=Thunder
+frameType=normal
+atk=1000
+def=500
+attribute=LIGHT
+level=3
+image_path=db/card_image/27324313.jpg

@@ -1,0 +1,11 @@
+name=Man-Eating Black Shark
+id=80727036
+type=Fusion Monster
+desc="Sea Kamen" + "Gruesome Goo" + "Amazon of the Seas"
+race=Fish
+frameType=fusion
+atk=2100
+def=1300
+attribute=WATER
+level=5
+image_path=db/card_image/80727036.jpg

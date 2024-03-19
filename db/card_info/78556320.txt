@@ -1,0 +1,11 @@
+name=Vishwar Randi
+id=78556320
+type=Normal Monster
+desc=This lady warrior with unquenchable bloodlust serves the forces of darkness.
+race=Warrior
+frameType=normal
+atk=900
+def=700
+attribute=DARK
+level=3
+image_path=db/card_image/78556320.jpg

@@ -1,0 +1,11 @@
+name=Giant Red Seasnake
+id=58831685
+type=Normal Monster
+desc=A sea-dwelling snake that attacks passing enemies with its sharp teeth.
+race=Aqua
+frameType=normal
+atk=1800
+def=800
+attribute=WATER
+level=4
+image_path=db/card_image/58831685.jpg

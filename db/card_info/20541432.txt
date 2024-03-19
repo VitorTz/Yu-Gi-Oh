@@ -1,0 +1,11 @@
+name=Key Mace #2
+id=20541432
+type=Normal Monster
+desc=This fiend brings out the worst in everyone.
+race=Fiend
+frameType=normal
+atk=1050
+def=1200
+attribute=DARK
+level=4
+image_path=db/card_image/20541432.jpg

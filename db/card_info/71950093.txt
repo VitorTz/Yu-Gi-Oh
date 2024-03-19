@@ -1,0 +1,11 @@
+name=Shovel Crusher
+id=71950093
+type=Normal Monster
+desc=Armed with a pair of shovels, this monster will destroy anything that stands in its way.
+race=Machine
+frameType=normal
+atk=900
+def=1200
+attribute=EARTH
+level=3
+image_path=db/card_image/71950093.jpg

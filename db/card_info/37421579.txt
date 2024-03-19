@@ -1,0 +1,11 @@
+name=Charubin the Fire Knight
+id=37421579
+type=Fusion Monster
+desc="Monster Egg" + "Hinotama Soul"
+race=Pyro
+frameType=fusion
+atk=1100
+def=800
+attribute=FIRE
+level=3
+image_path=db/card_image/37421579.jpg

@@ -1,0 +1,11 @@
+name=Star Boy
+id=08201910
+type=Effect Monster
+desc=As long as this card remains face-up on the field, increase the ATK of all WATER monsters by 500 points and decrease the ATK of all FIRE monsters by 400 points.
+race=Aqua
+frameType=effect
+atk=550
+def=500
+attribute=WATER
+level=2
+image_path=db/card_image/08201910.jpg

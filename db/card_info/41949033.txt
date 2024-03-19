@@ -1,0 +1,11 @@
+name=Dark Assailant
+id=41949033
+type=Normal Monster
+desc=Armed with the Psycho Sword, this sinister assassin rules the bad land.
+race=Zombie
+frameType=normal
+atk=1200
+def=1200
+attribute=DARK
+level=4
+image_path=db/card_image/41949033.jpg

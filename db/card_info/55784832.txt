@@ -1,0 +1,11 @@
+name=Morinphen
+id=55784832
+type=Normal Monster
+desc=A strange fiend with long arms and razor-sharp talons.
+race=Fiend
+frameType=normal
+atk=1550
+def=1300
+attribute=DARK
+level=5
+image_path=db/card_image/55784832.jpg

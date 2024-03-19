@@ -1,0 +1,11 @@
+name=D. Human
+id=81057959
+type=Normal Monster
+desc=Gifted with the power of dragons, this warrior wields a sword created from a dragon's fang.
+race=Warrior
+frameType=normal
+atk=1300
+def=1100
+attribute=EARTH
+level=4
+image_path=db/card_image/81057959.jpg

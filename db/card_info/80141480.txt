@@ -1,0 +1,11 @@
+name=Hunter Spider
+id=80141480
+type=Normal Monster
+desc=This monster feeds on whatever it catches in its web.
+race=Insect
+frameType=normal
+atk=1600
+def=1400
+attribute=EARTH
+level=5
+image_path=db/card_image/80141480.jpg

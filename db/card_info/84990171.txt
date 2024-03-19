@@ -1,0 +1,11 @@
+name=Bean Soldier
+id=84990171
+type=Normal Monster
+desc=A plant-warrior that attacks with seeds and sword.
+race=Plant
+frameType=normal
+atk=1400
+def=1300
+attribute=EARTH
+level=4
+image_path=db/card_image/84990171.jpg

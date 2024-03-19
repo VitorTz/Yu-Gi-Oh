@@ -1,0 +1,11 @@
+name=Three-Legged Zombies
+id=33734439
+type=Normal Monster
+desc=A pair of friendly skeletons, lean and fat, that travel with extreme difficulty.
+race=Zombie
+frameType=normal
+atk=1100
+def=800
+attribute=DARK
+level=3
+image_path=db/card_image/33734439.jpg

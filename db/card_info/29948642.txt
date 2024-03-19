@@ -1,0 +1,11 @@
+name=Dig Beak
+id=29948642
+type=Normal Monster
+desc=This beast coils like a snake, and strikes quickly with its snapping beak.
+race=Beast
+frameType=normal
+atk=500
+def=800
+attribute=EARTH
+level=2
+image_path=db/card_image/29948642.jpg

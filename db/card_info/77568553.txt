@@ -1,0 +1,11 @@
+name=Acid Crawler
+id=77568553
+type=Normal Monster
+desc=A giant caterpillar that secretes an acid mist that melts anything.
+race=Insect
+frameType=normal
+atk=900
+def=700
+attribute=EARTH
+level=3
+image_path=db/card_image/77568553.jpg

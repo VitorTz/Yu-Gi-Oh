@@ -1,0 +1,11 @@
+name=Laser Cannon Armor
+id=77007920
+type=Spell Card
+desc=Equip only to an Insect monster. It gains 300 ATK/DEF.
+race=Equip
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/77007920.jpg

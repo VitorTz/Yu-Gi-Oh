@@ -1,0 +1,11 @@
+name=Hitotsu-Me Giant
+id=76184692
+type=Normal Monster
+desc=A one-eyed behemoth with thick, powerful arms made for delivering punishing blows.
+race=Beast-Warrior
+frameType=normal
+atk=1200
+def=1000
+attribute=EARTH
+level=4
+image_path=db/card_image/76184692.jpg

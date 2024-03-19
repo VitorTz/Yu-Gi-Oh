@@ -1,0 +1,11 @@
+name=Crimson Sunbird
+id=46696593
+type=Fusion Monster
+desc="Faith Bird" + "Skull Red Bird"
+race=Winged Beast
+frameType=fusion
+atk=2300
+def=1800
+attribute=FIRE
+level=6
+image_path=db/card_image/46696593.jpg

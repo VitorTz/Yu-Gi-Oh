@@ -1,0 +1,11 @@
+name=Witty Phantom
+id=36304921
+type=Normal Monster
+desc=Dressed in a night-black tuxedo, this creature presides over the darkness.
+race=Fiend
+frameType=normal
+atk=1400
+def=1300
+attribute=DARK
+level=4
+image_path=db/card_image/36304921.jpg

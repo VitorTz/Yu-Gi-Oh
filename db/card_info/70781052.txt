@@ -1,0 +1,13 @@
+name=Summoned Skull
+id=70781052
+type=Normal Monster
+desc=A fiend with dark powers for confusing the enemy. Among the Fiend-Type monsters, this monster boasts considerable force.
+
+(This card is always treated as an "Archfiend" card.)
+race=Fiend
+frameType=normal
+atk=2500
+def=1200
+attribute=DARK
+level=6
+image_path=db/card_image/70781052.jpg

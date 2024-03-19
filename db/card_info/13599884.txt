@@ -1,0 +1,11 @@
+name=Steel Scorpion
+id=13599884
+type=Effect Monster
+desc=A non Machine-Type Monster attacking "Steel Scorpion" will be destroyed at the End Phase of your opponent's 2nd turn after the attack.
+race=Machine
+frameType=effect
+atk=250
+def=300
+attribute=EARTH
+level=1
+image_path=db/card_image/13599884.jpg

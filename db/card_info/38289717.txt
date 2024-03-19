@@ -1,0 +1,11 @@
+name=Crawling Dragon #2
+id=38289717
+type=Normal Monster
+desc=A powerful dragon with teeth that can grind almost anything to dust.
+race=Dinosaur
+frameType=normal
+atk=1600
+def=1200
+attribute=EARTH
+level=4
+image_path=db/card_image/38289717.jpg

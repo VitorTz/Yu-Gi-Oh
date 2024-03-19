@@ -1,0 +1,11 @@
+name=Warrior Elimination
+id=90873992
+type=Spell Card
+desc=Destroy all Warrior monsters on the field.
+race=Normal
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/90873992.jpg

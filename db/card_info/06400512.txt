@@ -1,0 +1,11 @@
+name=Cyber Commander
+id=06400512
+type=Normal Monster
+desc=A strike force equipped with rocket launchers and bazookas.
+race=Machine
+frameType=normal
+atk=750
+def=700
+attribute=DARK
+level=2
+image_path=db/card_image/06400512.jpg

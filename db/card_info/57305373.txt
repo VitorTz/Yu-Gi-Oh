@@ -1,0 +1,11 @@
+name=Two-Mouth Darkruler
+id=57305373
+type=Normal Monster
+desc=A dinosaur with two deadly jaws, it stores electricity in its horn and releases high voltage bolts from the mouth on its back.
+race=Dinosaur
+frameType=normal
+atk=900
+def=700
+attribute=EARTH
+level=3
+image_path=db/card_image/57305373.jpg

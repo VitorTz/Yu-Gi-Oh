@@ -1,0 +1,11 @@
+name=Queen of Autumn Leaves
+id=04179849
+type=Normal Monster
+desc=Queen of the Emerald Forest and wife of the Spirit King, she lives surrounded by vivid red leaves.
+race=Plant
+frameType=normal
+atk=1800
+def=1500
+attribute=EARTH
+level=5
+image_path=db/card_image/04179849.jpg

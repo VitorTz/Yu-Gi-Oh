@@ -1,0 +1,11 @@
+name=Hinotama Soul
+id=96851799
+type=Normal Monster
+desc=An intensely hot flame creature that rams anything standing in its way.
+race=Pyro
+frameType=normal
+atk=600
+def=500
+attribute=FIRE
+level=2
+image_path=db/card_image/96851799.jpg

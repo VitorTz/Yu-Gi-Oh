@@ -1,0 +1,11 @@
+name=Sentinel of the Seas
+id=85448931
+type=Normal Monster
+desc=A merman warrior that relentlessly attacks those who pollute the seas with their presence.
+race=Aqua
+frameType=normal
+atk=1300
+def=1000
+attribute=WATER
+level=4
+image_path=db/card_image/85448931.jpg

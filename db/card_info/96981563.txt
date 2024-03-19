@@ -1,0 +1,11 @@
+name=Giant Turtle Who Feeds on Flames
+id=96981563
+type=Normal Monster
+desc=A crimson-shelled tortoise that feeds on flames.
+race=Aqua
+frameType=normal
+atk=1400
+def=1800
+attribute=WATER
+level=5
+image_path=db/card_image/96981563.jpg

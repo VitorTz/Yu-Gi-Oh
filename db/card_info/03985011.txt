@@ -1,0 +1,11 @@
+name=Lucky Trinket
+id=03985011
+type=Normal Monster
+desc=This creature may look slim and weak, but it's protected by a mystical force.
+race=Spellcaster
+frameType=normal
+atk=600
+def=800
+attribute=LIGHT
+level=2
+image_path=db/card_image/03985011.jpg

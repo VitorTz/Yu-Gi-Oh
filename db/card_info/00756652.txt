@@ -1,0 +1,11 @@
+name=Doron
+id=00756652
+type=Normal Monster
+desc=This monster splits in two and attacks from opposite sides.
+race=Warrior
+frameType=normal
+atk=900
+def=500
+attribute=EARTH
+level=2
+image_path=db/card_image/00756652.jpg

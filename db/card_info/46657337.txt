@@ -1,0 +1,11 @@
+name=Muka Muka
+id=46657337
+type=Effect Monster
+desc=This card gains 300 ATK and DEF for each card in your hand.
+race=Rock
+frameType=effect
+atk=600
+def=300
+attribute=EARTH
+level=2
+image_path=db/card_image/46657337.jpg

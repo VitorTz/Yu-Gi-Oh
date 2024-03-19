@@ -1,0 +1,11 @@
+name=Monster Tamer
+id=97612389
+type=Normal Monster
+desc=A master of monsters that exercises control over several creatures.
+race=Warrior
+frameType=normal
+atk=1800
+def=1600
+attribute=EARTH
+level=5
+image_path=db/card_image/97612389.jpg

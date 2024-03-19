@@ -1,0 +1,11 @@
+name=Winged Dragon, Guardian of the Fortress #1
+id=87796900
+type=Normal Monster
+desc=A dragon commonly found guarding mountain fortresses. Its signature attack is a sweeping dive from out of the blue.
+race=Dragon
+frameType=normal
+atk=1400
+def=1200
+attribute=WIND
+level=4
+image_path=db/card_image/87796900.jpg

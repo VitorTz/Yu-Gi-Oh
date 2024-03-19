@@ -1,0 +1,11 @@
+name=Yado Karu
+id=29380133
+type=Effect Monster
+desc=When this card is changed from Attack Position to Defense Position, you can place any number of cards from your hand at the bottom of your Deck in any order you desire.
+race=Aqua
+frameType=effect
+atk=900
+def=1700
+attribute=WATER
+level=4
+image_path=db/card_image/29380133.jpg

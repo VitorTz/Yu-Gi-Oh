@@ -1,0 +1,11 @@
+name=The Melting Red Shadow
+id=98898173
+type=Normal Monster
+desc=This monster melts away to materialize under its enemies, taking them by surprise.
+race=Aqua
+frameType=normal
+atk=500
+def=700
+attribute=WATER
+level=2
+image_path=db/card_image/98898173.jpg

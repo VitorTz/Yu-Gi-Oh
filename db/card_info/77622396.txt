@@ -1,0 +1,11 @@
+name=Reverse Trap
+id=77622396
+type=Trap Card
+desc=Until the End Phase, all effects that add or subtract ATK or DEF are reversed. (Additions now subtract, and subtractions now add, instead. Multiplications and divisions, including halving/doubling, are not affected.)
+race=Normal
+frameType=trap
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/77622396.jpg

@@ -1,0 +1,11 @@
+name=Armored Lizard
+id=15480588
+type=Normal Monster
+desc=A lizard with a very tough hide and a vicious bite.
+race=Reptile
+frameType=normal
+atk=1500
+def=1200
+attribute=EARTH
+level=4
+image_path=db/card_image/15480588.jpg

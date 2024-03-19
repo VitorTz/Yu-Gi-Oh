@@ -1,0 +1,11 @@
+name=Boulder Tortoise
+id=09540040
+type=Normal Monster
+desc=A stone turtle that is nearly indestructible.
+race=Aqua
+frameType=normal
+atk=1450
+def=2200
+attribute=WATER
+level=6
+image_path=db/card_image/09540040.jpg

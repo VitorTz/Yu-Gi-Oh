@@ -1,0 +1,11 @@
+name=Spirit of the Books
+id=14037717
+type=Normal Monster
+desc=This wise spirit dwells in books, using its accumulated knowledge to defeat enemies.
+race=Winged Beast
+frameType=normal
+atk=1400
+def=1200
+attribute=WIND
+level=4
+image_path=db/card_image/14037717.jpg

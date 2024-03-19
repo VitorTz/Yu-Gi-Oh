@@ -1,0 +1,11 @@
+name=Mystic Horseman
+id=68516705
+type=Normal Monster
+desc=Half man and half horse, this monster is known for its extreme speed.
+race=Beast
+frameType=normal
+atk=1300
+def=1550
+attribute=EARTH
+level=4
+image_path=db/card_image/68516705.jpg

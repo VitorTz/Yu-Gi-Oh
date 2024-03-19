@@ -1,0 +1,11 @@
+name=Change Slime
+id=18914778
+type=Normal Monster
+desc=A slime that can morph and adopt the shape and size of any monster it chooses.
+race=Aqua
+frameType=normal
+atk=400
+def=300
+attribute=WATER
+level=1
+image_path=db/card_image/18914778.jpg

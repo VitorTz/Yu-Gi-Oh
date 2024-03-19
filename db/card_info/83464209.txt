@@ -1,0 +1,11 @@
+name=Mystical Sheep #2
+id=83464209
+type=Normal Monster
+desc=A monstrous sheep with a long tail for hypnotizing enemies.
+race=Beast
+frameType=normal
+atk=800
+def=1000
+attribute=EARTH
+level=3
+image_path=db/card_image/83464209.jpg

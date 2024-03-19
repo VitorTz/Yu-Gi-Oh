@@ -1,0 +1,11 @@
+name=Man-Eater Bug
+id=54652250
+type=Flip Effect Monster
+desc=FLIP: Target 1 monster on the field; destroy it.
+race=Insect
+frameType=effect
+atk=450
+def=600
+attribute=EARTH
+level=2
+image_path=db/card_image/54652250.jpg

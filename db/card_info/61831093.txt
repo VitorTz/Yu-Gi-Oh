@@ -1,0 +1,11 @@
+name=Greenkappa
+id=61831093
+type=Flip Effect Monster
+desc=FLIP: Target 2 Set Spell/Trap Cards on the field; destroy those targets.
+race=Warrior
+frameType=effect
+atk=650
+def=900
+attribute=DARK
+level=3
+image_path=db/card_image/61831093.jpg

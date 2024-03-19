@@ -1,0 +1,11 @@
+name=Mystic Clown
+id=47060154
+type=Normal Monster
+desc=Nothing can stop the mad attack of this powerful creature.
+race=Fiend
+frameType=normal
+atk=1500
+def=1000
+attribute=DARK
+level=4
+image_path=db/card_image/47060154.jpg

@@ -1,0 +1,11 @@
+name=Rock Ogre Grotto #2
+id=62193699
+type=Normal Monster
+desc=A golem formed by boulders, this monster turns its enemies to stone and crushes them to dust.
+race=Rock
+frameType=normal
+atk=700
+def=1400
+attribute=EARTH
+level=3
+image_path=db/card_image/62193699.jpg

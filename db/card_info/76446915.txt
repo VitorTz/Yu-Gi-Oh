@@ -1,0 +1,11 @@
+name=Disk Magician
+id=76446915
+type=Normal Monster
+desc=This monster hides in a saucer and only appears when executing an attack.
+race=Machine
+frameType=normal
+atk=1350
+def=1000
+attribute=DARK
+level=4
+image_path=db/card_image/76446915.jpg

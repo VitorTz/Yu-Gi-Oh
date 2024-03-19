@@ -1,0 +1,11 @@
+name=Shine Palace
+id=82878489
+type=Spell Card
+desc=Equip only to a LIGHT monster. It gains 700 ATK.
+race=Equip
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/82878489.jpg

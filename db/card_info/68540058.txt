@@ -1,0 +1,11 @@
+name=Metalmorph
+id=68540058
+type=Trap Card
+desc=Target 1 face-up monster on the field; equip this card to that target. It gains 300 ATK/DEF. If it attacks, it gains ATK equal to half the ATK of the attack target, during damage calculation only.
+race=Normal
+frameType=trap
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/68540058.jpg

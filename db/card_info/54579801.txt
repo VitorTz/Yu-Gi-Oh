@@ -1,0 +1,11 @@
+name=High Tide Gyojin
+id=54579801
+type=Normal Monster
+desc=A very agile half-fish warrior known for its relentless attacks.
+race=Aqua
+frameType=normal
+atk=1650
+def=1300
+attribute=WATER
+level=4
+image_path=db/card_image/54579801.jpg

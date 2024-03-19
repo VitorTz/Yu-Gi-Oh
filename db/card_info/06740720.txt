@@ -1,0 +1,11 @@
+name=Seiyaryu
+id=06740720
+type=Normal Monster
+desc=A mystical dragon that burns away the unworthy with its mystic flames.
+race=Dragon
+frameType=normal
+atk=2500
+def=2300
+attribute=LIGHT
+level=7
+image_path=db/card_image/06740720.jpg

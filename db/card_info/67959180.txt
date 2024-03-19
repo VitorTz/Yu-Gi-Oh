@@ -1,0 +1,11 @@
+name=Goddess of Whim
+id=67959180
+type=Effect Monster
+desc=Once per turn: You can toss a coin and call Heads or Tails. If you call it right, double this card's ATK during this turn. If you call it wrong, halve its ATK during this turn.
+race=Fairy
+frameType=effect
+atk=950
+def=700
+attribute=LIGHT
+level=3
+image_path=db/card_image/67959180.jpg

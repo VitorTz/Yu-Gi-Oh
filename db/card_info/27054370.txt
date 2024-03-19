@@ -1,0 +1,11 @@
+name=Firewing Pegasus
+id=27054370
+type=Normal Monster
+desc=A heavenly stallion soaring through the skies on crimson wings.
+race=Beast
+frameType=normal
+atk=2250
+def=1800
+attribute=FIRE
+level=6
+image_path=db/card_image/27054370.jpg

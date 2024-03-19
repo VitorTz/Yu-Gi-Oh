@@ -1,0 +1,11 @@
+name=Waterdragon Fairy
+id=66836598
+type=Normal Monster
+desc=A water fairy that is said to be able to summon a giant sea serpent.
+race=Aqua
+frameType=normal
+atk=1100
+def=700
+attribute=WATER
+level=3
+image_path=db/card_image/66836598.jpg

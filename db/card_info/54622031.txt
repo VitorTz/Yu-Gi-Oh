@@ -1,0 +1,11 @@
+name=Great Mammoth of Goldfine
+id=54622031
+type=Fusion Monster
+desc="The Snake Hair" + "Dragon Zombie"
+race=Zombie
+frameType=fusion
+atk=2200
+def=1800
+attribute=DARK
+level=6
+image_path=db/card_image/54622031.jpg

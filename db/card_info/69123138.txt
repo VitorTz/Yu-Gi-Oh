@@ -1,0 +1,11 @@
+name=Zera the Mant
+id=69123138
+type=Ritual Monster
+desc=This card can only be Ritual Summoned with the Ritual Spell Card, "Zera Ritual".
+race=Fiend
+frameType=ritual
+atk=2800
+def=2300
+attribute=DARK
+level=8
+image_path=db/card_image/69123138.jpg

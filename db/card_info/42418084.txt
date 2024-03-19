@@ -1,0 +1,11 @@
+name=Winged Egg of New Life
+id=42418084
+type=Normal Monster
+desc=Legend has it that this creature can foretell the birth of children.
+race=Fairy
+frameType=normal
+atk=1400
+def=1700
+attribute=LIGHT
+level=5
+image_path=db/card_image/42418084.jpg

@@ -1,0 +1,11 @@
+name=Hourglass of Courage
+id=43530283
+type=Effect Monster
+desc=If this card is Normal or Flip Summoned, its original ATK and DEF are halved until the End Phase of your next turn. After that, the original ATK and DEF are doubled.
+race=Fairy
+frameType=effect
+atk=1100
+def=1200
+attribute=LIGHT
+level=4
+image_path=db/card_image/43530283.jpg

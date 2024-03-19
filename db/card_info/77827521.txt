@@ -1,0 +1,11 @@
+name=Trial of Nightmare
+id=77827521
+type=Normal Monster
+desc=This fiend passes judgment on enemies that are locked in coffins.
+race=Fiend
+frameType=normal
+atk=1300
+def=900
+attribute=DARK
+level=4
+image_path=db/card_image/77827521.jpg

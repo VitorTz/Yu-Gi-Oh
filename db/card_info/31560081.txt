@@ -1,0 +1,11 @@
+name=Magician of Faith
+id=31560081
+type=Flip Effect Monster
+desc=FLIP: Target 1 Spell in your GY; add that target to your hand.
+race=Spellcaster
+frameType=effect
+atk=300
+def=400
+attribute=LIGHT
+level=1
+image_path=db/card_image/31560081.jpg

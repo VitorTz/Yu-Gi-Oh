@@ -1,0 +1,11 @@
+name=Turtle Raccoon
+id=17441953
+type=Normal Monster
+desc=A cunning raccoon protected by a solid turtle shell, it attacks with deception.
+race=Aqua
+frameType=normal
+atk=700
+def=900
+attribute=WATER
+level=3
+image_path=db/card_image/17441953.jpg

@@ -1,0 +1,11 @@
+name=Wolf
+id=49417509
+type=Normal Monster
+desc=Dis alpha wolf yoozes his sense a smell ta find da enemy. 'ey, quit sniffin at my socks!
+race=Beast
+frameType=normal
+atk=1200
+def=800
+attribute=EARTH
+level=3
+image_path=db/card_image/49417509.jpg

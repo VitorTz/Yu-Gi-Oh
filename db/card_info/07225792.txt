@@ -1,0 +1,11 @@
+name=Mon Larvas
+id=07225792
+type=Normal Monster
+desc=A further step in the evolutionary chain, it is much more powerful than "Larvas".
+race=Beast
+frameType=normal
+atk=1300
+def=1400
+attribute=EARTH
+level=4
+image_path=db/card_image/07225792.jpg

@@ -1,0 +1,11 @@
+name=Psychic Kappa
+id=07892180
+type=Normal Monster
+desc=An amphibian with a myriad of powers to shield it from enemy attacks.
+race=Aqua
+frameType=normal
+atk=400
+def=1000
+attribute=WATER
+level=2
+image_path=db/card_image/07892180.jpg

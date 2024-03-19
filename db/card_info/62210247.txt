@@ -1,0 +1,11 @@
+name=Lunar Queen Elzaim
+id=62210247
+type=Normal Monster
+desc=A lovely creature guarded by the moon. Her lunar curtain can block just about any attack.
+race=Fairy
+frameType=normal
+atk=750
+def=1100
+attribute=LIGHT
+level=3
+image_path=db/card_image/62210247.jpg

@@ -1,0 +1,11 @@
+name=30,000-Year White Turtle
+id=11714098
+type=Normal Monster
+desc=A huge turtle that has existed for more than 30,000 years.
+race=Aqua
+frameType=normal
+atk=1250
+def=2100
+attribute=WATER
+level=5
+image_path=db/card_image/11714098.jpg

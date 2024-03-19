@@ -1,0 +1,11 @@
+name=Dream Clown
+id=13215230
+type=Effect Monster
+desc=When this card is changed from Attack Position to face-up Defense Position, select 1 monster your opponent controls and destroy it.
+race=Warrior
+frameType=effect
+atk=1200
+def=900
+attribute=EARTH
+level=3
+image_path=db/card_image/13215230.jpg

@@ -1,0 +1,11 @@
+name=Sectarian of Secrets
+id=15507080
+type=Normal Monster
+desc=This wizard worships the darkness, and is served by a sinister hand that drags its enemies into oblivion.
+race=Spellcaster
+frameType=normal
+atk=700
+def=500
+attribute=DARK
+level=2
+image_path=db/card_image/15507080.jpg

@@ -1,0 +1,11 @@
+name=Sword Slasher
+id=73911410
+type=Normal Monster
+desc=A lethal engine of destruction that wields two well-honed blades.
+race=Machine
+frameType=normal
+atk=1450
+def=1500
+attribute=DARK
+level=5
+image_path=db/card_image/73911410.jpg

@@ -1,0 +1,11 @@
+name=Fiend's Hand
+id=52800428
+type=Normal Monster
+desc=Arms that reach out from the Swamp of Chaos to drag down the damned.
+race=Zombie
+frameType=normal
+atk=600
+def=600
+attribute=DARK
+level=2
+image_path=db/card_image/52800428.jpg

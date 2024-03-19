@@ -1,0 +1,11 @@
+name=Darkfire Dragon
+id=17881964
+type=Fusion Monster
+desc="Firegrass" + "Petit Dragon"
+race=Dragon
+frameType=fusion
+atk=1500
+def=1250
+attribute=DARK
+level=4
+image_path=db/card_image/17881964.jpg

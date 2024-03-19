@@ -1,0 +1,11 @@
+name=Droll Bird
+id=97973387
+type=Normal Monster
+desc=This monster stuns its enemies with a massive beak and ear-piercing wails.
+race=Winged Beast
+frameType=normal
+atk=600
+def=500
+attribute=WIND
+level=2
+image_path=db/card_image/97973387.jpg

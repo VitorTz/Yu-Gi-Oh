@@ -1,0 +1,11 @@
+name=Masaki the Legendary Swordsman
+id=44287299
+type=Normal Monster
+desc=Legendary swordmaster Masaki is a veteran of over 100 battles.
+race=Warrior
+frameType=normal
+atk=1100
+def=1100
+attribute=EARTH
+level=4
+image_path=db/card_image/44287299.jpg

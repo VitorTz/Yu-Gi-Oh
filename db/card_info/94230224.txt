@@ -1,0 +1,11 @@
+name=Needle Ball
+id=94230224
+type=Flip Effect Monster
+desc=FLIP: You can pay 2000 Life Points to inflict 1000 damage to your opponent.
+race=Fiend
+frameType=effect
+atk=750
+def=700
+attribute=DARK
+level=2
+image_path=db/card_image/94230224.jpg

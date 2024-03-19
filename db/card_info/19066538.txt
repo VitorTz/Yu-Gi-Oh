@@ -1,0 +1,11 @@
+name=Roaring Ocean Snake
+id=19066538
+type=Fusion Monster
+desc="Mystic Lamp" + "Hyosube"
+race=Aqua
+frameType=fusion
+atk=2100
+def=1800
+attribute=WATER
+level=6
+image_path=db/card_image/19066538.jpg

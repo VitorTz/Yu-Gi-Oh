@@ -1,0 +1,11 @@
+name=Great White
+id=13429800
+type=Normal Monster
+desc=A giant white shark with razor-sharp teeth.
+race=Fish
+frameType=normal
+atk=1600
+def=800
+attribute=WATER
+level=4
+image_path=db/card_image/13429800.jpg

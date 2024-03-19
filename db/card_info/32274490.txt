@@ -1,0 +1,11 @@
+name=Skull Servant
+id=32274490
+type=Normal Monster
+desc=A skeletal ghost that isn't strong but can mean trouble in large numbers.
+race=Zombie
+frameType=normal
+atk=300
+def=200
+attribute=DARK
+level=1
+image_path=db/card_image/32274490.jpg

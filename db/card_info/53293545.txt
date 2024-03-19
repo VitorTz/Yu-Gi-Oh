@@ -1,0 +1,11 @@
+name=Firegrass
+id=53293545
+type=Normal Monster
+desc=A fire-breathing plant found growing near volcanoes.
+race=Plant
+frameType=normal
+atk=700
+def=600
+attribute=EARTH
+level=2
+image_path=db/card_image/53293545.jpg

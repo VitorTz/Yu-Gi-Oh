@@ -1,0 +1,11 @@
+name=Mystery Hand
+id=62793020
+type=Normal Monster
+desc=This monster twists reality and reaches between dimensions to attack its enemies.
+race=Fiend
+frameType=normal
+atk=500
+def=500
+attribute=DARK
+level=2
+image_path=db/card_image/62793020.jpg

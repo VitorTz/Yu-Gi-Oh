@@ -1,0 +1,11 @@
+name=Shadow Spell
+id=29267084
+type=Trap Card
+desc=Activate this card by targeting 1 face-up monster your opponent controls; it loses 700 ATK, also it cannot attack or change its battle position. When it leaves the field, destroy this card.
+race=Continuous
+frameType=trap
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/29267084.jpg

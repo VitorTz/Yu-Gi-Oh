@@ -1,0 +1,11 @@
+name=Aqua Madoor
+id=85639257
+type=Normal Monster
+desc=A wizard of the waters that conjures a liquid wall to crush any enemies that oppose him.
+race=Spellcaster
+frameType=normal
+atk=1200
+def=2000
+attribute=WATER
+level=4
+image_path=db/card_image/85639257.jpg

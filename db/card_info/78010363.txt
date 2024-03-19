@@ -1,0 +1,11 @@
+name=Witch of the Black Forest
+id=78010363
+type=Effect Monster
+desc=If this card is sent from the field to the GY: Add 1 monster with 1500 or less DEF from your Deck to your hand, but you cannot activate cards, or the effects of cards, with that name for the rest of this turn. You can only use this effect of "Witch of the Black Forest" once per turn.
+race=Spellcaster
+frameType=effect
+atk=1100
+def=1200
+attribute=DARK
+level=4
+image_path=db/card_image/78010363.jpg

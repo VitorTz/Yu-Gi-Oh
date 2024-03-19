@@ -1,0 +1,11 @@
+name=Battle Steer
+id=18246479
+type=Normal Monster
+desc=A bull monster often found in the woods, it charges enemy monsters with a pair of deadly horns.
+race=Beast-Warrior
+frameType=normal
+atk=1800
+def=1300
+attribute=EARTH
+level=5
+image_path=db/card_image/18246479.jpg

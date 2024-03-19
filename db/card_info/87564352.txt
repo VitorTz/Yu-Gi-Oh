@@ -1,0 +1,11 @@
+name=Blackland Fire Dragon
+id=87564352
+type=Normal Monster
+desc=A dragon that dwells in the depths of darkness, its vulnerability lies in its poor eyesight.
+race=Dragon
+frameType=normal
+atk=1500
+def=800
+attribute=DARK
+level=4
+image_path=db/card_image/87564352.jpg

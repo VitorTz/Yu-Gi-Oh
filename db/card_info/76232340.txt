@@ -1,0 +1,11 @@
+name=Sengenjin
+id=76232340
+type=Normal Monster
+desc=An unstoppable savage that carries Millennium Items.
+race=Beast-Warrior
+frameType=normal
+atk=2750
+def=2500
+attribute=EARTH
+level=8
+image_path=db/card_image/76232340.jpg

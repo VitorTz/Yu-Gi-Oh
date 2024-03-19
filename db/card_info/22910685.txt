@@ -1,0 +1,11 @@
+name=Green Phantom King
+id=22910685
+type=Normal Monster
+desc=This youthful king of the forests lives in a green world, abundant with trees and wildlife.
+race=Plant
+frameType=normal
+atk=500
+def=1600
+attribute=EARTH
+level=3
+image_path=db/card_image/22910685.jpg

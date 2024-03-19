@@ -1,0 +1,11 @@
+name=The Bewitching Phantom Thief
+id=24348204
+type=Normal Monster
+desc=An elegant thief with a black cloak that charms its enemies.
+race=Spellcaster
+frameType=normal
+atk=700
+def=700
+attribute=DARK
+level=2
+image_path=db/card_image/24348204.jpg

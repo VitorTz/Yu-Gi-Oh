@@ -1,0 +1,11 @@
+name=Liquid Beast
+id=93108297
+type=Normal Monster
+desc=A liquid life form that thrives on water.
+race=Aqua
+frameType=normal
+atk=950
+def=800
+attribute=WATER
+level=3
+image_path=db/card_image/93108297.jpg

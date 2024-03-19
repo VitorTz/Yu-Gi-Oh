@@ -1,0 +1,11 @@
+name=Sand Stone
+id=73051941
+type=Normal Monster
+desc=Appears from underground and attacks with long, snake-like tentacles.
+race=Rock
+frameType=normal
+atk=1300
+def=1600
+attribute=EARTH
+level=5
+image_path=db/card_image/73051941.jpg

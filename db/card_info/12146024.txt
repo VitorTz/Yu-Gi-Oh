@@ -1,0 +1,11 @@
+name=Bolt Escargot
+id=12146024
+type=Normal Monster
+desc=After rendering an opponent immobile by spitting a sticky goo, this monster closes in for the attack.
+race=Thunder
+frameType=normal
+atk=1400
+def=1500
+attribute=WATER
+level=5
+image_path=db/card_image/12146024.jpg

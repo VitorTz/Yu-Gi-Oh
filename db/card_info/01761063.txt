@@ -1,0 +1,11 @@
+name=Nekogal #1
+id=01761063
+type=Normal Monster
+desc=A pussycat-fairy. Contrary to her lovely beauty, she claws on her enemies.
+race=Beast
+frameType=normal
+atk=1100
+def=900
+attribute=EARTH
+level=3
+image_path=db/card_image/01761063.jpg

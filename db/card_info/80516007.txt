@@ -1,0 +1,11 @@
+name=Rare Fish
+id=80516007
+type=Fusion Monster
+desc="Fusionist" + "Enchanting Mermaid"
+race=Fish
+frameType=fusion
+atk=1500
+def=1200
+attribute=WATER
+level=4
+image_path=db/card_image/80516007.jpg

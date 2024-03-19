@@ -1,0 +1,11 @@
+name=The Snake Hair
+id=29491031
+type=Normal Monster
+desc=A monster with a head of poison snakes. One look from this monster can turn an opponent to stone.
+race=Zombie
+frameType=normal
+atk=1500
+def=1200
+attribute=DARK
+level=4
+image_path=db/card_image/29491031.jpg

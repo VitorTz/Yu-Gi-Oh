@@ -1,0 +1,11 @@
+name=Serpent Night Dragon
+id=66516792
+type=Normal Monster
+desc=A dragon created from the soul of a wicked knight.
+race=Dragon
+frameType=normal
+atk=2350
+def=2400
+attribute=DARK
+level=7
+image_path=db/card_image/66516792.jpg

@@ -1,0 +1,11 @@
+name=Midnight Fiend
+id=83678433
+type=Normal Monster
+desc=This monster only appears when a midnight tribute is made.
+race=Fiend
+frameType=normal
+atk=800
+def=600
+attribute=DARK
+level=2
+image_path=db/card_image/83678433.jpg

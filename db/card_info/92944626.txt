@@ -1,0 +1,11 @@
+name=Wings of Wicked Flame
+id=92944626
+type=Normal Monster
+desc=Crimson wings of fire make this a very lethal creature.
+race=Pyro
+frameType=normal
+atk=700
+def=600
+attribute=FIRE
+level=2
+image_path=db/card_image/92944626.jpg

@@ -1,0 +1,11 @@
+name=Crazy Fish
+id=53713014
+type=Normal Monster
+desc=A flying fish that attacks with its pointed head.
+race=Fish
+frameType=normal
+atk=1600
+def=1200
+attribute=WATER
+level=4
+image_path=db/card_image/53713014.jpg

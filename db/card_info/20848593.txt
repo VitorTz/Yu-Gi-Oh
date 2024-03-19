@@ -1,0 +1,11 @@
+name=Ice Water
+id=20848593
+type=Normal Monster
+desc=A very aggressive mermaid that attacks enemies with the spikes growing from its body.
+race=Aqua
+frameType=normal
+atk=1150
+def=900
+attribute=WATER
+level=3
+image_path=db/card_image/20848593.jpg

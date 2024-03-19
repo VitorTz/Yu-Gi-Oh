@@ -1,0 +1,11 @@
+name=Ground Attacker Bugroth
+id=58314394
+type=Normal Monster
+desc=A surface battle robot that was once used for sea warfare.
+race=Machine
+frameType=normal
+atk=1500
+def=1000
+attribute=EARTH
+level=4
+image_path=db/card_image/58314394.jpg

@@ -1,0 +1,11 @@
+name=Millennium Shield
+id=32012841
+type=Normal Monster
+desc=A famous shield said to belong to an ancient Egyptian Pharaoh. Legends tell of its power to block any strong attack.
+race=Warrior
+frameType=normal
+atk=0
+def=3000
+attribute=EARTH
+level=5
+image_path=db/card_image/32012841.jpg

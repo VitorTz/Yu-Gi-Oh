@@ -1,0 +1,11 @@
+name=Rainbow Marine Mermaid
+id=29402771
+type=Normal Monster
+desc=A reticent mermaid who appears only on very rare occasions. She emerges only when a large rainbow arches across the sky.
+race=Fish
+frameType=normal
+atk=1550
+def=1700
+attribute=WATER
+level=5
+image_path=db/card_image/29402771.jpg

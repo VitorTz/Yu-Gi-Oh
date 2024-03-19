@@ -1,0 +1,11 @@
+name=Prevent Rat
+id=00549481
+type=Normal Monster
+desc=This creature is shielded with a tough hide of hair and is excellent at defending itself.
+race=Beast
+frameType=normal
+atk=500
+def=2000
+attribute=EARTH
+level=4
+image_path=db/card_image/00549481.jpg

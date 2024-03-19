@@ -1,0 +1,11 @@
+name=Wow Warrior
+id=69750536
+type=Normal Monster
+desc=A fish with arms, legs, and some very sharp teeth.
+race=Fish
+frameType=normal
+atk=1250
+def=900
+attribute=WATER
+level=4
+image_path=db/card_image/69750536.jpg

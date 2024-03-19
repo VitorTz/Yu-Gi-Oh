@@ -1,0 +1,11 @@
+name=Tomozaurus
+id=46457856
+type=Normal Monster
+desc=Small but vicious, this monster even attacks its own kind.
+race=Dinosaur
+frameType=normal
+atk=500
+def=400
+attribute=EARTH
+level=2
+image_path=db/card_image/46457856.jpg

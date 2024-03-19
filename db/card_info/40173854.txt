@@ -1,0 +1,11 @@
+name=Amphibious Bugroth
+id=40173854
+type=Fusion Monster
+desc="Ground Attacker Bugroth" + "Defender of the Sea"
+race=Aqua
+frameType=fusion
+atk=1850
+def=1300
+attribute=WATER
+level=5
+image_path=db/card_image/40173854.jpg

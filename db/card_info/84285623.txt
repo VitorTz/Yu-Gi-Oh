@@ -1,0 +1,11 @@
+name=Haniwa
+id=84285623
+type=Normal Monster
+desc=An earthen figure that protects the tomb of an ancient ruler.
+race=Rock
+frameType=normal
+atk=500
+def=500
+attribute=EARTH
+level=2
+image_path=db/card_image/84285623.jpg

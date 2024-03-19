@@ -1,0 +1,11 @@
+name=Eldeen
+id=06367785
+type=Normal Monster
+desc=The cane of this monster is the source of many powerful spells.
+race=Spellcaster
+frameType=normal
+atk=950
+def=1000
+attribute=LIGHT
+level=3
+image_path=db/card_image/06367785.jpg

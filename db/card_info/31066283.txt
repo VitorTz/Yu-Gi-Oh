@@ -1,0 +1,11 @@
+name=Revival of Dokurorider
+id=31066283
+type=Spell Card
+desc=This card is used to Ritual Summon "Dokurorider". You must also offer monsters whose total Level Stars equal 6 or more as a Tribute from the field or your hand.
+race=Ritual
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/31066283.jpg

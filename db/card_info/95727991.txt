@@ -1,0 +1,11 @@
+name=Catapult Turtle
+id=95727991
+type=Effect Monster
+desc=Once per turn: You can Tribute 1 monster; inflict damage to your opponent equal to half the Tributed monster's ATK on the field.
+race=Aqua
+frameType=effect
+atk=1000
+def=2000
+attribute=WATER
+level=5
+image_path=db/card_image/95727991.jpg

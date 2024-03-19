@@ -1,0 +1,11 @@
+name=Sword Arm of Dragon
+id=13069066
+type=Normal Monster
+desc=This Jurassic juggernaut has a spine covered in sword-like plates, and a tail to split open skulls.
+race=Dinosaur
+frameType=normal
+atk=1750
+def=2030
+attribute=EARTH
+level=6
+image_path=db/card_image/13069066.jpg

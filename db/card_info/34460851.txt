@@ -1,0 +1,11 @@
+name=Flame Manipulator
+id=34460851
+type=Normal Monster
+desc=This Spellcaster attacks enemies with fire-related spells such as "Sea of Flames" and "Wall of Fire".
+race=Spellcaster
+frameType=normal
+atk=900
+def=1000
+attribute=FIRE
+level=3
+image_path=db/card_image/34460851.jpg

@@ -1,0 +1,11 @@
+name=Rock Spirit
+id=82818645
+type=Normal Monster
+desc=A fairy of boulders that looks like an earthenware statue. It is quite strong in terms of both attack and defense.
+race=Spellcaster
+frameType=normal
+atk=1650
+def=1900
+attribute=EARTH
+level=5
+image_path=db/card_image/82818645.jpg

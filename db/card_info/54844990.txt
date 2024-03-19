@@ -1,0 +1,11 @@
+name=Skull Stalker
+id=54844990
+type=Normal Monster
+desc=Foist he's gonna grab yer monstah wit' his claws, den attack again wit' his poizin stingah!
+race=Warrior
+frameType=normal
+atk=900
+def=800
+attribute=DARK
+level=3
+image_path=db/card_image/54844990.jpg

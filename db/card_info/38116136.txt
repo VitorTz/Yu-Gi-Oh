@@ -1,0 +1,11 @@
+name=Machine Attacker
+id=38116136
+type=Normal Monster
+desc=This machine, created to lead charges into enemy territory, mows down enemies by rushing.
+race=Machine
+frameType=normal
+atk=1600
+def=1300
+attribute=EARTH
+level=5
+image_path=db/card_image/38116136.jpg

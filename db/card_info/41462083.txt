@@ -1,0 +1,11 @@
+name=Thousand Dragon
+id=41462083
+type=Fusion Monster
+desc="Time Wizard" + "Baby Dragon"
+race=Dragon
+frameType=fusion
+atk=2400
+def=2000
+attribute=WIND
+level=7
+image_path=db/card_image/41462083.jpg

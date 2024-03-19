@@ -1,0 +1,11 @@
+name=Crass Clown
+id=93889755
+type=Effect Monster
+desc=When this card is changed from Defense Position to Attack Position, return 1 monster on your opponent's side of the field to the owner's hand.
+race=Fiend
+frameType=effect
+atk=1350
+def=1400
+attribute=DARK
+level=4
+image_path=db/card_image/93889755.jpg

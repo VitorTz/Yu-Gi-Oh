@@ -1,0 +1,11 @@
+name=Turtle Bird
+id=72929454
+type=Normal Monster
+desc=An unusual turtle that not only swims at tremendous speeds, but can also sail across the skies.
+race=Aqua
+frameType=normal
+atk=1900
+def=1700
+attribute=WATER
+level=6
+image_path=db/card_image/72929454.jpg

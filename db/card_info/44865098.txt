@@ -1,0 +1,11 @@
+name=Cyber Soldier
+id=44865098
+type=Normal Monster
+desc=Guardian of the Machine Master, it crushes opposition by rolling over them.
+race=Machine
+frameType=normal
+atk=1500
+def=1700
+attribute=DARK
+level=5
+image_path=db/card_image/44865098.jpg

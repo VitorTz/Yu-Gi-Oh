@@ -1,0 +1,11 @@
+name=Cyber-Stein
+id=69015963
+type=Effect Monster
+desc=You can pay 5000 LP; Special Summon 1 Fusion Monster from your Extra Deck in Attack Position.
+race=Machine
+frameType=effect
+atk=700
+def=500
+attribute=DARK
+level=2
+image_path=db/card_image/69015963.jpg

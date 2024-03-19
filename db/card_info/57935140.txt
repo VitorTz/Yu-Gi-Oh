@@ -1,0 +1,11 @@
+name=Tenderness
+id=57935140
+type=Normal Monster
+desc=An adorable fairy that celebrates the gift of love.
+race=Fairy
+frameType=normal
+atk=700
+def=1400
+attribute=LIGHT
+level=3
+image_path=db/card_image/57935140.jpg

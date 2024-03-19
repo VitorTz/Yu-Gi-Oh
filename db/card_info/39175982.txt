@@ -1,0 +1,11 @@
+name=Winged Cleaver
+id=39175982
+type=Normal Monster
+desc=Few can withstand the scythe-like arms of this dangerous creature.
+race=Insect
+frameType=normal
+atk=700
+def=700
+attribute=EARTH
+level=2
+image_path=db/card_image/39175982.jpg

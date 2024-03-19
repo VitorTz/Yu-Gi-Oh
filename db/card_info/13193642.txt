@@ -1,0 +1,11 @@
+name=Dark Plant
+id=13193642
+type=Normal Monster
+desc=This mutant flower draws its power from pollutants and the dark forces.
+race=Plant
+frameType=normal
+atk=300
+def=400
+attribute=DARK
+level=1
+image_path=db/card_image/13193642.jpg

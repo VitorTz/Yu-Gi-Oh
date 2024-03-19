@@ -1,0 +1,11 @@
+name=Bio Plant
+id=07670542
+type=Normal Monster
+desc=A monster created from a major accident in an underground lab.
+race=Fiend
+frameType=normal
+atk=600
+def=1300
+attribute=DARK
+level=3
+image_path=db/card_image/07670542.jpg

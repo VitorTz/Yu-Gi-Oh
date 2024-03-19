@@ -1,0 +1,11 @@
+name=Horn Imp
+id=69669405
+type=Normal Monster
+desc=A small fiend that dwells in the dark, its single horn makes it a formidable opponent.
+race=Fiend
+frameType=normal
+atk=1300
+def=1000
+attribute=DARK
+level=4
+image_path=db/card_image/69669405.jpg

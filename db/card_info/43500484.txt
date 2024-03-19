@@ -1,0 +1,11 @@
+name=Darkworld Thorns
+id=43500484
+type=Normal Monster
+desc=A thorny plant found in the darklands that wraps itself around any unwary traveler.
+race=Plant
+frameType=normal
+atk=1200
+def=900
+attribute=EARTH
+level=3
+image_path=db/card_image/43500484.jpg

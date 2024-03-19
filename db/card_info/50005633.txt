@@ -1,0 +1,11 @@
+name=Swordstalker
+id=50005633
+type=Normal Monster
+desc=A monster formed by the vengeful souls of those who passed away in battle.
+race=Warrior
+frameType=normal
+atk=2000
+def=1600
+attribute=DARK
+level=6
+image_path=db/card_image/50005633.jpg

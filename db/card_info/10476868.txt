@@ -1,0 +1,11 @@
+name=Barrel Rock
+id=10476868
+type=Normal Monster
+desc=Shouldering a pair of machine guns, this monster is unstoppable.
+race=Rock
+frameType=normal
+atk=1000
+def=1300
+attribute=EARTH
+level=4
+image_path=db/card_image/10476868.jpg

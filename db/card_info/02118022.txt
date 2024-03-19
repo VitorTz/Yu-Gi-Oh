@@ -1,0 +1,11 @@
+name=Hyosube
+id=02118022
+type=Normal Monster
+desc=This amphibian is strong on the attack, but leaves much to be desired when defending.
+race=Aqua
+frameType=normal
+atk=1500
+def=900
+attribute=WATER
+level=4
+image_path=db/card_image/02118022.jpg

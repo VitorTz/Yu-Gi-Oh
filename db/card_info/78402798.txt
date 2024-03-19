@@ -1,0 +1,11 @@
+name=Night Lizard
+id=78402798
+type=Normal Monster
+desc=A lizard warrior protected by a hide of very tough emerald scales.
+race=Aqua
+frameType=normal
+atk=1150
+def=1300
+attribute=WATER
+level=4
+image_path=db/card_image/78402798.jpg

@@ -1,0 +1,11 @@
+name=Hourglass of Life
+id=08783685
+type=Normal Monster
+desc=This creature grants power instead of shortening life.
+race=Fairy
+frameType=normal
+atk=700
+def=600
+attribute=LIGHT
+level=2
+image_path=db/card_image/08783685.jpg

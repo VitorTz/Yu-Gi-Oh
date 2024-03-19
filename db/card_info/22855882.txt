@@ -1,0 +1,11 @@
+name=Fiend Sword
+id=22855882
+type=Normal Monster
+desc=Whoever resists the curse of this blade will gain untold power.
+race=Warrior
+frameType=normal
+atk=1400
+def=800
+attribute=DARK
+level=4
+image_path=db/card_image/22855882.jpg

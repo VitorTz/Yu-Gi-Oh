@@ -1,0 +1,11 @@
+name=Djinn the Watcher of the Wind
+id=97843505
+type=Normal Monster
+desc=This creature generates gale-force winds and tornadoes to blow its enemies away.
+race=Spellcaster
+frameType=normal
+atk=700
+def=900
+attribute=WIND
+level=3
+image_path=db/card_image/97843505.jpg

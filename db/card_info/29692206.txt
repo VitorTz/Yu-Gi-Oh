@@ -1,0 +1,11 @@
+name=Twin Long Rods #2
+id=29692206
+type=Normal Monster
+desc=An amphibious creature with two whip-like tails.
+race=Aqua
+frameType=normal
+atk=850
+def=700
+attribute=WATER
+level=3
+image_path=db/card_image/29692206.jpg

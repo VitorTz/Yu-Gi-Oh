@@ -1,0 +1,11 @@
+name=Twin-Headed Thunder Dragon
+id=54752875
+type=Fusion Monster
+desc="Thunder Dragon" + "Thunder Dragon"
+race=Thunder
+frameType=fusion
+atk=2800
+def=2100
+attribute=LIGHT
+level=7
+image_path=db/card_image/54752875.jpg

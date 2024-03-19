@@ -1,0 +1,11 @@
+name=Flame Viper
+id=02830619
+type=Normal Monster
+desc=A fire-breathing snake whose speed makes it a difficult target.
+race=Pyro
+frameType=normal
+atk=400
+def=450
+attribute=EARTH
+level=2
+image_path=db/card_image/02830619.jpg

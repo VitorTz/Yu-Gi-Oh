@@ -1,0 +1,11 @@
+name=Giant Scorpion of the Tundra
+id=41403766
+type=Normal Monster
+desc=An extraordinary blue scorpion found in the tundra, not in the desert.
+race=Insect
+frameType=normal
+atk=1100
+def=1000
+attribute=EARTH
+level=3
+image_path=db/card_image/41403766.jpg

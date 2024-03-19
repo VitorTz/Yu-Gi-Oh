@@ -1,0 +1,11 @@
+name=Water Element
+id=03732747
+type=Normal Monster
+desc=A sea-dwelling spirit that takes away sight by clouding the area in fog.
+race=Aqua
+frameType=normal
+atk=900
+def=700
+attribute=WATER
+level=3
+image_path=db/card_image/03732747.jpg

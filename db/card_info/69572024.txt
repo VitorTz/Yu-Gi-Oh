@@ -1,0 +1,11 @@
+name=Tongyo
+id=69572024
+type=Normal Monster
+desc=This monster captures other fish with its long tongue and sucks the energy out of them.
+race=Fish
+frameType=normal
+atk=1350
+def=800
+attribute=WATER
+level=4
+image_path=db/card_image/69572024.jpg

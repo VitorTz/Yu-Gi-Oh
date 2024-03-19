@@ -1,0 +1,11 @@
+name=Leogun
+id=10538007
+type=Normal Monster
+desc=Huge monster with a lion's mane similar to the King of Beasts.
+race=Beast
+frameType=normal
+atk=1750
+def=1550
+attribute=EARTH
+level=5
+image_path=db/card_image/10538007.jpg

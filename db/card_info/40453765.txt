@@ -1,0 +1,11 @@
+name=Swamp Battleguard
+id=40453765
+type=Effect Monster
+desc=This card gains 500 ATK for each "Lava Battleguard" you control.
+race=Warrior
+frameType=effect
+atk=1800
+def=1500
+attribute=EARTH
+level=5
+image_path=db/card_image/40453765.jpg

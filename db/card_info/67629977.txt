@@ -1,0 +1,11 @@
+name=Hoshiningen
+id=67629977
+type=Effect Monster
+desc=All LIGHT monsters on the field gain 500 ATK, also all DARK monsters on the field lose 400 ATK.
+race=Fairy
+frameType=effect
+atk=500
+def=700
+attribute=LIGHT
+level=2
+image_path=db/card_image/67629977.jpg

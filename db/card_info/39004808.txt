@@ -1,0 +1,11 @@
+name=Root Water
+id=39004808
+type=Normal Monster
+desc=An amphibian capable of calling up a massive tidal wave from the dark seas to wipe out enemy monsters.
+race=Fish
+frameType=normal
+atk=900
+def=800
+attribute=WATER
+level=3
+image_path=db/card_image/39004808.jpg

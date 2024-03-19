@@ -1,0 +1,11 @@
+name=Aqua Dragon
+id=86164529
+type=Fusion Monster
+desc="Fairy Dragon" + "Amazon of the Seas" + "Zone Eater"
+race=Sea Serpent
+frameType=fusion
+atk=2250
+def=1900
+attribute=WATER
+level=6
+image_path=db/card_image/86164529.jpg

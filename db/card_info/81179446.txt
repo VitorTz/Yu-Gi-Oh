@@ -1,0 +1,11 @@
+name=Kattapillar
+id=81179446
+type=Normal Monster
+desc=Attacks enemies by spitting thin, sticky webs.
+race=Insect
+frameType=normal
+atk=250
+def=300
+attribute=EARTH
+level=1
+image_path=db/card_image/81179446.jpg

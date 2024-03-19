@@ -1,0 +1,11 @@
+name=Mystic Lamp
+id=98049915
+type=Effect Monster
+desc=This monster can attack your opponent's Life Points directly.
+race=Spellcaster
+frameType=effect
+atk=400
+def=300
+attribute=DARK
+level=1
+image_path=db/card_image/98049915.jpg

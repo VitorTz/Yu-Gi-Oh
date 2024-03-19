@@ -1,0 +1,11 @@
+name=Dark Witch
+id=35565537
+type=Normal Monster
+desc=A popular creature in mythology that delivers fatal attacks with a sharp spear.
+race=Fairy
+frameType=normal
+atk=1800
+def=1700
+attribute=LIGHT
+level=5
+image_path=db/card_image/35565537.jpg

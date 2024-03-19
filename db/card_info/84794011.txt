@@ -1,0 +1,11 @@
+name=Solitude
+id=84794011
+type=Normal Monster
+desc=This beast-warrior swings a massive scythe that feeds on the souls of the slain.
+race=Beast-Warrior
+frameType=normal
+atk=1050
+def=1000
+attribute=EARTH
+level=3
+image_path=db/card_image/84794011.jpg

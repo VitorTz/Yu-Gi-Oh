@@ -1,0 +1,11 @@
+name=Dark Artist
+id=72520073
+type=Effect Monster
+desc=If this card is being attacked by a LIGHT monster, its DEF is halved during damage calculation only.
+race=Fiend
+frameType=effect
+atk=600
+def=1400
+attribute=DARK
+level=3
+image_path=db/card_image/72520073.jpg

@@ -1,0 +1,11 @@
+name=Turu-Purun
+id=59053232
+type=Normal Monster
+desc=A strange, one-eyed monster that can fell an enemy with a single stab of its spear.
+race=Aqua
+frameType=normal
+atk=450
+def=500
+attribute=WATER
+level=2
+image_path=db/card_image/59053232.jpg

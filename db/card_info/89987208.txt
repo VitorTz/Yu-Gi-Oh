@@ -1,0 +1,11 @@
+name=Hero of the East
+id=89987208
+type=Normal Monster
+desc=Feel da strength ah dis sword-swingin' samurai from da Far East.
+race=Warrior
+frameType=normal
+atk=1100
+def=1000
+attribute=EARTH
+level=3
+image_path=db/card_image/89987208.jpg

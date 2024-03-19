@@ -1,0 +1,11 @@
+name=Millennium Golem
+id=47986555
+type=Normal Monster
+desc=For nearly a millennium, this golem has served as guardian of an ancient treasure trove.
+race=Rock
+frameType=normal
+atk=2000
+def=2200
+attribute=EARTH
+level=6
+image_path=db/card_image/47986555.jpg

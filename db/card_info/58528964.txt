@@ -1,0 +1,11 @@
+name=Flame Ghost
+id=58528964
+type=Fusion Monster
+desc="Skull Servant" + "Dissolverock"
+race=Zombie
+frameType=fusion
+atk=1000
+def=800
+attribute=DARK
+level=3
+image_path=db/card_image/58528964.jpg

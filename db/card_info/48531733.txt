@@ -1,0 +1,11 @@
+name=Bolt Penguin
+id=48531733
+type=Normal Monster
+desc=With each arm forming an electric whip, this monster paralyzes its enemies with electric shocks.
+race=Thunder
+frameType=normal
+atk=1100
+def=800
+attribute=WATER
+level=3
+image_path=db/card_image/48531733.jpg

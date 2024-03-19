@@ -1,0 +1,11 @@
+name=Fiend Reflection #2
+id=02863439
+type=Normal Monster
+desc=A bird-beast that summons reinforcements with a hand mirror.
+race=Winged Beast
+frameType=normal
+atk=1100
+def=1400
+attribute=LIGHT
+level=4
+image_path=db/card_image/02863439.jpg

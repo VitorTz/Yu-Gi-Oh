@@ -1,0 +1,11 @@
+name=Griggle
+id=95744531
+type=Effect Monster
+desc=When the control of this face-up card on the field shifts to your opponent, increase your Life Points by 3000 points. This effect can only be used once as long as this card remains face-up on the field.
+race=Plant
+frameType=effect
+atk=350
+def=300
+attribute=EARTH
+level=1
+image_path=db/card_image/95744531.jpg

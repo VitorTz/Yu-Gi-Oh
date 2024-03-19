@@ -1,0 +1,11 @@
+name=Dark Chimera
+id=32344688
+type=Normal Monster
+desc=A fire-breathing monster that dwells in the netherworld.
+race=Fiend
+frameType=normal
+atk=1610
+def=1460
+attribute=DARK
+level=5
+image_path=db/card_image/32344688.jpg

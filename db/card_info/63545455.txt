@@ -1,0 +1,11 @@
+name=Mech Mole Zombie
+id=63545455
+type=Normal Monster
+desc=This creature attacks by launching missile-like arms.
+race=Zombie
+frameType=normal
+atk=500
+def=400
+attribute=DARK
+level=2
+image_path=db/card_image/63545455.jpg

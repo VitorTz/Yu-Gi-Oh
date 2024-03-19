@@ -1,0 +1,11 @@
+name=Rogue Doll
+id=91939608
+type=Normal Monster
+desc=A deadly doll gifted with mystical power, it is particularly powerful when attacking against dark forces.
+race=Spellcaster
+frameType=normal
+atk=1600
+def=1000
+attribute=LIGHT
+level=4
+image_path=db/card_image/91939608.jpg

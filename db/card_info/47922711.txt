@@ -1,0 +1,11 @@
+name=Tatsunootoshigo
+id=47922711
+type=Normal Monster
+desc=A bizarre monster with the torso of a horse and a fish's tail. It gallops through the sea as if it were the wind.
+race=Beast
+frameType=normal
+atk=1350
+def=1600
+attribute=EARTH
+level=5
+image_path=db/card_image/47922711.jpg

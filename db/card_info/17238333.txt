@@ -1,0 +1,11 @@
+name=Wretched Ghost of the Attic
+id=17238333
+type=Normal Monster
+desc=A harmless monster found lurking in just about any attic.
+race=Fiend
+frameType=normal
+atk=550
+def=400
+attribute=DARK
+level=2
+image_path=db/card_image/17238333.jpg

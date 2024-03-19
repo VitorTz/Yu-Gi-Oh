@@ -1,0 +1,11 @@
+name=Zone Eater
+id=86100785
+type=Effect Monster
+desc=A monster attacked by this card will be destroyed during the End Phase of the 5th turn after the attack.
+race=Aqua
+frameType=effect
+atk=250
+def=200
+attribute=WATER
+level=1
+image_path=db/card_image/86100785.jpg

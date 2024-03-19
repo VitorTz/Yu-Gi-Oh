@@ -1,0 +1,11 @@
+name=Barox
+id=06840573
+type=Fusion Monster
+desc="Frenzied Panda" + "Ryu-Kishin"
+race=Fiend
+frameType=fusion
+atk=1380
+def=1530
+attribute=DARK
+level=5
+image_path=db/card_image/06840573.jpg

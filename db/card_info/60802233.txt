@@ -1,0 +1,11 @@
+name=Kuwagata α
+id=60802233
+type=Normal Monster
+desc=A very vicious stag beetle that goes for the head.
+race=Insect
+frameType=normal
+atk=1250
+def=1000
+attribute=EARTH
+level=4
+image_path=db/card_image/60802233.jpg

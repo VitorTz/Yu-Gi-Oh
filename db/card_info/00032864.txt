@@ -1,0 +1,11 @@
+name=The 13th Grave
+id=00032864
+type=Normal Monster
+desc=A zombie that suddenly appeared from plot #13 - an empty grave.
+race=Zombie
+frameType=normal
+atk=1200
+def=900
+attribute=DARK
+level=3
+image_path=db/card_image/00032864.jpg

@@ -1,0 +1,11 @@
+name=Illusionist Faceless Mage
+id=28546905
+type=Normal Monster
+desc=Manipulates enemy attacks with the power of illusion.
+race=Spellcaster
+frameType=normal
+atk=1200
+def=2200
+attribute=DARK
+level=5
+image_path=db/card_image/28546905.jpg

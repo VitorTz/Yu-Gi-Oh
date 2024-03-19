@@ -1,0 +1,11 @@
+name=The Statue of Easter Island
+id=10262698
+type=Normal Monster
+desc=A stone monument from Easter Island that launches laser blasts from its rock-hewn lips.
+race=Rock
+frameType=normal
+atk=1100
+def=1400
+attribute=EARTH
+level=4
+image_path=db/card_image/10262698.jpg

@@ -1,0 +1,11 @@
+name=Mystical Moon
+id=36607978
+type=Spell Card
+desc=Equip only to a Beast-Warrior-Type monster. It gains 300 ATK and DEF.
+race=Equip
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/36607978.jpg

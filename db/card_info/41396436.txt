@@ -1,0 +1,11 @@
+name=Blue-Winged Crown
+id=41396436
+type=Normal Monster
+desc=With hair shaped like a crown and a body encased in bluish white flames, this bird is a formidable sight.
+race=Winged Beast
+frameType=normal
+atk=1600
+def=1200
+attribute=WIND
+level=4
+image_path=db/card_image/41396436.jpg

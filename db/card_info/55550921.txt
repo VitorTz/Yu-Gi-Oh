@@ -1,0 +1,11 @@
+name=Battle Warrior
+id=55550921
+type=Normal Monster
+desc=A warrior that fights with his bare hands!!!
+race=Warrior
+frameType=normal
+atk=700
+def=1000
+attribute=EARTH
+level=3
+image_path=db/card_image/55550921.jpg

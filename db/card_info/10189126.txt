@@ -1,0 +1,11 @@
+name=Masked Sorcerer
+id=10189126
+type=Effect Monster
+desc=When this card inflicts Battle Damage to your opponent's Life Points, draw 1 card from your Deck.
+race=Spellcaster
+frameType=effect
+atk=900
+def=1400
+attribute=DARK
+level=4
+image_path=db/card_image/10189126.jpg

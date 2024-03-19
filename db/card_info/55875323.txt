@@ -1,0 +1,11 @@
+name=Electric Lizard
+id=55875323
+type=Effect Monster
+desc=A non Zombie-Type monster attacking "Electric Lizard" cannot attack on its following turn.
+race=Thunder
+frameType=effect
+atk=850
+def=800
+attribute=EARTH
+level=3
+image_path=db/card_image/55875323.jpg

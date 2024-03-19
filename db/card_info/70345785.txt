@@ -1,0 +1,11 @@
+name=Yamadron
+id=70345785
+type=Normal Monster
+desc=This monster has three fire-breathing heads and can form a sea of blazing flames.
+race=Dragon
+frameType=normal
+atk=1600
+def=1800
+attribute=FIRE
+level=5
+image_path=db/card_image/70345785.jpg

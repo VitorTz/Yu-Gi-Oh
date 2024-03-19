@@ -1,0 +1,11 @@
+name=Graveyard and the Hand of Invitation
+id=27094595
+type=Normal Monster
+desc=A graveyard that serves as a power source for zombies.
+race=Zombie
+frameType=normal
+atk=700
+def=900
+attribute=DARK
+level=3
+image_path=db/card_image/27094595.jpg

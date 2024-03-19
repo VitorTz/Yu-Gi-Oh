@@ -1,0 +1,11 @@
+name=Gate Guardian
+id=25833572
+type=Effect Monster
+desc=Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by Tributing 1 "Sanga of the Thunder", "Kazejin", and "Suijin".
+race=Warrior
+frameType=effect
+atk=3750
+def=3400
+attribute=DARK
+level=11
+image_path=db/card_image/25833572.jpg

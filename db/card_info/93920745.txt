@@ -1,0 +1,11 @@
+name=Penguin Soldier
+id=93920745
+type=Flip Effect Monster
+desc=FLIP: You can target up to 2 monsters on the field; return those targets to the hand.
+race=Aqua
+frameType=effect
+atk=750
+def=500
+attribute=WATER
+level=2
+image_path=db/card_image/93920745.jpg

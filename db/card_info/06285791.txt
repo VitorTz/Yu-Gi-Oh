@@ -1,0 +1,11 @@
+name=The Wicked Worm Beast
+id=06285791
+type=Effect Monster
+desc=This face-up card on the field is returned to the owner's hand during the End Phase of your turn.
+race=Beast
+frameType=effect
+atk=1400
+def=700
+attribute=EARTH
+level=3
+image_path=db/card_image/06285791.jpg

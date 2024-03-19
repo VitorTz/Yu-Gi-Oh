@@ -1,0 +1,11 @@
+name=Rude Kaiser
+id=26378150
+type=Normal Monster
+desc=With an axe in each hand, this monster delivers heavy damage.
+race=Beast-Warrior
+frameType=normal
+atk=1800
+def=1600
+attribute=EARTH
+level=5
+image_path=db/card_image/26378150.jpg

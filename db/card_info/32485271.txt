@@ -1,0 +1,11 @@
+name=Rose Spectre of Dunn
+id=32485271
+type=Fusion Monster
+desc="Feral Imp" + "Snakeyashi"
+race=Plant
+frameType=fusion
+atk=2000
+def=1800
+attribute=DARK
+level=6
+image_path=db/card_image/32485271.jpg

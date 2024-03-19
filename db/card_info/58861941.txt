@@ -1,0 +1,11 @@
+name=Ooguchi
+id=58861941
+type=Effect Monster
+desc=This monster may attack your opponent's Life Points directly.
+race=Aqua
+frameType=effect
+atk=300
+def=250
+attribute=WATER
+level=1
+image_path=db/card_image/58861941.jpg

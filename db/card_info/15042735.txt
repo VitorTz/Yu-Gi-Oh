@@ -1,0 +1,11 @@
+name=Hurricail
+id=15042735
+type=Normal Monster
+desc=A tornado that ravages the wastelands with sharp winds that can cut to the bone.
+race=Spellcaster
+frameType=normal
+atk=900
+def=200
+attribute=WIND
+level=2
+image_path=db/card_image/15042735.jpg

@@ -1,0 +1,11 @@
+name=Right Arm of the Forbidden One
+id=70903634
+type=Normal Monster
+desc=A forbidden right arm sealed by magic. Whosoever breaks this seal will know infinite power.
+race=Spellcaster
+frameType=normal
+atk=200
+def=300
+attribute=DARK
+level=1
+image_path=db/card_image/70903634.jpg

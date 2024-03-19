@@ -1,0 +1,11 @@
+name=Sogen
+id=86318356
+type=Spell Card
+desc=All Warrior and Beast-Warrior monsters on the field gain 200 ATK/DEF.
+race=Field
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/86318356.jpg

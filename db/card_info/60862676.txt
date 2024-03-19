@@ -1,0 +1,11 @@
+name=Flame Cerebrus
+id=60862676
+type=Normal Monster
+desc=Known to many as the "Burning Executioner", this monster is capable of burning enemies to cinders.
+race=Pyro
+frameType=normal
+atk=2100
+def=1800
+attribute=FIRE
+level=6
+image_path=db/card_image/60862676.jpg

@@ -1,0 +1,11 @@
+name=Ghoul with an Appetite
+id=95265975
+type=Normal Monster
+desc=A monster with a heavy appetite that has never been satisfied.
+race=Zombie
+frameType=normal
+atk=1600
+def=1200
+attribute=DARK
+level=4
+image_path=db/card_image/95265975.jpg

@@ -1,0 +1,11 @@
+name=Yaranzo
+id=71280811
+type=Normal Monster
+desc=A treasure box containing a monster that attacks any unwary bandit.
+race=Zombie
+frameType=normal
+atk=1300
+def=1500
+attribute=DARK
+level=4
+image_path=db/card_image/71280811.jpg

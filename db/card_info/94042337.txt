@@ -1,0 +1,11 @@
+name=Violent Rain
+id=94042337
+type=Normal Monster
+desc=This monster can call forth sudden torrents of battering rain.
+race=Aqua
+frameType=normal
+atk=1550
+def=800
+attribute=WATER
+level=4
+image_path=db/card_image/94042337.jpg

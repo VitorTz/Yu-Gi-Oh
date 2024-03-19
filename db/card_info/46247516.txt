@@ -1,0 +1,11 @@
+name=Tao the Chanter
+id=46247516
+type=Normal Monster
+desc=Master of Yin and Yang, this wizard handles a delicate balance of spells and counter spells.
+race=Spellcaster
+frameType=normal
+atk=1200
+def=900
+attribute=EARTH
+level=3
+image_path=db/card_image/46247516.jpg

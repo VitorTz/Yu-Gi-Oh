@@ -1,0 +1,11 @@
+name=Ancient Elf
+id=93221206
+type=Normal Monster
+desc=This elf is rumored to have lived for thousands of years. He leads an army of spirits against his enemies.
+race=Spellcaster
+frameType=normal
+atk=1450
+def=1200
+attribute=LIGHT
+level=4
+image_path=db/card_image/93221206.jpg

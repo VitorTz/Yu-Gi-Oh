@@ -1,0 +1,11 @@
+name=Killer Needle
+id=88979991
+type=Normal Monster
+desc=A huge bee with exceptional strength that's particularly dangerous in a swarm.
+race=Insect
+frameType=normal
+atk=1200
+def=1000
+attribute=WIND
+level=4
+image_path=db/card_image/88979991.jpg

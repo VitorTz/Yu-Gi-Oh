@@ -1,0 +1,11 @@
+name=Dark Gray
+id=09159938
+type=Normal Monster
+desc=Entirely gray, this beast has rarely been seen by mortal eyes.
+race=Beast
+frameType=normal
+atk=800
+def=900
+attribute=EARTH
+level=3
+image_path=db/card_image/09159938.jpg

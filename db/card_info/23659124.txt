@@ -1,0 +1,11 @@
+name=Sea King Dragon
+id=23659124
+type=Normal Monster
+desc=Protected by a tough shell, this master of the sea attacks its enemies with toxic bubbles.
+race=Sea Serpent
+frameType=normal
+atk=2000
+def=1700
+attribute=WATER
+level=6
+image_path=db/card_image/23659124.jpg

@@ -1,0 +1,11 @@
+name=Royal Guard
+id=39239728
+type=Normal Monster
+desc=A mechanized soldier created to protect royalty.
+race=Machine
+frameType=normal
+atk=1900
+def=2200
+attribute=EARTH
+level=6
+image_path=db/card_image/39239728.jpg

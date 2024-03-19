@@ -1,0 +1,11 @@
+name=Blue-Eyed Silver Zombie
+id=35282433
+type=Normal Monster
+desc=The beams from the eyes of this creature are said to turn enemies into zombies.
+race=Zombie
+frameType=normal
+atk=900
+def=700
+attribute=DARK
+level=3
+image_path=db/card_image/35282433.jpg

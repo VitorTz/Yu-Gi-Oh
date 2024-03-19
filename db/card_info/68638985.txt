@@ -1,0 +1,11 @@
+name=Slime Toad
+id=68638985
+type=Normal Monster
+desc=A slime with the head of a frog, it attacks by croaking terribly.
+race=Aqua
+frameType=normal
+atk=700
+def=500
+attribute=WATER
+level=2
+image_path=db/card_image/68638985.jpg

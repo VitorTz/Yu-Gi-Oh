@@ -1,0 +1,11 @@
+name=Destroyer Golem
+id=73481154
+type=Normal Monster
+desc=A golem with a massive right hand for crushing its victims.
+race=Rock
+frameType=normal
+atk=1500
+def=1000
+attribute=EARTH
+level=4
+image_path=db/card_image/73481154.jpg

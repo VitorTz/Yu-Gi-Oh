@@ -1,0 +1,11 @@
+name=Launcher Spider
+id=87322377
+type=Normal Monster
+desc=A mechanical spider with rocket launchers capable of random fire.
+race=Machine
+frameType=normal
+atk=2200
+def=2500
+attribute=FIRE
+level=7
+image_path=db/card_image/87322377.jpg

@@ -1,0 +1,11 @@
+name=Claw Reacher
+id=41218256
+type=Normal Monster
+desc=Stretching arms and razor-sharp claws make this monster a formidable opponent.
+race=Fiend
+frameType=normal
+atk=1000
+def=800
+attribute=DARK
+level=3
+image_path=db/card_image/41218256.jpg

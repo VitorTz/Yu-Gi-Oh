@@ -1,0 +1,11 @@
+name=Fungi of the Musk
+id=53830602
+type=Normal Monster
+desc=Melts away anything that dares to stand before it.
+race=Fiend
+frameType=normal
+atk=400
+def=300
+attribute=DARK
+level=1
+image_path=db/card_image/53830602.jpg

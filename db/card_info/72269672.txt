@@ -1,0 +1,11 @@
+name=Stone Ghost
+id=72269672
+type=Normal Monster
+desc=With a head that erupts when angered, this monster launches a dangerous shower of boulders.
+race=Rock
+frameType=normal
+atk=1200
+def=1000
+attribute=EARTH
+level=4
+image_path=db/card_image/72269672.jpg

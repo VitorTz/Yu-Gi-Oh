@@ -1,0 +1,11 @@
+name=Monster Eye
+id=84133008
+type=Effect Monster
+desc=You can pay 1000 Life Points; add 1 "Polymerization" from your Graveyard to your hand.
+race=Fiend
+frameType=effect
+atk=250
+def=350
+attribute=DARK
+level=1
+image_path=db/card_image/84133008.jpg

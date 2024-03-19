@@ -1,0 +1,11 @@
+name=Trakodon
+id=42348802
+type=Normal Monster
+desc=A tiger-striped dragon that is often seen racing across the wasteland at tremendous speeds.
+race=Dinosaur
+frameType=normal
+atk=1300
+def=800
+attribute=EARTH
+level=3
+image_path=db/card_image/42348802.jpg

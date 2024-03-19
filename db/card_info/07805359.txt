@@ -1,0 +1,11 @@
+name=Niwatori
+id=07805359
+type=Normal Monster
+desc=Swallows enemies whole and uses their essence as energy.
+race=Winged Beast
+frameType=normal
+atk=900
+def=800
+attribute=EARTH
+level=3
+image_path=db/card_image/07805359.jpg

@@ -1,0 +1,11 @@
+name=Faith Bird
+id=75582395
+type=Normal Monster
+desc=This long-tailed bird blinds its enemies with mystical light.
+race=Winged Beast
+frameType=normal
+atk=1500
+def=1100
+attribute=WIND
+level=4
+image_path=db/card_image/75582395.jpg

@@ -1,0 +1,11 @@
+name=Cannon Soldier
+id=11384280
+type=Effect Monster
+desc=You can Tribute 1 monster; inflict 500 damage to your opponent.
+race=Machine
+frameType=effect
+atk=1400
+def=1300
+attribute=DARK
+level=4
+image_path=db/card_image/11384280.jpg

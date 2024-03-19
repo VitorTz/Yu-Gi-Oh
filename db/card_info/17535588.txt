@@ -1,0 +1,11 @@
+name=Armored Starfish
+id=17535588
+type=Normal Monster
+desc=A bluish starfish with a solid hide capable of fending off attacks.
+race=Aqua
+frameType=normal
+atk=850
+def=1400
+attribute=WATER
+level=4
+image_path=db/card_image/17535588.jpg

@@ -1,0 +1,11 @@
+name=Beautiful Headhuntress
+id=16899564
+type=Normal Monster
+desc=A vicious creature that has decapitated numerous enemy monsters.
+race=Warrior
+frameType=normal
+atk=1600
+def=800
+attribute=EARTH
+level=4
+image_path=db/card_image/16899564.jpg

@@ -1,0 +1,11 @@
+name=Pot the Trick
+id=55567161
+type=Normal Monster
+desc=A not-so-powerful servant, he is an errand boy of a master sorcerer.
+race=Rock
+frameType=normal
+atk=400
+def=400
+attribute=EARTH
+level=2
+image_path=db/card_image/55567161.jpg

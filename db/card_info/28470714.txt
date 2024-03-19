@@ -1,0 +1,11 @@
+name=Bladefly
+id=28470714
+type=Effect Monster
+desc=As long as this card remains face-up on the field, increase the ATK of all WIND monsters by 500 points and decrease the ATK of all EARTH monsters by 400 points.
+race=Insect
+frameType=effect
+atk=600
+def=700
+attribute=WIND
+level=2
+image_path=db/card_image/28470714.jpg

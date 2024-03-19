@@ -1,0 +1,11 @@
+name=Amazon of the Seas
+id=17968114
+type=Normal Monster
+desc=A mermaid who serves as a herald to the Ocean Lord. She protects the sacred domain of Atlantis.
+race=Fish
+frameType=normal
+atk=1300
+def=1400
+attribute=WATER
+level=4
+image_path=db/card_image/17968114.jpg

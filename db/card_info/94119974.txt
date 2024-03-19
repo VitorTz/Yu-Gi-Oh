@@ -1,0 +1,11 @@
+name=Two-Headed King Rex
+id=94119974
+type=Normal Monster
+desc=A powerful monster whose two heads attack as one.
+race=Dinosaur
+frameType=normal
+atk=1600
+def=1200
+attribute=EARTH
+level=4
+image_path=db/card_image/94119974.jpg

@@ -1,0 +1,11 @@
+name=Little D
+id=42625254
+type=Normal Monster
+desc=Yo, this tyrannosaurus tot's got a terrible temper.
+race=Dinosaur
+frameType=normal
+atk=1100
+def=700
+attribute=EARTH
+level=3
+image_path=db/card_image/42625254.jpg

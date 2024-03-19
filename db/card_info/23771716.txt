@@ -1,0 +1,11 @@
+name=7 Colored Fish
+id=23771716
+type=Normal Monster
+desc=A rare rainbow fish that has never been caught by mortal man.
+race=Fish
+frameType=normal
+atk=1800
+def=800
+attribute=WATER
+level=4
+image_path=db/card_image/23771716.jpg

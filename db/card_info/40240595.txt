@@ -1,0 +1,11 @@
+name=Cocoon of Evolution
+id=40240595
+type=Effect Monster
+desc=You can target 1 "Petit Moth" you control; equip this card from your hand to that target. While equipped by this effect, the original ATK/DEF of that "Petit Moth" becomes the ATK/DEF of "Cocoon of Evolution".
+race=Insect
+frameType=effect
+atk=0
+def=2000
+attribute=EARTH
+level=3
+image_path=db/card_image/40240595.jpg

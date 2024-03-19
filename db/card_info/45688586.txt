@@ -1,0 +1,11 @@
+name=Karakuri Spider
+id=45688586
+type=Effect Monster
+desc=If this card attacks a DARK monster, destroy the attack target after damage calculation.
+race=Machine
+frameType=effect
+atk=400
+def=500
+attribute=EARTH
+level=2
+image_path=db/card_image/45688586.jpg

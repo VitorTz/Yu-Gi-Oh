@@ -1,0 +1,11 @@
+name=King of Yamimakai
+id=69455834
+type=Normal Monster
+desc=Wields the power of darkness to destroy its enemies.
+race=Fiend
+frameType=normal
+atk=2000
+def=1530
+attribute=DARK
+level=5
+image_path=db/card_image/69455834.jpg

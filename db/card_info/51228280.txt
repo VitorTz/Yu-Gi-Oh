@@ -1,0 +1,11 @@
+name=Dungeon Worm
+id=51228280
+type=Normal Monster
+desc=Hidden under the floors of a labyrinth, it swallows any who pass above.
+race=Insect
+frameType=normal
+atk=1800
+def=1500
+attribute=EARTH
+level=5
+image_path=db/card_image/51228280.jpg

@@ -1,0 +1,11 @@
+name=Magician of Black Chaos
+id=30208479
+type=Ritual Monster
+desc=You can Ritual Summon this card with "Black Magic Ritual".
+race=Spellcaster
+frameType=ritual
+atk=2800
+def=2600
+attribute=DARK
+level=8
+image_path=db/card_image/30208479.jpg

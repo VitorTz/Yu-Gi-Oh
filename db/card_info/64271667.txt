@@ -1,0 +1,11 @@
+name=Meteor Dragon
+id=64271667
+type=Normal Monster
+desc=This dragon appeared from the sky and crashed to the earth.
+race=Dragon
+frameType=normal
+atk=1800
+def=2000
+attribute=EARTH
+level=6
+image_path=db/card_image/64271667.jpg

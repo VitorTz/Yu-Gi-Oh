@@ -1,0 +1,11 @@
+name=Black Luster Soldier
+id=5405694
+type=Ritual Monster
+desc=You can Ritual Summon this card with "Black Luster Ritual".
+race=Warrior
+frameType=ritual
+atk=3000
+def=2500
+attribute=EARTH
+level=8
+image_path=db/card_image/5405694.jpg

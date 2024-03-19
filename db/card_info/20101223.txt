@@ -1,0 +1,11 @@
+name=Breath of Light
+id=20101223
+type=Spell Card
+desc=Destroy all face-up Rock-Type monsters on the field.
+race=Normal
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/20101223.jpg

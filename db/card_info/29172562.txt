@@ -1,0 +1,11 @@
+name=Steel Ogre Grotto #1
+id=29172562
+type=Normal Monster
+desc=A steel idol worshipped in the Land of Machines.
+race=Machine
+frameType=normal
+atk=1400
+def=1800
+attribute=EARTH
+level=5
+image_path=db/card_image/29172562.jpg

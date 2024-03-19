@@ -1,0 +1,11 @@
+name=Spirit of the Mountain
+id=34690519
+type=Normal Monster
+desc=An elderly magician that raises mountains with his flute.
+race=Spellcaster
+frameType=normal
+atk=1300
+def=1800
+attribute=EARTH
+level=5
+image_path=db/card_image/34690519.jpg

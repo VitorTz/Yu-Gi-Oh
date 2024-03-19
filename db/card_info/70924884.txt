@@ -1,0 +1,11 @@
+name=Alinsection
+id=70924884
+type=Normal Monster
+desc=A stag beetle with a saw-like head and arms.
+race=Insect
+frameType=normal
+atk=950
+def=700
+attribute=EARTH
+level=3
+image_path=db/card_image/70924884.jpg

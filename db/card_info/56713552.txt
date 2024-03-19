@@ -1,0 +1,11 @@
+name=Obese Marmot of Nefariousness
+id=56713552
+type=Normal Monster
+desc=An ill-mannered field varmint that will sink its teeth into anything.
+race=Beast
+frameType=normal
+atk=750
+def=800
+attribute=EARTH
+level=3
+image_path=db/card_image/56713552.jpg

@@ -1,0 +1,11 @@
+name=Megamorph
+id=22046459
+type=Spell Card
+desc=While your LP is lower than your opponent's, the equipped monster's ATK becomes double its original ATK. While your LP is higher, the equipped monster's ATK becomes half its original ATK.
+race=Equip
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/22046459.jpg

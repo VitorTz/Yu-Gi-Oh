@@ -1,0 +1,11 @@
+name=Bickuribox
+id=25655502
+type=Fusion Monster
+desc="Crass Clown" + "Dream Clown"
+race=Fiend
+frameType=fusion
+atk=2300
+def=2000
+attribute=DARK
+level=7
+image_path=db/card_image/25655502.jpg

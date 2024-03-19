@@ -1,0 +1,11 @@
+name=Invigoration
+id=98374133
+type=Spell Card
+desc=An EARTH monster equipped with this card increases its ATK by 400 points and decreases its DEF by 200 points.
+race=Equip
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/98374133.jpg

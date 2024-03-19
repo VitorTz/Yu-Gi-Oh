@@ -1,0 +1,11 @@
+name=Ancient Tree of Enlightenment
+id=86421986
+type=Normal Monster
+desc=This ancient arbor uses its extensive knowledge to avoid the damage of enemy attacks.
+race=Plant
+frameType=normal
+atk=600
+def=1500
+attribute=EARTH
+level=3
+image_path=db/card_image/86421986.jpg

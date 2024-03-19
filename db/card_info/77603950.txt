@@ -1,0 +1,11 @@
+name=Phantom Dewan
+id=77603950
+type=Normal Monster
+desc=A sorcerer that can paralyze an enemy with a single curse.
+race=Spellcaster
+frameType=normal
+atk=700
+def=600
+attribute=DARK
+level=2
+image_path=db/card_image/77603950.jpg

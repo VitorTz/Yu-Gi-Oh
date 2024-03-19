@@ -1,0 +1,11 @@
+name=Gatekeeper
+id=19737320
+type=Normal Monster
+desc=An indestructible mechanoid created for the sole purpose of guarding the gateways.
+race=Machine
+frameType=normal
+atk=1500
+def=1800
+attribute=DARK
+level=5
+image_path=db/card_image/19737320.jpg

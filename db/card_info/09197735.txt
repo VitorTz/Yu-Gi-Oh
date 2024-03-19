@@ -1,0 +1,11 @@
+name=Dragon Statue
+id=09197735
+type=Normal Monster
+desc=A stone warrior with the heart of a dragon.
+race=Warrior
+frameType=normal
+atk=1100
+def=900
+attribute=EARTH
+level=3
+image_path=db/card_image/09197735.jpg

@@ -1,0 +1,11 @@
+name=Unknown Warrior of Fiend
+id=97360116
+type=Normal Monster
+desc=The speed of this warrior creates an intense vacuum that can slice through a monster's hide.
+race=Warrior
+frameType=normal
+atk=1000
+def=500
+attribute=DARK
+level=3
+image_path=db/card_image/97360116.jpg

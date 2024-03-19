@@ -1,0 +1,11 @@
+name=Yormungarde
+id=17115745
+type=Normal Monster
+desc=An extremely long snake that dwells in the world of myth.
+race=Reptile
+frameType=normal
+atk=1200
+def=900
+attribute=EARTH
+level=3
+image_path=db/card_image/17115745.jpg

@@ -1,0 +1,11 @@
+name=Goblin Fan
+id=04149689
+type=Trap Card
+desc=When a Level 2 or lower monster is Flip Summoned, destroy it. Its effects do not activate at that time.
+race=Continuous
+frameType=trap
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/04149689.jpg

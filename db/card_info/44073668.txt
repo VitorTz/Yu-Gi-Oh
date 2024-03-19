@@ -1,0 +1,11 @@
+name=Takriminos
+id=44073668
+type=Normal Monster
+desc=A member of a race of sea serpents that freely travels through the sea.
+race=Sea Serpent
+frameType=normal
+atk=1500
+def=1200
+attribute=WATER
+level=4
+image_path=db/card_image/44073668.jpg

@@ -1,0 +1,11 @@
+name=Temple of Skulls
+id=00732302
+type=Normal Monster
+desc=A mysterious temple of skulls and bones that pulls in unsuspecting enemies.
+race=Zombie
+frameType=normal
+atk=900
+def=1300
+attribute=DARK
+level=4
+image_path=db/card_image/00732302.jpg

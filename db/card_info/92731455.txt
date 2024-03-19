@@ -1,0 +1,11 @@
+name=M-Warrior #2
+id=92731455
+type=Normal Monster
+desc=Specializing in combination attacks, this warrior is equipped with a tough, magnetically coated armor.
+race=Warrior
+frameType=normal
+atk=500
+def=1000
+attribute=EARTH
+level=3
+image_path=db/card_image/92731455.jpg

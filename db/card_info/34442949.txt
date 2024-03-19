@@ -1,0 +1,11 @@
+name=Mechanical Snail
+id=34442949
+type=Normal Monster
+desc=A cyborg snail that still travels at a slow pace.
+race=Machine
+frameType=normal
+atk=800
+def=1000
+attribute=DARK
+level=3
+image_path=db/card_image/34442949.jpg

@@ -1,0 +1,11 @@
+name=Shadow Ghoul
+id=30778711
+type=Effect Monster
+desc=This card gains 100 ATK for each monster in your Graveyard.
+race=Zombie
+frameType=effect
+atk=1600
+def=1300
+attribute=DARK
+level=5
+image_path=db/card_image/30778711.jpg

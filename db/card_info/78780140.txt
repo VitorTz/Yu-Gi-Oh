@@ -1,0 +1,11 @@
+name=Trent
+id=78780140
+type=Normal Monster
+desc=A guardian of the woods, this massive tree is believed to be immortal.
+race=Plant
+frameType=normal
+atk=1500
+def=1800
+attribute=EARTH
+level=5
+image_path=db/card_image/78780140.jpg

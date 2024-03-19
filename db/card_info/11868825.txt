@@ -1,0 +1,11 @@
+name=Goblin's Secret Remedy
+id=11868825
+type=Spell Card
+desc=Increase your Life Points by 600 points.
+race=Normal
+frameType=spell
+atk=0
+def=0
+attribute=None
+level=0
+image_path=db/card_image/11868825.jpg
